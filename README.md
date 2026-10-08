@@ -5,7 +5,7 @@ Do the counterexamples in [openai/math](https://github.com/openai/math) hold whe
 OpenAI released 719 AI-written manuscripts on 6 October 2026. 63 of the 372 families have a counterexample or a disproof in their headline ([`census.tsv`](census.tsv), derived by [`census.py`](census.py) from `CONTENTS.md` at openai/math `fd4aeeb`). A finite counterexample can be checked by a program, with no proof read by anyone. This repo collects those programs: one family, one script, one result.
 
 <!-- board -->
-**4 of 63 counterexample families checked** · holds 1 · fails 0 · not-explicit 2 · not-finite 1
+**5 of 63 counterexample families checked** · holds 2 · fails 0 · not-explicit 2 · not-finite 1
 <!-- /board -->
 
 Results: **holds** (our computation agrees with the paper) · **fails** (our computation disagrees with the paper at the cited line) · **not-explicit** (the paper proves the object exists but never writes it down) · **not-finite** (no finite check exists). A row says what one script computed, nothing more. It never says a theorem is true or false.
@@ -17,6 +17,7 @@ Results: **holds** (our computation agrees with the paper) · **fails** (our com
 | [161](rows/161/) | H (35 vertices, 66 edges) and every clause of Proposition prop:complex; host G not given | **not-explicit** | pico_amdal | `af6eb1a4a1cc2cc2` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `b7023c77ec39`; `16c373c05576` |
 | [156](rows/156/) | metric premises (diameter sqrt2 iff orthogonal, 9-dim); witness is all of RP^3, bound is topological | **not-finite** | pico_amdal | `5c78f9b2c9fce6b0` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `379065fa1a94` |
 | [192](rows/192/) | no explicit f (introduction.tex:41-42); exhaustive n<=4: max ratio 1, so a C>=1 witness needs n>=5 | **not-explicit** | pico_amdal | `f97bb260cce2fcfc` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `c1af2a21b1c4` |
+| [100](rows/100/) | eps=1/2000, 16,000,000 cylinders: (1/sqrt2) sum area(B_i) = 1/2 - 5.42e-10, within 8.4e-15 of 1/2 - 13/6000 eps^2; A_min = sqrt2; coverage sampled (exact, 21,072 points, 0 uncovered; control without the enlargement finds gaps) | **holds** | pico_amdal | `a7395fb459e6025e` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `19c5b71d7794`; `028c3da94d3b`; `e8be6425d41b`; `6880eb73332c` |
 <!-- /rows -->
 
 ## Re-run a row

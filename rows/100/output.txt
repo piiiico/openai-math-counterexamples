@@ -1,0 +1,10 @@
+A. A_min(K) by grid+refine = 1.414213562373; sqrt2 = 1.414213562373; A(1,0,0) = 1.414213562373 -> ok
+B. per-base geometric area vs closed form area.tex:15-19, 2004 sampled sectors: max rel diff 5.99e-16
+B. n = 8000000 sectors, 2n = 16000000 cylinders: S/H = 0.4999999994583418
+   1/2 - 13/6000 eps^2 = 0.49999999945833334; remainder = 8.438e-15; paper's bound 2 eps^4 = 1.250e-13
+   mutation eta=1/400 (enlargement larger than the tilt saves): S/H = 0.5000000002083418 > 1/2: True
+   margin below 1/2: 5.416582e-10 (= 0.002167 eps^2; paper 13/6000 = 0.002167) -> ok
+C. coverage at eps=1/2000, exact rationals: 21072 points (7 vertices/fixed, 40 on the two edges t=0,1, 1000 uniform,
+   25 lines x 801 heights across the handover band |t-1/2| <= 2eps^2): uncovered 0; min slack 0.001000 eps^2
+   negative arm, radial enlargement removed (T_j = 1/2): uncovered 4; min slack -0.006770 eps^2 -> sampler sees the gap the enlargement closes
+RESULT: holds | A_min=sqrt2: True | area below half, within 2eps^4 of paper: True | sampled coverage, gap-seeing control: True

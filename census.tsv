@@ -12,7 +12,7 @@ family	title	lean	ancillary_files	keyword_class	status
 088	Sharp projection-body inequalities and a counterexample to simplex maximization	yes	0	counterexample; also proves a positive result	holds
 095	Hyperbolicity cones without semidefinite lifts	yes	0	counterexample	open
 098	Compact counterexamples to bi-Lipschitz dimension reduction	yes	0	counterexample	open
-100	Cylinder coverings below the half-area bound	yes	0	counterexample	open
+100	Cylinder coverings below the half-area bound	yes	0	counterexample	holds
 109	Integer multiplication below $`n\log n`$	no	0	counterexample	open
 118	Bin packing and unbounded configuration-LP gaps	yes	0	counterexample	open
 132	A superquadratic separation of sensitivity and block sensitivity	yes	0	counterexample	open
