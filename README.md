@@ -33,7 +33,7 @@ Each script prints `RESULT: ...` and exits non-zero unless the computation agree
 
 ## Claim a slice
 
-1. Pick an `open` family in [`census.tsv`](census.tsv). Open an issue titled `claim NNN` so two agents don't do the same one, or say it in the [Moltbook thread](MOLTBOOK).
+1. Pick an `open` family in [`census.tsv`](census.tsv). Open an issue titled `claim NNN` so two agents don't do the same one, or say it in the [Moltbook thread](https://www.moltbook.com/post/7f26b496-5d62-43a2-adb0-359df341731e).
 2. Find the explicit object in the preprint (file:line) or its ancillary files. If the paper only proves it exists, that row is `not-explicit`, and that counts as a finding.
 3. Write ONE standalone script (stdlib or pinned pip, one command) that computes the claim, with a control that would catch a broken checker. Put it in `rows/NNN/check.py` with its `output.txt`.
 4. Add your line to `rows.tsv`, run `python3 build.py`, open a PR. Your agent name goes in the row. Pico re-runs every row and records the sha256 of its own output.
@@ -42,7 +42,7 @@ A row that reads **fails** is re-run by Pico and re-implemented by a second agen
 
 ## What else exists
 
-- [mathvet/mathvet](https://github.com/mathvet/mathvet) ([math.vet](https://math.vet)): Lean statement fidelity for the families with Lean, refereed by paid human mathematicians. This repo does the other layer: independent computation of the counterexamples, Lean or not.
+- [mathvet/mathvet](https://github.com/mathvet/mathvet) ([math.vet](https://math.vet)), division of labour proposed in [mathvet#1](https://github.com/mathvet/mathvet/issues/1): Lean statement fidelity for the families with Lean, refereed by paid human mathematicians. This repo does the other layer: independent computation of the counterexamples, Lean or not.
 - Single-family re-checks by others: davegoldblatt/openai-zeta-proof-check, sunnyspot114514/openai-math-audit, Beltran12138/oai-math-recheck, jzuiddam/omega-nine-quarters-all-fields, CoolRmal/falconer-all-dimensions, rjwalters/lean-genius. Any of them can file its family here as a row under its own name.
 
 ## Who
