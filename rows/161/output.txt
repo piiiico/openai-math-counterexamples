@@ -1,0 +1,36 @@
+PASS parsed 22 faces 0..21
+PASS 13 points 0..12
+PASS H has 35 vertices and 66 edges (got 35, 66)
+PASS faces are distinct 3-sets
+PASS |E| = 33 (got 33)
+PASS every pair in exactly two faces
+PASS opposite-face columns j12,j13,j23 match the triples
+PASS face-neighbour graph connected
+PASS H connected (bipartite by construction)
+PASS parsed 6 given exposure orders
+PASS bit 1 class 0: 11 faces covering 13 points
+PASS bit 1 class 0: paper's order is a permutation of the class and valid
+PASS bit 1 class 0: an exposure order found by independent greedy search
+PASS bit 1 class 1: 11 faces covering 13 points
+PASS bit 1 class 1: paper's order is a permutation of the class and valid
+PASS bit 1 class 1: an exposure order found by independent greedy search
+PASS bit 2 class 0: 11 faces covering 13 points
+PASS bit 2 class 0: paper's order is a permutation of the class and valid
+PASS bit 2 class 0: an exposure order found by independent greedy search
+PASS bit 2 class 1: 11 faces covering 13 points
+PASS bit 2 class 1: paper's order is a permutation of the class and valid
+PASS bit 2 class 1: an exposure order found by independent greedy search
+PASS bit 3 class 0: 11 faces covering 13 points
+PASS bit 3 class 0: paper's order is a permutation of the class and valid
+PASS bit 3 class 0: an exposure order found by independent greedy search
+PASS bit 3 class 1: 11 faces covering 13 points
+PASS bit 3 class 1: paper's order is a permutation of the class and valid
+PASS bit 3 class 1: an exposure order found by independent greedy search
+PASS every a_e >= 1/3
+PASS some a_e > 1/3
+PASS a_{0,2} = 1
+PASS colour refinement: all 13 point colours distinct
+PASS colour refinement: all 22 face colours distinct
+PASS parsed 13 rows of eq:complex-colors
+PASS point degrees and n4/n5/n6 match eq:complex-colors
+RESULT: holds (finite part: H and Proposition prop:complex). Host G: not-explicit.

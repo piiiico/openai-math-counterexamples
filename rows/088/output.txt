@@ -1,0 +1,4 @@
+controls: |Pi cube|=8; R_d(T_d)=c_d for d=2,3,4,20 (c_3 = 18 )
+computed R_20(T10xT10)/c_20 = 5588869/5505024 = 1.0152306329636347
+paper    121*C(20,10)/(21*2^20) = 5588869/5505024 ; paper's decimal form 22355476/22020096 = 5588869/5505024
+RESULT: holds | exact match with paper: True | ratio > 1: True

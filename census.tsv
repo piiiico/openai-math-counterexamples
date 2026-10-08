@@ -1,0 +1,64 @@
+family	title	lean	ancillary_files	keyword_class	status
+046	Shafarevich counterexamples in dimension two and with large fundamental group	no	0	counterexample	open
+047	Zariski cancellation and affine fibrations over the complex numbers	yes	0	counterexample	open
+048	A characteristic-zero counterexample to Lipman–Zariski	no	0	counterexample	open
+049	A stable-coordinate counterexample in four variables	yes	0	counterexample	open
+050	A counterexample to Griffiths’ positivity conjecture	yes	0	counterexample	open
+053	A counterexample to Pixton completeness in Chow	no	0	counterexample	open
+054	Irrational cubic fourfolds with Hodge-theoretic and categorical K3 associations	no	0	counterexample	open
+059	Counterexamples to Zariski’s multiplicity conjecture	no	3	counterexample	open
+072	Brennan's conjecture and the integral-means spectrum	yes	0	counterexample; also proves a positive result	open
+076	Real ultraflat Littlewood polynomials and unbounded binary merit factors	yes	0	counterexample	open
+088	Sharp projection-body inequalities and a counterexample to simplex maximization	yes	0	counterexample; also proves a positive result	holds
+095	Hyperbolicity cones without semidefinite lifts	yes	0	counterexample	open
+098	Compact counterexamples to bi-Lipschitz dimension reduction	yes	0	counterexample	open
+100	Cylinder coverings below the half-area bound	yes	0	counterexample	open
+109	Integer multiplication below $`n\log n`$	no	0	counterexample	open
+118	Bin packing and unbounded configuration-LP gaps	yes	0	counterexample	open
+132	A superquadratic separation of sensitivity and block sensitivity	yes	0	counterexample	open
+151	A <i>C</i><sup>1</sup> counterexample to the entropy conjecture	yes	0	counterexample	open
+155	A counterexample to periodic tiling in dimension three	yes	0	counterexample	open
+156	Borsuk's conjecture fails in dimension nine	yes	0	counterexample	not-finite
+157	Graph coloring, clique minors, and Colin de Verdière invariants	yes	0	counterexample; also proves a positive result	open
+161	Counterexamples to Sidorenko’s conjecture and the forcing conjecture	yes	0	counterexample	not-explicit
+162	Counterexamples to Ryser’s covering conjecture	yes	0	counterexample	open
+172	Classification of finite Euclidean Ramsey configurations	yes	0	counterexample	open
+185	Counterexamples to infinite matroid intersection and packing/covering	yes	0	counterexample	open
+190	Polynomial removal fails for ordered binary matrices	yes	0	counterexample	open
+191	A power improvement in the Heilbronn triangle lower bound	yes	0	counterexample	open
+192	Boolean functions violate the square-root degree bound by arbitrary factors	yes	0	counterexample	not-explicit
+195	A counterexample to the small Cohen–Macaulay module conjecture	yes	0	counterexample	open
+196	A counterexample to Kaplansky’s zero-divisor conjecture	yes	0	counterexample	open
+197	A torsion-free group algebra that is not directly finite	yes	0	counterexample	open
+198	A counterexample to finitistic-dimension finiteness	yes	0	counterexample	open
+199	Counterexamples to Auslander–Reiten, Tachikawa and related homological conjectures	yes	0	counterexample	open
+201	A counterexample to Kurosh’s division-ring problem	no	0	counterexample	open
+209	Integral counterexamples to Gersten’s conjecture	no	0	counterexample	open
+244	The Partition Principle does not imply Choice	yes	0	fails/false only	open
+247	An infinite finitely presented residually finite 2-group and a finitely presented nil algebra	yes	0	counterexample	open
+249	A finitely generated Eilenberg–Ganea counterexample	yes	0	counterexample	open
+272	Entanglement without distillable secret key	yes	6	counterexample	open
+278	Failure of Kohn–Sham ensemble representation	no	0	counterexample	open
+284	The optimal quartic separation between randomized and quantum queries	no	0	counterexample	open
+285	Counterexamples to Baum–Connes and Kadison–Kaplansky	no	0	counterexample	open
+289	Strong Kadison–Kastler stability and its spatial boundaries	yes	0	counterexample; also proves a positive result	open
+294	Kaplansky's quasitrace conjecture and failure of tensor-product stable finiteness	yes	0	counterexample	open
+297	A ZFC counterexample to Naimark's problem	yes	0	counterexample	open
+305	Four-dimensional disk embedding and Wall's conjecture	no	0	counterexample	open
+307	Failure of rational injectivity for maximal coarse assembly	yes	0	counterexample	open
+318	Chromatic splitting: filtrations and counterexamples	no	0	counterexample	open
+319	Counterexamples to finite generation at chromatic height two	no	0	counterexample	open
+320	Nonhomeomorphic closed aspherical four-manifolds	no	0	counterexample	open
+321	A counterexample to Wall's finite D(2) problem	no	0	counterexample	open
+323	Independence of the separable quotient problem	yes	0	counterexample; also proves a positive result	open
+329	A counterexample to metric-entropy duality	yes	0	counterexample	open
+330	A uniformly discrete counterexample to bounded approximation in Lipschitz-free spaces	yes	0	counterexample	open
+340	A counterexample to the nearby Lagrangian conjecture	no	0	counterexample	open
+347	Counterexamples to stable-Morse and strong Arnold fixed-point bounds	yes	0	counterexample	open
+350	Yau’s nodal bounds: surfaces and higher dimensions	yes	0	fails/false only; also proves a positive result	open
+351	Scalar curvature and finite-time Ricci-flow singularities	no	0	counterexample; also proves a positive result	open
+352	A finite-time singularity of Calabi flow	no	3	counterexample	open
+353	Affine Bernstein rigidity through dimension nine and a smooth dimension-ten counterexample	yes	0	counterexample; also proves a positive result	open
+359	Negative Kähler curvature without bounded holomorphic coordinates	yes	0	counterexample	open
+361	Failure of integer-degree harmonic dimension comparison	yes	2	counterexample	open
+374	Sharp one-third stability of Brenier maps	yes	0	counterexample	open

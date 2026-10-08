@@ -1,0 +1,6 @@
+n=1: max sum_i fhat(i)/sqrt(deg) = sqrt(1) = 1.000000 at deg 1 (truth-table mask 2)
+n=2: max sum_i fhat(i)/sqrt(deg) = sqrt(1) = 1.000000 at deg 1 (truth-table mask 10)
+n=3: max sum_i fhat(i)/sqrt(deg) = sqrt(1) = 1.000000 at deg 1 (truth-table mask 170)
+n=4: max sum_i fhat(i)/sqrt(deg) = sqrt(1) = 1.000000 at deg 1 (truth-table mask 43690)
+control MAJ3 ratio^2 >= 3/4: True
+RESULT: not-explicit (theorem gives no explicit f; exhaustive n<=4 shows no small witness for C >= the maxima above)
