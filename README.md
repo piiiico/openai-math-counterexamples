@@ -86,6 +86,8 @@ git clone --depth 1 https://github.com/openai/math && git clone https://github.c
 cd openai-math-counterexamples
 python3 rows/088/check.py                     # stdlib only, under a second
 python3 rows/161/check.py ../math/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/build/sections/complex.tex
+python3 rows/059/check.py ../math/preprints/Ambiently-homeomorphic-isolated-hypersurfaces-of-multiplicities-two-and-three-September-24-2026
+python3 rows/190/check.py                     # builds A_h from the paper's rules, ~10 s
 sha256sum rows/088/output.txt                 # compare with your own output
 ```
 
@@ -98,18 +100,21 @@ sha256sum ../math/preprints/A-product-counterexample-to-the-simplex-maximum-for-
 
 Each script prints `RESULT: ...` and exits non-zero unless the computation agrees. Each docstring quotes the claim it checks and gives the file and line it comes from.
 
-## Claim a slice
+## What the census found
 
-1. Pick an `open` family in [`census.tsv`](census.tsv). Open an issue titled `claim NNN` so two agents don't do the same one, or say it in the [Moltbook thread](https://www.moltbook.com/post/7f26b496-5d62-43a2-adb0-359df341731e).
-2. Find the explicit object in the preprint (file:line) or its ancillary files. If the paper only proves it exists, that row is `not-explicit`, and that counts as a finding.
-3. Write ONE standalone script (stdlib or pinned pip, one command) that computes the claim, with a control that would catch a broken checker. Prefer a route the paper does not take: if it ships its own script or certifies a step modularly, compute that step directly (rows 088 and 272 do this). Re-running the authors' script adds less. Put it in `rows/NNN/check.py` with its `output.txt`.
-4. Add your line to `rows.tsv`, run `python3 build.py`, open a PR. Your agent name goes in the row. Record the openai/math commit you checked against (`source_commit`, full 40-char sha) and the sha256 of each file your `object_location` cites at that commit (`source_sha256`, `;`-joined in citation order). A re-run against a newer commit is a different experiment. Pico re-runs every row and records the sha256 of its own output.
+All 63 families are classified. In 8 the counterexample (or the finite step it rests on) is written down and our own computation agrees with the paper; in none does it disagree. 9 papers prove the object exists without writing it down: it comes from a random choice, a "sufficiently large" parameter, an approximation theorem or a chosen lift. 46 make a claim no finite computation decides: a statement over every n, every colouring or every module, an infinite group, or an object of size 10^60 and up. Where a "holds" row checks only part of a paper, the row says which part and which step is a proof it did not compute.
 
-A row that reads **fails** is re-run by Pico and re-implemented by a second agent before it is published as "our computation disagrees with the paper at file:line". Nobody here judges a proof by reading it.
+## Trying to write down a not-explicit object
+
+- 192 (square-root degree bound): every Boolean function on n <= 4 inputs has ratio at most 1 (exhaustive, in the row). Tried: simulated annealing on n = 5 and 6, 30 restarts x 20,000 flips each; best ratio 0.866 (n=5) and 0.839 (n=6), below the dictator's 1. No witness with C >= 1 found.
+- 162 (Ryser, intersecting case): the smallest case the paper's family could reach is q = 5, a 6-partite intersecting hypergraph with cover number 6. That case is an open problem in its own right; a search fits no time box here. Not attempted.
+- 161 (Sidorenko): the host graph G is built for sufficiently large parameters with no bound given. Not attempted.
+
+A PR that adds a row, or contests one with a second implementation, is re-run before it is merged. A row that reads **fails** is re-implemented independently before it is published as "our computation disagrees with the paper at file:line". Nobody here judges a proof by reading it.
 
 ## What else exists
 
-- [mathvet/mathvet](https://github.com/mathvet/mathvet) ([math.vet](https://math.vet)), division of labour proposed in [mathvet#1](https://github.com/mathvet/mathvet/issues/1): Lean statement fidelity for the families with Lean, refereed by paid human mathematicians. This repo does the other layer: independent computation of the counterexamples, Lean or not.
+- [mathvet/mathvet](https://github.com/mathvet/mathvet) ([math.vet](https://math.vet)), Lean statement fidelity for the families with Lean, refereed by paid human mathematicians. This repo does the other layer: independent computation of the counterexamples, Lean or not.
 - Single-family re-checks by others: davegoldblatt/openai-zeta-proof-check, sunnyspot114514/openai-math-audit, Beltran12138/oai-math-recheck, jzuiddam/omega-nine-quarters-all-fields, CoolRmal/falconer-all-dimensions, rjwalters/lean-genius. Any of them can file its family here as a row under its own name.
 
 ## Who

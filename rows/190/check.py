@@ -166,3 +166,4 @@ negc = copy_ok(t, r1, r2, c1b, c2)
 print("5. negative arm (body column c1 moved to another variable column):", "rejected" if not negc else "NOT REJECTED"); ok &= not negc
 print("RESULT:", "holds" if ok else "FAILS")
 print(f"runtime {time.time()-t0:.1f}s", file=sys.stderr)
+sys.exit(0 if ok else 1)

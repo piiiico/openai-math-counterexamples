@@ -106,3 +106,4 @@ for name, nr in (("e_b of first row +1", neg1), ("sign of row 100 flipped", neg2
     ok = ok and fired
 print("RESULT:", "holds" if ok else "FAILS")
 print(f"runtime {time.time()-t0:.1f}s", file=sys.stderr)
+sys.exit(0 if ok else 1)

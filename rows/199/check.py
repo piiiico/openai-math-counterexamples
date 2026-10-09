@@ -67,3 +67,4 @@ ok &= utut == {"z": pm(Q, ONE ^ Q)}
 neg = assoc_failures(table(ONE)); print("negative arm (ut = y + x): associativity failures", neg, "->", "rejected" if neg else "NOT REJECTED"); ok &= neg > 0
 print("RESULT:", "holds" if ok else "FAILS", "(Lemma alg:C only; the Ext claim is not finite)")
 print(f"runtime {time.time()-t0:.2f}s", file=sys.stderr)
+sys.exit(0 if ok else 1)

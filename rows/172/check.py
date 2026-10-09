@@ -155,3 +155,4 @@ print("B2. dual numbers at 30 random rationals: failed identities =", bad)
 ok &= bad == 0
 print("RESULT:", "holds" if ok else "FAILS")
 print(f"runtime {time.time()-t0:.2f}s", file=sys.stderr)
+sys.exit(0 if ok else 1)
