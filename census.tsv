@@ -14,8 +14,8 @@ family	title	lean	ancillary_files	keyword_class	status
 098	Compact counterexamples to bi-Lipschitz dimension reduction	yes	0	counterexample	not-finite
 100	Cylinder coverings below the half-area bound	yes	0	counterexample	holds
 109	Integer multiplication below $`n\log n`$	no	0	counterexample	not-finite
-118	Bin packing and unbounded configuration-LP gaps	yes	0	counterexample	open
-132	A superquadratic separation of sensitivity and block sensitivity	yes	0	counterexample	open
+118	Bin packing and unbounded configuration-LP gaps	yes	0	counterexample	not-finite
+132	A superquadratic separation of sensitivity and block sensitivity	yes	0	counterexample	not-explicit
 151	A <i>C</i><sup>1</sup> counterexample to the entropy conjecture	yes	0	counterexample	not-finite
 155	A counterexample to periodic tiling in dimension three	yes	0	counterexample	open
 156	Borsuk's conjecture fails in dimension nine	yes	0	counterexample	not-finite
