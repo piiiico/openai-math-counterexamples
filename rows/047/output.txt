@@ -1,0 +1,13 @@
+Schwartz-Zippel: largest total degree over the 18 comparisons, denominators cleared: D <= 155
+ok   1 con:identity  [5 pts]  (negative arm failed as it must)
+ok   2 con:localized-coordinates  [5 pts]  (negative arm failed as it must)
+ok   3 con:derivation: Delta x=y=z=0, Delta H = p^3  [5 pts]  (negative arm failed as it must)
+ok   4 det = 1 and con:linear-inverse  [5 pts]  (negative arm failed as it must)
+ok   5 con:h-expansion  [5 pts]  (negative arm failed as it must)
+ok   6 con:root: C = Q(0) = M^2(2x0+6sx0^2+4s^2x0^3-x0^4), Q - C = L*Q1  [5 pts]  (negative arm failed as it must)
+ok   7 con:root-divisibility  [5 pts]  (negative arm failed as it must)
+ok   8 con:e-polynomial: H(L)+p^3w = L - p h  [5 pts]  (negative arm failed as it must)
+ok   9 con:e-certificate  [5 pts]  (negative arm failed as it must)
+ok   10 con:polynomial-cylinder both ways at points of T  [5 pts]  (negative arm failed as it must)
+a false identity survives all 5 points with probability <= 4.2e-86
+RESULT: holds -- every identity in the explicit route to A[w] = C^[5] (02-construction.tex) computes as stated
