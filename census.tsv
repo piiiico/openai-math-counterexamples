@@ -29,7 +29,7 @@ family	title	lean	ancillary_files	keyword_class	status
 192	Boolean functions violate the square-root degree bound by arbitrary factors	yes	0	counterexample	not-explicit
 195	A counterexample to the small Cohen–Macaulay module conjecture	yes	0	counterexample	not-finite
 196	A counterexample to Kaplansky’s zero-divisor conjecture	yes	0	counterexample	not-explicit
-197	A torsion-free group algebra that is not directly finite	yes	0	counterexample	open
+197	A torsion-free group algebra that is not directly finite	yes	0	counterexample	not-explicit
 198	A counterexample to finitistic-dimension finiteness	yes	0	counterexample	not-explicit
 199	Counterexamples to Auslander–Reiten, Tachikawa and related homological conjectures	yes	0	counterexample	not-finite
 201	A counterexample to Kurosh’s division-ring problem	no	0	counterexample	not-finite
