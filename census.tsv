@@ -17,12 +17,12 @@ family	title	lean	ancillary_files	keyword_class	status
 118	Bin packing and unbounded configuration-LP gaps	yes	0	counterexample	not-finite
 132	A superquadratic separation of sensitivity and block sensitivity	yes	0	counterexample	not-explicit
 151	A <i>C</i><sup>1</sup> counterexample to the entropy conjecture	yes	0	counterexample	not-finite
-155	A counterexample to periodic tiling in dimension three	yes	0	counterexample	open
+155	A counterexample to periodic tiling in dimension three	yes	0	counterexample	not-finite
 156	Borsuk's conjecture fails in dimension nine	yes	0	counterexample	not-finite
 157	Graph coloring, clique minors, and Colin de Verdière invariants	yes	0	counterexample; also proves a positive result	not-explicit
 161	Counterexamples to Sidorenko’s conjecture and the forcing conjecture	yes	0	counterexample	not-explicit
 162	Counterexamples to Ryser’s covering conjecture	yes	0	counterexample	not-explicit
-172	Classification of finite Euclidean Ramsey configurations	yes	0	counterexample	open
+172	Classification of finite Euclidean Ramsey configurations	yes	0	counterexample	holds
 185	Counterexamples to infinite matroid intersection and packing/covering	yes	0	counterexample	not-finite
 190	Polynomial removal fails for ordered binary matrices	yes	0	counterexample	open
 191	A power improvement in the Heilbronn triangle lower bound	yes	0	counterexample	not-finite

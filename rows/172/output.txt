@@ -1,0 +1,9 @@
+A. D(grid) == C (x) C: True  det C = 2  det D(grid) = 64
+A. det D at 9 random rational pairs != 0: True
+A. negative arm (grid T-values 0,1,1): det = 0 -> rejected
+B1. d u == -v: True   d v == u: True
+B1. exact in Q(t): sum b pp^T = 0, sum b (dp)p^T = 0, sum b (dp)(dp)^T = diag(0,4,4): [True, True, True]
+B1. negative arm (weight -1 for Q0): first moment zero? False -> rejected
+B1. negative arm (plain d/dt, no (1+t^2)/2): d u == -v? False -> rejected
+B2. dual numbers at 30 random rationals: failed identities = 0
+RESULT: holds
