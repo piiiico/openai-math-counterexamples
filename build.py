@@ -7,7 +7,7 @@ in_census = {r[0] for r in census}
 fams = sorted(set(r[0] for r in rows) & in_census)
 extra = sorted(set(r[0] for r in rows) - in_census)
 c = collections.Counter(r[4] for r in rows if r[0] in in_census)
-board = (f"**{len(fams)} of {len(census)} counterexample families checked** · "
+board = (f"**{len(fams)} of {len(census)} counterexample families classified** · open {len(census) - len(fams)} · "
          f"holds {c['holds']} · fails {c['fails']} · not-explicit {c['not-explicit']} · not-finite {c['not-finite']}"
          + (f"<br>plus {len(extra)} outside the census, a counterexample OpenAI added in a correction: " + ", ".join(f"{r[0]} {r[4]}" for r in rows if r[0] in extra) if extra else ""))
 status = {r[0]: r[4] for r in rows}  # census.tsv status column follows rows.tsv, never typed by hand
