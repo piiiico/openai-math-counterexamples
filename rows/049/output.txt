@@ -1,0 +1,16 @@
+ok   A1 cusp x^2+y^3 = h*s                  [D<=6, 5 pts]  (negative arm failed as it must)
+ok   A2 shift identity (eq:shiftidentity)    [free x,y,s, 5 pts]  (negative arm failed as it must)
+ok   A3 Bezout certificate (eq:certificate)  [D<=7, 5 pts]  (negative arm failed as it must)
+ok   A4 ambient X^2+Y^3 = s(1+F)             [D<=30, 5 pts]  (negative arm failed as it must)
+ok   B1 F(Phi(X,Y,T)) = 0                   [D<=1215, 5 pts]  (negative arm failed as it must)
+ok   B2 Psi(Phi(X,Y,T)) = (X,Y,T)           [D<=2118, 5 pts]  (negative arm failed as it must)
+ok   C1 Phi(Psi(q)) = q at 6 points of F=0 over Q[t]/(F(t,u,v,w)), deg 7 in t  (negative arm failed as it must)
+   at P: x=-1 y=1 s=1 F=-1 grad=['0', '0', '0', '0']
+ok   D1 F(P) = -1 and grad F(P) = 0 at P=(2,0,-1/2,1/2)  (negative arm failed as it must)
+ok   E1 matrix change: -det M' = x, (I+2ne^t)M' = M, u' = u - e^tMe, H = -J-u'  [5 pts]  (negative arm failed as it must)
+ok   E2 con:candidate: x = s'^2-u'^2+p'F' and p = p'-2x(x(s'-u')+p'J) in P  [5 pts]  (negative arm failed as it must)
+ok   E3 quadric xy - z(z+1) = p(H+u); localized inverse F=(x-s^2+u^2)/p, J=(z-sx)/p  [5 pts]  (negative arm failed as it must)
+ok   E4 con:delta: Delta(x)=Delta(y)=Delta(z)=0, Delta(H)=p  [5 pts]  (negative arm failed as it must)
+ok   E5 det = 1, con:linear-inverse, H = L - u + p*Q0  [5 pts]  (negative arm failed as it must)
+Schwartz-Zippel: largest D = 2118; a false identity survives one point with prob <= 1.1e-16, all 5 points <= 2.0e-80
+RESULT: holds -- part 1: every identity in the stable-coordinate chain for f; part 2: the explicit maps of Appendix A are mutually inverse between F=0 and A^3, grad F(P)=0, F(P)=-1

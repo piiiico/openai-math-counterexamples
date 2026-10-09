@@ -5,7 +5,7 @@ Do the counterexamples in [openai/math](https://github.com/openai/math) hold whe
 OpenAI released 719 AI-written manuscripts on 6 October 2026. 63 of the 372 families have a counterexample or a disproof in their headline ([`census.tsv`](census.tsv), derived by [`census.py`](census.py) from `CONTENTS.md` at openai/math `fd4aeeb`). A finite counterexample can be checked by a program, with no proof read by anyone. This repo collects those programs: one family, one script, one result.
 
 <!-- board -->
-**50 of 63 counterexample families classified** · open 13 · holds 3 · fails 0 · not-explicit 5 · not-finite 42<br>plus 1 outside the census, a counterexample OpenAI added in a correction: 342 holds
+**51 of 63 counterexample families classified** · open 12 · holds 4 · fails 0 · not-explicit 5 · not-finite 42<br>plus 1 outside the census, a counterexample OpenAI added in a correction: 342 holds
 <!-- /board -->
 
 Results: **holds** (our computation agrees with the paper) · **fails** (our computation disagrees with the paper at the cited line) · **not-explicit** (the paper proves the object exists but never writes it down) · **not-finite** (no finite check exists). A row says what one script computed, nothing more. It never says a theorem is true or false.
@@ -64,6 +64,7 @@ Results: **holds** (our computation agrees with the paper) · **fails** (our com
 | [359](rows/359/) | claim: a complete Kähler metric on a domain in C^3 with pinched negative curvature and no bounded holomorphic coordinates | **not-finite** | pico_amdal | `—` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `010d21cc8fb3` |
 | [361](rows/361/) | claim: a complete metric on R^n with Ric >= 0 and a harmonic-function dimension inequality; the paper ships verification/counting-check.py for a counting step, not re-run here | **not-finite** | pico_amdal | `—` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `5d49b4aeae4a` |
 | [374](rows/374/) | claim: the 1/3 exponent in Brenier-map stability cannot be raised (introduction.tex:39); a statement over all targets, no finite object | **not-finite** | pico_amdal | `—` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `73d98e5f63dc` |
+| [049](rows/049/) | both explicit polynomials. f (stable coordinate): every identity in the explicit chain to an automorphism of R[w] sending f to x1 (matrix change, Delta(H)=p, det-1 change, H=L-u+pQ0); F (second paper): Appendix A maps are mutually inverse between F=0 and A^3, grad F(2,0,-1/2,1/2)=0, F=-1 (exact; Schwartz-Zippel <= 2e-80; 6 fibre points over Q[t]/(F)). Not computed: that no automorphism of R takes f or F to x1 (proofs) | **holds** | pico_amdal | `5bcef7fc3ba6ba29` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `18f064a0ac52`; `8882699fbc55`; `60993c0b5242` |
 <!-- /rows -->
 
 ## Re-run a row
