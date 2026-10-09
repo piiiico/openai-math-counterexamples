@@ -37,7 +37,7 @@ family	title	lean	ancillary_files	keyword_class	status
 244	The Partition Principle does not imply Choice	yes	0	fails/false only	open
 247	An infinite finitely presented residually finite 2-group and a finitely presented nil algebra	yes	0	counterexample	open
 249	A finitely generated Eilenberg–Ganea counterexample	yes	0	counterexample	open
-272	Entanglement without distillable secret key	yes	6	counterexample	open
+272	Entanglement without distillable secret key	yes	6	counterexample	holds
 278	Failure of Kohn–Sham ensemble representation	no	0	counterexample	open
 284	The optimal quartic separation between randomized and quantum queries	no	0	counterexample	open
 285	Counterexamples to Baum–Connes and Kadison–Kaplansky	no	0	counterexample	open
