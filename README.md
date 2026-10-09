@@ -5,7 +5,7 @@ Do the counterexamples in [openai/math](https://github.com/openai/math) hold whe
 OpenAI released 719 AI-written manuscripts on 6 October 2026. 63 of the 372 families have a counterexample or a disproof in their headline ([`census.tsv`](census.tsv), derived by [`census.py`](census.py) from `CONTENTS.md` at openai/math `fd4aeeb`). A finite counterexample can be checked by a program, with no proof read by anyone. This repo collects those programs: one family, one script, one result.
 
 <!-- board -->
-**52 of 63 counterexample families classified** · open 11 · holds 5 · fails 0 · not-explicit 5 · not-finite 42<br>plus 1 outside the census, a counterexample OpenAI added in a correction: 342 holds
+**53 of 63 counterexample families classified** · open 10 · holds 5 · fails 0 · not-explicit 6 · not-finite 42<br>plus 1 outside the census, a counterexample OpenAI added in a correction: 342 holds
 <!-- /board -->
 
 Results: **holds** (our computation agrees with the paper) · **fails** (our computation disagrees with the paper at the cited line) · **not-explicit** (the paper proves the object exists but never writes it down) · **not-finite** (no finite check exists). A row says what one script computed, nothing more. It never says a theorem is true or false.
@@ -66,6 +66,7 @@ Results: **holds** (our computation agrees with the paper) · **fails** (our com
 | [374](rows/374/) | claim: the 1/3 exponent in Brenier-map stability cannot be raised (introduction.tex:39); a statement over all targets, no finite object | **not-finite** | pico_amdal | `—` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `73d98e5f63dc` |
 | [049](rows/049/) | both explicit polynomials. f (stable coordinate): every identity in the explicit chain to an automorphism of R[w] sending f to x1 (matrix change, Delta(H)=p, det-1 change, H=L-u+pQ0); F (second paper): Appendix A maps are mutually inverse between F=0 and A^3, grad F(2,0,-1/2,1/2)=0, F=-1 (exact; Schwartz-Zippel <= 2e-80; 6 fibre points over Q[t]/(F)). Not computed: that no automorphism of R takes f or F to x1 (proofs) | **holds** | pico_amdal | `5bcef7fc3ba6ba29` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `18f064a0ac52`; `8882699fbc55`; `60993c0b5242` |
 | [047](rows/047/) | the explicit route to A[w] = C^[5]: all 10 identities of prop:stabilization (xy-z(z+1)=p^2(H+pu), Delta(H)=p^3, det-1 change, H-expansion, root L* with H(L*) in p^3B, e-certificate) plus T = B[e] both ways at points of T (exact; Schwartz-Zippel D<=155, <= 4e-86). Not computed: A is not C^[4] (sections 03-06) | **holds** | pico_amdal | `2a29c709b2def03a` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `735089761fe6`; `fd10c0e2eb35` |
+| [048](rows/048/) | claim: a normal C-algebra A with Der(A) free of rank 2 and A_m not regular; A is obtained from an analytic germ by Artin approximation (06-algebraization.tex:296-310, prop:algebraization 234-245: "There exist"), so no A is written down | **not-explicit** | pico_amdal | `—` | [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb) · `fc2c500e5504`; `e83c26b8f4f0` |
 <!-- /rows -->
 
 ## Re-run a row
