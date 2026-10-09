@@ -1,0 +1,23 @@
+1. lem:anchor-properties [rows distinct, cols distinct, col<=1 zero in rows 1-32, row<=1 zero in cols 1-32, ones>=58/48, 32 words]: [True, True, True, True, True, True]
+1. negative arm (row 2 := row 1): [False, True, False, True, True, True] -> rejected
+2. h=1: variable block pairs checked 16, conflicting 0
+2. h=2: variable block pairs checked 100, conflicting 0
+2. h=3: variable block pairs checked 484, conflicting 0
+2. h=4: variable block pairs checked 2116, conflicting 0
+2. h=5: variable block pairs checked 8836, conflicting 0
+3. h=1: 8 non-anchor columns, 5-sets shattered by non-anchor rows: 0
+3. h=2: 24 non-anchor columns, 5-sets shattered by non-anchor rows: 0
+4. h=1: bodies 8 (modes ['W-1']), off the leaf diagonal 0
+6. h=1: n=776, N_H = 8*m^128 (assumes lem:anchor-rigidity), N_H/n^132 <= eps*2^-h: True  (log10 of ratio -336.5)
+4. h=2: bodies 32 (modes ['W-2']), off the leaf diagonal 0
+6. h=2: n=3096, N_H = 32*m^128 (assumes lem:anchor-rigidity), N_H/n^132 <= eps*2^-h: True  (log10 of ratio -375.8)
+4. h=3: bodies 128 (modes ['W-3']), off the leaf diagonal 0
+6. h=3: n=9280, N_H = 128*m^128 (assumes lem:anchor-rigidity), N_H/n^132 <= eps*2^-h: True  (log10 of ratio -399.0)
+4. h=4: bodies 512 (modes ['W-4']), off the leaf diagonal 0
+6. h=4: n=24736, N_H = 512*m^128 (assumes lem:anchor-rigidity), N_H/n^132 <= eps*2^-h: True  (log10 of ratio -415.5)
+4. h=5: bodies 2048 (modes ['W-5']), off the leaf diagonal 0
+6. h=5: n=61824, N_H = 2048*m^128 (assumes lem:anchor-rigidity), N_H/n^132 <= eps*2^-h: True  (log10 of ratio -428.4)
+4. negative arm (minus rule [p<=q], h=3): bodies off the diagonal 2560 -> rejected
+5. h=1 (n=776): bodies completed to an ordered 66x66 copy equal to H: 8 of 8
+5. negative arm (body column c1 moved to another variable column): rejected
+RESULT: holds

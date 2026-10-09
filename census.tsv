@@ -24,7 +24,7 @@ family	title	lean	ancillary_files	keyword_class	status
 162	Counterexamples to Ryser’s covering conjecture	yes	0	counterexample	not-explicit
 172	Classification of finite Euclidean Ramsey configurations	yes	0	counterexample	holds
 185	Counterexamples to infinite matroid intersection and packing/covering	yes	0	counterexample	not-finite
-190	Polynomial removal fails for ordered binary matrices	yes	0	counterexample	open
+190	Polynomial removal fails for ordered binary matrices	yes	0	counterexample	holds
 191	A power improvement in the Heilbronn triangle lower bound	yes	0	counterexample	not-finite
 192	Boolean functions violate the square-root degree bound by arbitrary factors	yes	0	counterexample	not-explicit
 195	A counterexample to the small Cohen–Macaulay module conjecture	yes	0	counterexample	not-finite
