@@ -1,0 +1,7 @@
+associativity failures over 1000 basis triples: 0
+e + f is a two-sided unit: True   dimension: 10
+nonzero products of 5 radical basis vectors: 0   of 4: 1
+span of the 8 non-idempotents is a two-sided ideal: True
+utut = {'z': '0b110'}  expected q(1+q)z = 0b110
+negative arm (ut = y + x): associativity failures 4 -> rejected
+RESULT: holds (Lemma alg:C only; the Ext claim is not finite)
