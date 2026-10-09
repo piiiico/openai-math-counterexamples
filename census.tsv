@@ -4,9 +4,9 @@ family	title	lean	ancillary_files	keyword_class	status
 048	A characteristic-zero counterexample to Lipman–Zariski	no	0	counterexample	not-explicit
 049	A stable-coordinate counterexample in four variables	yes	0	counterexample	holds
 050	A counterexample to Griffiths’ positivity conjecture	yes	0	counterexample	not-finite
-053	A counterexample to Pixton completeness in Chow	no	0	counterexample	open
+053	A counterexample to Pixton completeness in Chow	no	0	counterexample	not-finite
 054	Irrational cubic fourfolds with Hodge-theoretic and categorical K3 associations	no	0	counterexample	not-finite
-059	Counterexamples to Zariski’s multiplicity conjecture	no	3	counterexample	open
+059	Counterexamples to Zariski’s multiplicity conjecture	no	3	counterexample	holds
 072	Brennan's conjecture and the integral-means spectrum	yes	0	counterexample; also proves a positive result	not-finite
 076	Real ultraflat Littlewood polynomials and unbounded binary merit factors	yes	0	counterexample	not-finite
 088	Sharp projection-body inequalities and a counterexample to simplex maximization	yes	0	counterexample; also proves a positive result	holds
