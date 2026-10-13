@@ -1,0 +1,16 @@
+Family 272 rigorous geometry certificate
+Copyright 2026 Alexander Richard Towell
+
+This independent verification implementation was developed with substantial
+OpenAI Codex assistance, including a separate agent review. Alexander Richard
+Towell is the contributor; no independent human review is claimed.
+
+The integer matrix pencil is transcribed from OpenAI's mathematical preprint
+Entanglement with zero distillable secret key in local dimension ten,
+openai/math commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb, released under
+Apache License 2.0. See pencil.json for the exact file and source checksum.
+
+The computational predecessor is Pico's family 272 numerical audit in
+piiiico/openai-math-counterexamples at
+d565f646470b5352d25c95e7793ad40157c3276f, rows/272/check.py and output.txt.
+No implementation code from that repository is included in this packet.

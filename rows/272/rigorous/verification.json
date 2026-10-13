@@ -1,0 +1,246 @@
+{
+  "verified_at_utc": "2026-10-13T06:50:06Z",
+  "workspace_tests": {
+    "command": "python -m pytest --cov=research.family272 --cov-branch --cov-append --cov-report=term-missing -q",
+    "passed": 85,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "packet_tests": {
+    "command": "python -m pytest research/family272 -q",
+    "passed": 47
+  },
+  "exhaustive_cli": {
+    "command": "python -m coverage run --branch --source=research.family272 -m research.family272 verify",
+    "exit_code": 0,
+    "report": "result.json"
+  },
+  "independent_minors": {
+    "command": "python -m research.family272.independent_minor_check",
+    "matched_minors": 15,
+    "exit_code": 0
+  },
+  "regeneration": {
+    "command": "python -m research.family272 generate --certificate /tmp/family272-candidate.json",
+    "byte_identical_to_saved_certificate": true
+  },
+  "coverage": {
+    "includes_full_success_path_cli": true,
+    "includes_test_subprocesses": false,
+    "production_code_line_plus_branch_percent": 91.70616113744076,
+    "production_code_covered_obligations": 387,
+    "production_code_total_obligations": 422,
+    "files": {
+      "__init__.py": {
+        "summary": {
+          "covered_lines": 0,
+          "num_statements": 0,
+          "percent_covered": 100.0,
+          "percent_covered_display": "100",
+          "missing_lines": 0,
+          "excluded_lines": 0,
+          "percent_statements_covered": 100.0,
+          "percent_statements_covered_display": "100",
+          "num_branches": 0,
+          "num_partial_branches": 0,
+          "covered_branches": 0,
+          "missing_branches": 0,
+          "percent_branches_covered": 100.0,
+          "percent_branches_covered_display": "100"
+        },
+        "missing_lines": [],
+        "missing_branches": []
+      },
+      "__main__.py": {
+        "summary": {
+          "covered_lines": 48,
+          "num_statements": 62,
+          "percent_covered": 76.38888888888889,
+          "percent_covered_display": "76",
+          "missing_lines": 14,
+          "excluded_lines": 0,
+          "percent_statements_covered": 77.41935483870968,
+          "percent_statements_covered_display": "77",
+          "num_branches": 10,
+          "num_partial_branches": 3,
+          "covered_branches": 7,
+          "missing_branches": 3,
+          "percent_branches_covered": 70.0,
+          "percent_branches_covered_display": "70"
+        },
+        "missing_lines": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          41,
+          46,
+          54,
+          90,
+          91,
+          92
+        ],
+        "missing_branches": [
+          [
+            40,
+            41
+          ],
+          [
+            45,
+            46
+          ],
+          [
+            53,
+            54
+          ]
+        ]
+      },
+      "algebra.py": {
+        "summary": {
+          "covered_lines": 74,
+          "num_statements": 75,
+          "percent_covered": 98.05825242718447,
+          "percent_covered_display": "98",
+          "missing_lines": 1,
+          "excluded_lines": 0,
+          "percent_statements_covered": 98.66666666666667,
+          "percent_statements_covered_display": "99",
+          "num_branches": 28,
+          "num_partial_branches": 1,
+          "covered_branches": 27,
+          "missing_branches": 1,
+          "percent_branches_covered": 96.42857142857143,
+          "percent_branches_covered_display": "96"
+        },
+        "missing_lines": [
+          81
+        ],
+        "missing_branches": [
+          [
+            80,
+            81
+          ]
+        ]
+      },
+      "certificate.py": {
+        "summary": {
+          "covered_lines": 47,
+          "num_statements": 48,
+          "percent_covered": 96.875,
+          "percent_covered_display": "97",
+          "missing_lines": 1,
+          "excluded_lines": 0,
+          "percent_statements_covered": 97.91666666666667,
+          "percent_statements_covered_display": "98",
+          "num_branches": 16,
+          "num_partial_branches": 1,
+          "covered_branches": 15,
+          "missing_branches": 1,
+          "percent_branches_covered": 93.75,
+          "percent_branches_covered_display": "94"
+        },
+        "missing_lines": [
+          33
+        ],
+        "missing_branches": [
+          [
+            32,
+            33
+          ]
+        ]
+      },
+      "enclosures.py": {
+        "summary": {
+          "covered_lines": 86,
+          "num_statements": 89,
+          "percent_covered": 95.2755905511811,
+          "percent_covered_display": "95",
+          "missing_lines": 3,
+          "excluded_lines": 0,
+          "percent_statements_covered": 96.62921348314607,
+          "percent_statements_covered_display": "97",
+          "num_branches": 38,
+          "num_partial_branches": 3,
+          "covered_branches": 35,
+          "missing_branches": 3,
+          "percent_branches_covered": 92.10526315789474,
+          "percent_branches_covered_display": "92"
+        },
+        "missing_lines": [
+          32,
+          40,
+          86
+        ],
+        "missing_branches": [
+          [
+            31,
+            32
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            85,
+            86
+          ]
+        ]
+      },
+      "independent_minor_check.py": {
+        "summary": {
+          "covered_lines": 33,
+          "num_statements": 40,
+          "percent_covered": 85.71428571428571,
+          "percent_covered_display": "86",
+          "missing_lines": 7,
+          "excluded_lines": 0,
+          "percent_statements_covered": 82.5,
+          "percent_statements_covered_display": "82",
+          "num_branches": 16,
+          "num_partial_branches": 1,
+          "covered_branches": 15,
+          "missing_branches": 1,
+          "percent_branches_covered": 93.75,
+          "percent_branches_covered_display": "94"
+        },
+        "missing_lines": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          63
+        ],
+        "missing_branches": [
+          [
+            62,
+            63
+          ]
+        ]
+      }
+    }
+  },
+  "coverage_limits": [
+    "Generator and independent-minor CLI ran successfully outside this coverage session.",
+    "Rejected-certificate subprocesses passed their tests but are not traced by this coverage session.",
+    "Uncovered mathematical rejection branches include singular Krylov proposals, repeated or nonfinite numeric root proposals, proposal precision below32, and invalid prefix limits."
+  ],
+  "instrumentation_correction": "An initial pytest-cov run omitted --cov-branch and could not combine its statement data with the full CLI branch data; all82 tests in that earlier run passed, but the coverage command exited3. The corrected branch-enabled run above exited0.",
+  "review": "proof-review.md",
+  "upstream_layout": {
+    "base_commit": "d565f646470b5352d25c95e7793ad40157c3276f",
+    "directory": "rows/272/rigorous",
+    "command_from_rows_272": "python -m rigorous verify",
+    "exit_code": 0,
+    "all_report_fields_except_runtime_match": true,
+    "elapsed_seconds": 15.918,
+    "packet_tests_passed": 47,
+    "independent_minors_matched": 15,
+    "pip_check": "No broken requirements found."
+  }
+}
