@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "classification": "independent verification",
+  "contributor": {
+    "name": "Alexander Richard Towell",
+    "github": "queelius",
+    "email": "lex@metafunctor.com",
+    "orcid": "0000-0001-6443-9897"
+  },
+  "ai_assistance": {
+    "system": "OpenAI Codex",
+    "substantial": true,
+    "roles": [
+      "mathematical analysis",
+      "implementation",
+      "tests",
+      "documentation",
+      "separate agent review"
+    ],
+    "human_review_claimed": false
+  },
+  "workspace_base_commit": "bc31b3ec317717695389bc6cfec95e1003e1248d",
+  "source": {
+    "repository": "openai/math",
+    "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "path": "preprints/Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026/build/source/sections/certificate.tex",
+    "equation": "explicit-matrices",
+    "sha256": "ea74b4f09a963b92b33ec9d67c0a87c235ccb332b61c53636a6eaf0a53a40506"
+  },
+  "predecessor": {
+    "repository": "piiiico/openai-math-counterexamples",
+    "commit": "d565f646470b5352d25c95e7793ad40157c3276f",
+    "paths": [
+      "rows/272/check.py",
+      "rows/272/output.txt"
+    ],
+    "implementation_code_copied": false
+  },
+  "artifact_sha256": {
+    "pencil.json": "96d9e33f225437f6bb4d1287881aac1f16cb626c0e700c9cd04c7254d555e740",
+    "certificate.json": "01f1558476f106aa14c359b3671f0d56ed9924553f661da3719948c9ca595607",
+    "result.json": "55a1c1f6a8c3e757c7e9a7599c62d4c8864fed4820bc20e67ed14d6fd6b15836"
+  },
+  "coverage": {
+    "domain": "all ten-element subsets of the twenty roots ordered by t1",
+    "seed": null,
+    "deterministic": true,
+    "planned_subsets": 184756,
+    "completed_subsets": 184756,
+    "stopping_rule": "first failed obligation or exhaustive completion"
+  },
+  "overlap_check": {
+    "checked_at_utc": "2026-10-13T06:53:34Z",
+    "repository": "piiiico/openai-math-counterexamples",
+    "head": "d565f646470b5352d25c95e7793ad40157c3276f",
+    "issues_all_states": 0,
+    "pull_requests_all_states": 0,
+    "coordination_issue": null
+  },
+  "license": "Apache-2.0"
+}
