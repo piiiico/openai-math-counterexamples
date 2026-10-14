@@ -14,15 +14,17 @@ see [NOTICE](NOTICE) for predecessor credit.
 
 ## Reproduce
 
-Python 3.10 or newer is required. From the root of the `math-research` workspace:
+Python 3.10 or newer is required. From `rows/272` in this repository:
 
 ```sh
 python -m venv .venv
-.venv/bin/python -m pip install -r research/family272/requirements-dev.txt
-.venv/bin/python -m research.family272 verify
+.venv/bin/python -m pip install -r rigorous/requirements-dev.txt
+.venv/bin/python -m rigorous verify
+.venv/bin/python -m rigorous.independent_minor_check
+.venv/bin/python -m pytest rigorous -q
 ```
 
-The final command verifies the saved [certificate.json](certificate.json)
+`verify` checks the saved [certificate.json](certificate.json)
 without running the generator. It must exit zero and print JSON containing
 `"status": "certified"`, `"distinct_real_projective_points": 20`,
 `"checked_subsets": 184756`, and `"complete": true`.
@@ -30,22 +32,9 @@ The recorded run took **14.603 seconds**; runtime is machine-dependent.
 The exact normalized determinant lower bound in [result.json](result.json)
 is greater than **1.4436 × 10⁻¹¹**. All determinant balls excluded zero.
 
-For the prepared upstream layout, install
-`rows/272/rigorous/requirements-dev.txt`, then run these commands from `rows/272`
-using the environment's Python:
-
-```sh
-python -m rigorous verify
-python -m rigorous.independent_minor_check
-python -m pytest rigorous -q
-```
-
-The corresponding local checks are:
-
-```sh
-.venv/bin/python -m research.family272.independent_minor_check
-.venv/bin/python -m pytest research/family272 -q
-```
+The contributor ran the same packet in his own workspace as
+`research.family272` (that is the module path in
+[verification.json](verification.json) and [proof-review.md](proof-review.md)).
 
 Expected: all fifteen minors match the independent permutation expansion and
 all **47 tests pass**. Tests include corrupted exact identities, incorrect source
