@@ -1,0 +1,38 @@
+{
+  "both_partial_transposes_fixed": true,
+  "channel_and_square_trace_preserving": true,
+  "channel_certificate_sha256": "e8ce4d253b1e6f9e6d7fd21f3066442269093d52467b17b8756c50d4c88f6c12",
+  "defect_gram_rows": [
+    6058,
+    6780
+  ],
+  "denominator": 4923191,
+  "dimension": 21,
+  "effect_traces": [
+    4923190,
+    4923190
+  ],
+  "elapsed_seconds": 0.74653,
+  "failure_controls": {
+    "corrupted_choi_entry": "corrupted Choi disagrees with matrix-unit oracle",
+    "corrupted_saved_channel_choi": "saved channel Choi differs from independent matrix-unit construction",
+    "corrupted_saved_square_choi": "saved square Choi differs from independent twice-applied block map",
+    "full_range_product_exclusion": "refuted: e_flag tensor e_flag is an eigenvector with positive eigenvalue D^2",
+    "lost_flag": "the reconstructed channel must preserve trace",
+    "missing_failure_branches": "the reconstructed channel must preserve trace",
+    "trace_preserving_nonabsorbing_flag": "the flag product vector must be a positive eigenvector"
+  },
+  "formal_proof_kernel_verification": false,
+  "full_square_range_contains_flag_product": true,
+  "matrix_units_checked": 441,
+  "normalized_square_corner_multiplier": [
+    1,
+    24237809622481
+  ],
+  "positive_gram_assembly_checked": true,
+  "saved_channel_certificate_compared": true,
+  "secret_key_theorem_checked": false,
+  "source_tensor_sha256": "3fb937f2977c14c6cf840e00a2f9cca9b02db077942c02ccc2ed7e2ac0fff650",
+  "square_corner_equals_tensor_Z0": true,
+  "status": "independent_finite_checks_passed"
+}

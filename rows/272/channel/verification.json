@@ -1,0 +1,103 @@
+{
+  "author": "Alexander Richard Towell",
+  "ai_assistance": "Substantial OpenAI Codex assistance, including one separately tasked AI reviewer; no human peer review",
+  "verified_at": "2026-10-15T08:37:33.917075+00:00",
+  "destination_base": "ed7f37e344741993ca825d3978519cba111fc829",
+  "predecessor_public_head": "0fce0c35f55bd4bc289d4b6cbb557aec88ea8241",
+  "source_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "source_refresh_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "source_applications_sha256": "8ba7427a5bfc4bc3e82d446bb322cfbaa6ce2c51b2984acfdae95d77ed2750c4",
+  "source_unchanged_at_refresh": true,
+  "source_tensor_sha256": "3fb937f2977c14c6cf840e00a2f9cca9b02db077942c02ccc2ed7e2ac0fff650",
+  "certificate_sha256": "e8ce4d253b1e6f9e6d7fd21f3066442269093d52467b17b8756c50d4c88f6c12",
+  "python": "3.10.20",
+  "python_flint": "0.9.0",
+  "flint": "3.6.0",
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "name": "primary exact replay",
+      "command": "python -m channel tensor/certificate.json",
+      "cwd": "rows/272",
+      "exit_code": 0,
+      "log": "logs/destination-primary.json"
+    },
+    {
+      "name": "independent direct matrix-unit replay",
+      "command": "python channel/review_check.py tensor/certificate.json --channel-certificate channel/certificate.json",
+      "cwd": "rows/272",
+      "exit_code": 0,
+      "matrix_units": 441,
+      "log": "logs/destination-independent.json"
+    },
+    {
+      "name": "optimized independent replay",
+      "command": ".venv/bin/python -O research/family272_channel/review_check.py research/family272_tensor/certificate.json --channel-certificate research/family272_channel/certificate.json",
+      "exit_code": 0,
+      "log": "logs/independent-optimized.json"
+    },
+    {
+      "name": "new unit and CLI controls",
+      "command": ".venv/bin/python -m pytest research/family272_channel -q --cov=research.family272_channel.checker --cov-report=term-missing",
+      "exit_code": 0,
+      "tests": 10,
+      "primary_checker_statement_coverage_percent": 100,
+      "includes_optimized_cli_corruption_rejection": true
+    },
+    {
+      "name": "integrated row272 tests",
+      "command": "python -m pytest rigorous tensor channel -q",
+      "cwd": "rows/272",
+      "exit_code": 0,
+      "tests": 73,
+      "log": "logs/destination-tests.log"
+    },
+    {
+      "name": "workspace tests",
+      "command": ".venv/bin/python -m pytest -q",
+      "exit_code": 0,
+      "tests": 204,
+      "subtests": 62,
+      "log": "logs/workspace-tests.log"
+    },
+    {
+      "name": "fresh accepted-base replay",
+      "base": "ed7f37e344741993ca825d3978519cba111fc829",
+      "commands": [
+        "python -m channel tensor/certificate.json",
+        "python channel/review_check.py tensor/certificate.json --channel-certificate channel/certificate.json"
+      ],
+      "cwd": "rows/272",
+      "exit_code": 0,
+      "logs": [
+        "logs/accepted-base-primary.json",
+        "logs/accepted-base-independent.json"
+      ],
+      "dependency_diff": "Only upstream README.md, rows.tsv and new Pico cross-check changed; rigorous/ and tensor/ sources are byte-identical."
+    }
+  ],
+  "geometry_replay": {
+    "status": "already completed once during this campaign; unchanged predecessor",
+    "points": 20,
+    "ten_point_subsets": 184756,
+    "url": "https://github.com/queelius/openai-math-counterexamples/blob/0fce0c35f55bd4bc289d4b6cbb557aec88ea8241/rows/272/tensor/verification.json"
+  },
+  "initial_failures": {
+    "kind": "implementation error, not a source counterexample",
+    "description": "Forward Choi reshuffling reused as its inverse; failed square trace-preservation control and independent review. Fixed with separate inverse and tagged nonsymmetric-matrix regression. FLINT test copying also corrected."
+  },
+  "limitations": [
+    "Written local-compression consequence inherits separately certified geometry; not a kernel proof.",
+    "Two independent channel algorithms share FLINT exact arithmetic.",
+    "Generic completion is already in the source; no novelty or dimension improvement claimed.",
+    "Integer-coordinate pair yields a channel not asserted numerically equal to the source orthonormal-coordinate channel.",
+    "Full square Choi range contains a product vector; no full-range exclusion or secret-key claim."
+  ],
+  "initial_destination_base": "f8fd99fcb55c044c645083b162af9fd323d189cf",
+  "predecessor_acceptance": {
+    "merged_at": "2026-10-15T08:25:37Z",
+    "merge_commit": "c6bdaa76f80244c80b047f5b5bf7830244aaa1e0",
+    "maintainer_followup": "ed7f37e344741993ca825d3978519cba111fc829",
+    "review_url": "https://github.com/piiiico/openai-math-counterexamples/pull/2#issuecomment-6187824166"
+  }
+}
