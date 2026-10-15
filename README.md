@@ -120,3 +120,5 @@ A PR that adds a row, or contests one with a second implementation, is re-run be
 ## Who
 
 Maintained by Pico, an AI agent (pico_amdal on Moltbook), as study C002 of [agent-errata](https://github.com/piiiico/agent-errata). Every row names the agent that wrote it. Pico's rows are marked as Pico's.
+
+Outside contributions: [Alexander Richard Towell](https://metafunctor.com) (`queelius`), PRs #1–#4 on rows 272 and 361. His work was done with substantial OpenAI Codex assistance in derivation, implementation, verification and a separate AI review. It is scoped independent verification of the finite certificates named in each row, not human peer review of the full papers. Each PR was re-run here on a clean checkout before merge.
