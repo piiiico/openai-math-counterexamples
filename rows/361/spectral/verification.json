@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "author": "Alexander Richard Towell",
+  "ai_assistance": "Substantial OpenAI Codex assistance, including one separately tasked AI review. No human or kernel verification claimed.",
+  "workspace_base": "07387305938fa9fa603bfc337bba3fb5b051ccae",
+  "source": {
+    "repository": "openai/math",
+    "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "directory": "preprints/A-counterexample-to-integer-degree-harmonic-dimension-comparison-September-25-2026",
+    "files": [
+      {
+        "path": "build/sections/counting.tex",
+        "sha256": "f567f723c45fb15b1925e86a7e28e056df8721eb79c61c17c2fdfe6c02d810d9"
+      },
+      {
+        "path": "build/sections/finite-selection.tex",
+        "sha256": "1bf1945991e9398d15e9e77b2012943c3300efb06daac4b893e992d3aad4cb6e"
+      },
+      {
+        "path": "build/sections/links.tex",
+        "sha256": "3f09cfc35ba1397cb3ecaacaeece0da797ff40df994082bdfb65a61019c41be4"
+      },
+      {
+        "path": "build/sections/introduction.tex",
+        "sha256": "5d49b4aeae4a849dce5872855459bd3bbee4dd3e4ee8e4ae6a56a5f0ba1858d2"
+      },
+      {
+        "path": "verification/counting-check.py",
+        "sha256": "d9f5fc8b05a69f0e52d46285b2b48fccdf135d5e3232474d7c771fd497595367"
+      }
+    ]
+  },
+  "destination": {
+    "repository": "piiiico/openai-math-counterexamples",
+    "base": "f8fd99fcb55c044c645083b162af9fd323d189cf",
+    "directory": "rows/361/spectral",
+    "branch": "contribution/family361-spectral-20261015"
+  },
+  "environment": {
+    "development_python": "3.10.20",
+    "destination_python": "3.12.3",
+    "runtime_dependencies": "Python standard library only",
+    "pytest": "9.1.1"
+  },
+  "result": {
+    "mathematical_status": "exact finite certificate and written variance bridge; geometric interpretation inherits source formulas and analytic construction is unchecked",
+    "selected": "46785537904676899645365728857267392956181699200186010789105",
+    "comparator": "46779709349146362239266126538609505511855492134986686636251",
+    "surplus": "5828555530537406099602318657887444326207065199324152854",
+    "full_cutoff": 49963,
+    "last_degree": 50212,
+    "individual_degrees": 249,
+    "full_degrees": 16,
+    "partial_degrees": 233,
+    "groups_replayed": 2490430,
+    "minimum_strict_slack": 21909800000
+  },
+  "source_replay": {
+    "command": "python3 verification/counting-check.py",
+    "exit_code": 0,
+    "elapsed_seconds": 4.005750138996518,
+    "selected": "46785605044474340387088811257657817010714687366486217934111",
+    "surplus": "5895695327978147822684719048311498859195231499531297860",
+    "scope": "Source's original rational square-root upper-bound criterion; distinct from this packet's sufficient eigenvalue-mean criterion."
+  },
+  "checks": [
+    {
+      "command": "python -m research.family361_spectral.check --write",
+      "exit_code": 0,
+      "elapsed_seconds": 6.096832,
+      "certificate_sha256": "d727e20a2df0bf24e0a1710ab9767502fa4dd5407af8d2b6a8a3ea83f09ed543"
+    },
+    {
+      "command": "python -m research.family361_spectral.review_check --method both --certificate research/family361_spectral/certificate.json",
+      "exit_code": 0,
+      "methods": [
+        "independent recurrence enumeration",
+        "seven-term Vandermonde prefix sums"
+      ],
+      "certificate_rows_compared": 249,
+      "multiplicity_comparisons": 352463
+    },
+    {
+      "command": ".venv/bin/python -m pytest research/family361_spectral --cov=research.family361_spectral.check --cov-report=term-missing -q",
+      "exit_code": 0,
+      "tests_passed": 13,
+      "subtests_passed": 57,
+      "elapsed_seconds": 12.44,
+      "statement_coverage_percent": 92,
+      "uncovered": "CLI lines 227-239 and 243; exercised separately by the public entry-point integration command."
+    },
+    {
+      "command": ".venv/bin/python -m pytest -q",
+      "exit_code": 0,
+      "tests_passed": 175,
+      "subtests_passed": 62,
+      "elapsed_seconds": 18.78
+    },
+    {
+      "command": "python3 rows/361/check.py",
+      "cwd": "destination",
+      "exit_code": 0,
+      "elapsed_seconds": 3.131721,
+      "result": "holds (finite spectral selection only; metric theorem unchecked)"
+    },
+    {
+      "command": "python3 -m unittest discover -s rows/361 -p 'test_*.py' -v",
+      "cwd": "destination",
+      "exit_code": 0,
+      "tests_passed": 13,
+      "elapsed_seconds": 4.372
+    },
+    {
+      "command": "git diff --check",
+      "cwd": "destination",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m pytest rows/272/rigorous rows/361/spectral -q",
+      "cwd": "destination repository root",
+      "exit_code": 1,
+      "tests_passed": 58,
+      "tests_failed": 2,
+      "subtests_passed": 57,
+      "elapsed_seconds": 9.99,
+      "diagnosis": "The two unchanged Family272 subprocess tests run python -m rigorous, which requires cwd rows/272. A direct help probe reports No module named rigorous at repository root and succeeds from rows/272. No packet or historical source was changed."
+    },
+    {
+      "command": "python -m pytest rigorous -q",
+      "cwd": "destination rows/272 (documented package directory)",
+      "exit_code": 0,
+      "tests_passed": 47,
+      "elapsed_seconds": 1.73
+    }
+  ],
+  "negative_controls": [
+    "Missing degree",
+    "Degrees zero and one included",
+    "Changed parameters",
+    "Both cutoff boundaries shifted",
+    "Even middle eigenspace counted twice",
+    "One extra vector at partial boundary, with arithmetic fields coherently updated",
+    "Invalid polynomial-sampling domains",
+    "Optimized Python retains failure detection"
+  ],
+  "search": {
+    "randomness": "none",
+    "domain": "All degree prefixes needed for the explicitly stated finite inequality; full selection 2..49963, individually certified 49964..50212",
+    "stopping_rule": "Exact positive surplus with every degree inequality checked; this is not a search for a stronger geometric theorem",
+    "completed": true
+  },
+  "review": {
+    "agent": "family361_spectral_review",
+    "status": "No outstanding findings on finite claim",
+    "human": false,
+    "kernel": false,
+    "limitations": [
+      "Metric construction unchecked",
+      "Transmission/control arguments unchecked",
+      "Growth argument unchecked",
+      "Sufficient criterion, not maximum allowed exponent selection"
+    ]
+  },
+  "publication_status": "ready; refreshed upstream main and open PRs show no overlap",
+  "artifacts": {
+    "check.py": "9436afb3ca983bc53ddbb5475626c1077219b595e48100489c04e03432e0bbeb",
+    "review_check.py": "81d17f20e9553b39770e9fdcd5689e49e2ef30ab4f079a5199125bcf216b041a",
+    "certificate.json": "d727e20a2df0bf24e0a1710ab9767502fa4dd5407af8d2b6a8a3ea83f09ed543",
+    "test_check.py": "32a2be699bf7fe49188398222c6a207f2ffe7b0b880fc9c888c7dc384b669512"
+  }
+}

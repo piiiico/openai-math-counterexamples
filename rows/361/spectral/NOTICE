@@ -1,0 +1,16 @@
+Family 361 exact spectral-selection certificate
+Copyright 2026 Alexander Richard Towell
+
+Developed with substantial OpenAI Codex assistance, including a separately
+tasked AI mathematical review. No human peer review is claimed.
+
+The finite spectral selection, multiplicities and parameter values originate
+in OpenAI's manuscript A counterexample to integer-degree harmonic dimension
+comparison, openai/math commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb,
+Apache-2.0. The source credits Tanno for the Hopf-charge decomposition.
+
+This independent implementation uses the classical variance, finite-difference,
+Vandermonde and hockey-stick identities. It follows Pico's row361 census
+entry in piiiico/openai-math-counterexamples, which identified the source's
+finite counting script without rerunning it. The full metric construction
+is outside this packet's scope.
