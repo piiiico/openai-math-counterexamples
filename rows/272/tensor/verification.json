@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "author": "Alexander Richard Towell",
+  "assistance": "Substantial OpenAI Codex assistance; separate AI review, not human or kernel review.",
+  "source_pins": [
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "directory": "preprints/Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026/build/source",
+      "files": [
+        "sections/geometry.tex",
+        "sections/certificate.tex",
+        "sections/foundations.tex"
+      ]
+    },
+    {
+      "repository": "piiiico/openai-math-counterexamples",
+      "commit": "f8fd99fcb55c044c645083b162af9fd323d189cf",
+      "directory": "rows/272/rigorous"
+    },
+    {
+      "local_workspace_base": "07387305938fa9fa603bfc337bba3fb5b051ccae"
+    }
+  ],
+  "environment": {
+    "python": "3.10.20",
+    "python-flint": "0.9.0",
+    "FLINT": "3.6.0",
+    "sympy": "1.14.0",
+    "pytest": "9.1.1"
+  },
+  "checks": [
+    {
+      "command": ".venv/bin/python -m research.family272 verify",
+      "exit_code": 0,
+      "elapsed_seconds": 19.024,
+      "points": 20,
+      "subsets_checked": 184756,
+      "subsets_total": 184756,
+      "maximal_minors": 15,
+      "minimum_normalized_determinant_lower_bound": "greater than 1.4436e-11",
+      "certificate_sha256": "01f1558476f106aa14c359b3671f0d56ed9924553f661da3719948c9ca595607"
+    },
+    {
+      "command": ".venv/bin/python -m pytest -q --cov=research.family272_tensor --cov-report=term-missing",
+      "exit_code": 0,
+      "tests_passed": 145,
+      "subtests_passed": 5,
+      "elapsed_seconds": 16.31,
+      "note": "Full workspace before four final controls were added."
+    },
+    {
+      "command": ".venv/bin/python -m pytest research/family272_tensor -q --cov=research.family272_tensor.checker --cov-report=term-missing",
+      "exit_code": 0,
+      "tests_passed": 16,
+      "elapsed_seconds": 2.29,
+      "checker_statement_coverage_percent": 100
+    },
+    {
+      "command": "python -m pytest rigorous tensor -q",
+      "cwd": "rows/272",
+      "exit_code": 0,
+      "tests_passed": 63,
+      "elapsed_seconds": 3.31
+    },
+    {
+      "command": ".venv/bin/python -m pytest -q",
+      "cwd": "original research workspace",
+      "exit_code": 0,
+      "tests_passed": 149,
+      "subtests_passed": 5,
+      "elapsed_seconds": 6.33
+    },
+    {
+      "command": "python -m tensor rigorous/pencil.json",
+      "cwd": "rows/272",
+      "exit_code": 0,
+      "status": "certified",
+      "elapsed_seconds": 0.104296,
+      "evidence_sha256": "3fb937f2977c14c6cf840e00a2f9cca9b02db077942c02ccc2ed7e2ac0fff650"
+    },
+    {
+      "command": "git diff --check",
+      "cwd": "destination checkout",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python research/family272_tensor/review_check.py",
+      "exit_code": 0,
+      "checks": "Explicit U0,V0,E Kraus constructions, both 10x10 PPT maps, normalization, fifteen independent SymPy determinants, 100 polynomial identities."
+    },
+    {
+      "command": ".venv/bin/python -O research/family272_tensor/review_check.py",
+      "exit_code": 1,
+      "expected": "Refuse disabled assertions rather than silently accept."
+    }
+  ],
+  "failure_controls": [
+    "pencil block-symmetry mutation",
+    "orthogonal but wrong exterior complement",
+    "nonorthogonal complement",
+    "zero composite",
+    "each saved certificate component mutated",
+    "wrong source pencil",
+    "CP identity-map Choi fails both transpose identities",
+    "CLI tampered certificate exits 1 with and without python -O"
+  ],
+  "precision_control": "Scaling the entire pencil by 10^6 multiplies the positive composite witness by 10^48 with rank unchanged.",
+  "proof_scope": "Exact finite identities plus written geometric argument, conditional on separately certified twenty-direction geometry.",
+  "not_checked": [
+    "operational secret-key theorem",
+    "trace preservation",
+    "arbitrary-pencil tensor criterion",
+    "proof-assistant formalization"
+  ],
+  "review": "review.md",
+  "overlap_refresh": {
+    "destination_main": "f8fd99fcb55c044c645083b162af9fd323d189cf",
+    "open_pull_requests": 0,
+    "coordination": "Maintainer invited this precise next step in PR #1 comment 6170707922. No coordination issue or template exists."
+  },
+  "artifact_sha256": {
+    "certificate.json": "44511e2c4a717d1e9f504ee96234d86ea47f42d367e960bf25dfcb14dea43aed",
+    "checker.py": "9ace8f3c952e3e47e723d11b76b7a2eb5ab490af9b3a17d2aeffd98e40c68f1a",
+    "result.json": "d1acf69190499bd7c9bdeb26acc559d52b8cfefeef2a7c709c5ed529c7ef75bf",
+    "review_check.py": "e12948c67bf4fee1dba18c01d65e7170eb49a5022037f2e5bbf67605dbf856dd"
+  },
+  "pencil_sha256": "96d9e33f225437f6bb4d1287881aac1f16cb626c0e700c9cd04c7254d555e740",
+  "integration_notes": [
+    "An initial outside-directory run exposed a current-working-directory assumption in new CLI tests; the tests now derive their package root, and all sixteen pass from either workspace.",
+    "The unchanged predecessor CLI tests require the documented rows/272 working directory; running from the research parent produced two import errors, not failed mathematical checks. The documented integrated invocation passed all 63 tests."
+  ]
+}
