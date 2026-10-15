@@ -1,0 +1,23 @@
+Family272 exact channel completion certificate
+Copyright 2026 Alexander Richard Towell
+
+Developed with substantial OpenAI Codex assistance, including a separately
+tasked AI review and independent finite implementation. No human peer review
+or proof-assistant kernel verification is claimed.
+
+The generic two-block absorbing-flag construction is from Proposition
+prop:channel-completion in OpenAI's manuscript Entanglement with zero
+distillable secret key in local dimension ten, openai/math commit
+fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb, sections/applications.tex,
+Apache-2.0. It credits Christandl, Müller-Hermes and Wolf (2019), and
+Filippov (2021). This packet instantiates that construction independently
+with the integer-coordinate map pair; it claims no new normalization theorem.
+
+Predecessors: Pico's numerical row272 audit and Alexander Richard Towell's
+rigorous geometry certificate (PR1) and exact tensor certificate (PR2).
+Pico independently reran the tensor packet and added a manuscript-based
+floating-point cross-check in accepted source commit
+ed7f37e344741993ca825d3978519cba111fc829.
+The non-entanglement-breaking consequence inherits their geometric
+verification and the written local-compression argument.
+The operational zero-secret-key theorem is not checked.

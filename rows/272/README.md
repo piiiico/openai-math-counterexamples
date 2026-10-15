@@ -13,6 +13,14 @@
   nonzero complex product vector in its range. This closes the finite
   geometry-to-tensor interface; it does not check the secret-key theorem or
   claim trace-preserving maps.
+- [channel/](channel/README.md): Towell's exact instantiation of the source's
+  existing absorbing-flag completion, developed with substantial OpenAI
+  Codex assistance. It certifies a trace-preserving PPT channel in dimension
+  21, its full square, and the entangled corner inherited from tensor/.
+  An independent matrix-unit implementation reproduces both saved Choi
+  matrices. The full square range contains the flag product vector; the
+  non-entanglement-breaking consequence uses local compression, and no
+  secret-key conclusion is checked.
 
 The packets preserve the original audit and its attribution. See their READMEs
 for pinned dependencies, reproduction, proofs, and limitations.

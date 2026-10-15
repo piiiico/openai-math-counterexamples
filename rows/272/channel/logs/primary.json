@@ -1,0 +1,27 @@
+{
+  "status": "certified",
+  "scope": "exact_trace_preserving_PPT_channel_and_square_corner",
+  "dimension": 21,
+  "denominator": 4923191,
+  "square_denominator": 24237809622481,
+  "channel_choi_rank": 51,
+  "square_choi_rank": 137,
+  "flag_effect_gram_columns": [
+    6058,
+    6780
+  ],
+  "square_corner_trace_numerator": 1381419987480,
+  "square_corner_rank": 80,
+  "square_corner_positive_entry": 40310784,
+  "flag_product_vector_in_square_range": true,
+  "channel_nonzero_entries": 6207,
+  "square_nonzero_entries": 11425,
+  "source_tensor_sha256": "3fb937f2977c14c6cf840e00a2f9cca9b02db077942c02ccc2ed7e2ac0fff650",
+  "certificate_sha256": "e8ce4d253b1e6f9e6d7fd21f3066442269093d52467b17b8756c50d4c88f6c12",
+  "geometry_replayed": false,
+  "secret_key_claim_checked": false,
+  "non_entanglement_breaking_consequence": "written local-compression argument plus separately certified geometry",
+  "tensor_file_sha256": "44511e2c4a717d1e9f504ee96234d86ea47f42d367e960bf25dfcb14dea43aed",
+  "certificate_file_sha256": "66fa1112d4cb65a7cd638061c842d7f40dfe632d03f4595e0ea957a48c4af53c",
+  "elapsed_seconds": 0.746578
+}
