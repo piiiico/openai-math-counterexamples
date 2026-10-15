@@ -1,0 +1,22 @@
+Family 272 exact tensor certificate
+Copyright 2026 Alexander Richard Towell
+
+Developed with substantial OpenAI Codex assistance, including a separately
+tasked AI mathematical review. No human peer review is claimed.
+
+The integer pencil and tensor construction come from OpenAI's manuscript
+Entanglement with zero distillable secret key in local dimension ten,
+openai/math commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb,
+sections/geometry.tex, certificate.tex and foundations.tex, Apache-2.0.
+
+This independently implemented finite check builds on Pico's numerical row
+272 and Alexander Richard Towell's rigorous twenty-direction certificate,
+merged as piiiico/openai-math-counterexamples PR #1. The division-free
+polynomial determinant method adapts the earlier packet's independent
+permutation-expansion method; it is not claimed to be a third independent
+implementation of those same minors.
+
+Credit is retained for the source's classical Choi/PPT machinery and
+product-exclusion argument, including the cited work of Bennett et al.,
+Pittenger and Parthasarathy. This packet does not check the operational
+zero-secret-key theorem.

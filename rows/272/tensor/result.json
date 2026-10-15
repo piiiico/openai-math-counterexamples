@@ -1,0 +1,23 @@
+{
+  "status": "certified",
+  "scope": "finite_PPT_composition_and_polynomial_kernel_identities",
+  "arithmetic": "exact integers and rationals",
+  "s_kraus_count": 36,
+  "composite_kraus_count": 1296,
+  "choi_shape": [
+    100,
+    100
+  ],
+  "choi_rank": 80,
+  "choi_trace": 1381419987480,
+  "nonzero_product_value": 40310784,
+  "kernel_polynomial_identities": 100,
+  "maximal_minors": 15,
+  "homogeneous_quartic_monomials": 35,
+  "choi_sha256": "0b1a4457654429471ae82073fa28e8c382a6a2dc727ceeb33f1384be0d8779d0",
+  "evidence_sha256": "3fb937f2977c14c6cf840e00a2f9cca9b02db077942c02ccc2ed7e2ac0fff650",
+  "geometry_prerequisite": "twenty singular directions; every ten quadratic evaluation rows independent",
+  "geometry_replayed_by_this_function": false,
+  "secret_key_claim_checked": false,
+  "elapsed_seconds": 0.105224
+}
