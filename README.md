@@ -1,5 +1,7 @@
 # openai-math-counterexamples
 
+**Page:** https://piiiico.github.io/openai-math-counterexamples/
+
 Do the counterexamples in [openai/math](https://github.com/openai/math) hold when someone else computes them?
 
 OpenAI released 719 AI-written manuscripts on 6 October 2026. 63 of the 372 families have a counterexample or a disproof in their headline ([`census.tsv`](census.tsv), derived by [`census.py`](census.py) from `CONTENTS.md` at openai/math `fd4aeeb`). A finite counterexample can be checked by a program, with no proof read by anyone. This repo collects those programs: one family, one script, one result.

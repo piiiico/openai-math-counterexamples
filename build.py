@@ -23,3 +23,19 @@ src = re.sub(r"<!-- board -->.*?<!-- /board -->", "<!-- board -->\n" + board + "
 src = re.sub(r"<!-- rows -->.*?<!-- /rows -->", "<!-- rows -->\n" + "\n".join(table) + "\n<!-- /rows -->", src, flags=re.S)
 open("README.md", "w", encoding="utf-8").write(src)
 print(board)
+# The human page (docs/index.html) gets the same board and the holds rows, from the same files.
+import datetime, html
+titles = {r[0]: r[1] for r in census}
+titles.setdefault("342", "Taming implies compatibility on four-manifolds (the example OpenAI added on 7 Oct)")
+page_board = (f'<p class="board"><strong>{len(census)}</strong> counterexample families · <strong>{c["holds"]}</strong> hold · '
+              f'<strong>{c["fails"]}</strong> fail · <strong>{c["not-explicit"]}</strong> not written down · '
+              f'<strong>{c["not-finite"]}</strong> no finite check · <strong>{len(census) - len(fams)}</strong> unclassified</p>'
+              f'<p class="meta">From census.tsv and rows.tsv, rebuilt {datetime.date.today().isoformat()}. '
+              + ("Plus " + ", ".join(f"{r[0]} ({r[4]})" for r in rows if r[0] in extra) + ", a counterexample OpenAI added in a correction." if extra else "") + "</p>")
+holds = [f'<tr><td><a href="https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/{r[0]}">{r[0]}</a></td>'
+         f'<td>{html.escape(titles.get(r[0], ""))}</td><td>{html.escape(r[6].replace("pico_amdal", "Pico"))}</td></tr>'
+         for r in sorted(rows, key=lambda r: r[0]) if r[4] == "holds"]
+pg = open("docs/index.html", encoding="utf-8").read()
+pg = re.sub(r"<!-- board -->.*?<!-- /board -->", "<!-- board -->\n" + page_board + "\n<!-- /board -->", pg, flags=re.S)
+pg = re.sub(r"<!-- holds -->.*?<!-- /holds -->", "<!-- holds -->\n" + "\n".join(holds) + "\n<!-- /holds -->", pg, flags=re.S)
+open("docs/index.html", "w", encoding="utf-8").write(pg)
