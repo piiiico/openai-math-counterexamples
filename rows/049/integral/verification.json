@@ -1,0 +1,446 @@
+{
+  "checked_at": "2026-10-17T10:09:55.185591+00:00",
+  "python": "3.10.20",
+  "checks": [
+    {
+      "label": "exact primary certificate",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "checker.py",
+        "--finite-controls"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 0.905,
+      "stdout": "{\n  \"F_degree\": 17,\n  \"F_terms\": 69,\n  \"assumptions_for_noncoordinate_conclusion\": \"commutative unital base ring with 1 != 0\",\n  \"count\": 15,\n  \"domain\": \"ZZ\",\n  \"finite_controls\": [\n    {\n      \"ambient_points\": 16,\n      \"modulus\": 2,\n      \"parameter_points\": 8,\n      \"zero_fibre_points\": 8\n    },\n    {\n      \"ambient_points\": 81,\n      \"modulus\": 3,\n      \"parameter_points\": 27,\n      \"zero_fibre_points\": 27\n    },\n    {\n      \"ambient_points\": 256,\n      \"modulus\": 4,\n      \"parameter_points\": 64,\n      \"zero_fibre_points\": 64\n    },\n    {\n      \"ambient_points\": 625,\n      \"modulus\": 5,\n      \"parameter_points\": 125,\n      \"zero_fibre_points\": 125\n    },\n    {\n      \"ambient_points\": 1296,\n      \"modulus\": 6,\n      \"parameter_points\": 216,\n      \"zero_fibre_points\": 216\n    },\n    {\n      \"ambient_points\": 4096,\n      \"modulus\": 8,\n      \"parameter_points\": 512,\n      \"zero_fibre_points\": 512\n    },\n    {\n      \"ambient_points\": 6561,\n      \"modulus\": 9,\n      \"parameter_points\": 729,\n      \"zero_fibre_points\": 729\n    }\n  ],\n  \"obligations\": [\n    {\n      \"lhs_terms\": 5,\n      \"name\": \"source cusp\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 5,\n      \"variables\": [\n        \"h\",\n        \"u\",\n        \"v\",\n        \"w\"\n      ]\n    },\n    {\n      \"lhs_terms\": 6,\n      \"name\": \"base shift\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 6,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\"\n      ]\n    },\n    {\n      \"lhs_terms\": 9,\n      \"name\": \"base Bezout\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 9,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"lifting first relation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 7,\n      \"name\": \"lifting third relation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 7,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 5,\n      \"name\": \"lifting compatibility\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 5,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"lifting unit ideal\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 9,\n      \"name\": \"lifting W solves h-equation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 9,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 10,\n      \"name\": \"lifting W solves y-squared-equation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 10,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 8,\n      \"name\": \"lifting ideal elimination\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 8,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 3,\n      \"name\": \"parameter satisfies line\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 3,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 3,\n      \"name\": \"parameter round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 3,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"inverse U round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"inverse G round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"gradient\": [\n        0,\n        0,\n        0,\n        0\n      ],\n      \"name\": \"integral critical section\",\n      \"point\": [\n        2,\n        1,\n        -1,\n        1\n      ],\n      \"x_y_s_F\": [\n        -1,\n        1,\n        1,\n        -1\n      ]\n    }\n  ],\n  \"scope\": \"September 24 companion; written universal-ring argument in PROOF.md; not a Lean proof\",\n  \"status\": \"certified integer polynomial identities\"\n}\nRESULT: certified integer polynomial identities and integral critical section\n",
+      "stderr": ""
+    },
+    {
+      "label": "unit and subprocess integration",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".",
+        "-v"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 5.122,
+      "stdout": "",
+      "stderr": "test_characteristic_two_critical_section_is_off_zero_fibre (test_checker.IntegralCertificateTests) ... ok\ntest_corrupted_formulas_and_noncritical_point_are_rejected (test_checker.IntegralCertificateTests) ... ok\ntest_empty_finite_control_domain_is_rejected (test_checker.IntegralCertificateTests) ... ok\ntest_finite_controls_reject_corrupted_inverse (test_checker.IntegralCertificateTests) ... ok\ntest_finite_ring_controls_include_zero_divisors (test_checker.IntegralCertificateTests) ... ok\ntest_integral_certificate_cli (test_checker.IntegralCertificateTests) ... ok\ntest_integral_critical_section_and_complete_obligations (test_checker.IntegralCertificateTests) ... ok\ntest_malformed_critical_point_is_rejected (test_checker.IntegralCertificateTests) ... ok\ntest_optimized_cli_rejects_every_mutation (test_checker.IntegralCertificateTests) ... ok\ntest_optimized_cli_with_finite_controls_passes (test_checker.IntegralCertificateTests) ... ok\ntest_zero_ring_and_noninteger_modulus_are_rejected (test_checker.IntegralCertificateTests) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 4.659s\n\nOK\n"
+    },
+    {
+      "label": "optimized primary certificate",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--finite-controls"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 0.927,
+      "stdout": "{\n  \"F_degree\": 17,\n  \"F_terms\": 69,\n  \"assumptions_for_noncoordinate_conclusion\": \"commutative unital base ring with 1 != 0\",\n  \"count\": 15,\n  \"domain\": \"ZZ\",\n  \"finite_controls\": [\n    {\n      \"ambient_points\": 16,\n      \"modulus\": 2,\n      \"parameter_points\": 8,\n      \"zero_fibre_points\": 8\n    },\n    {\n      \"ambient_points\": 81,\n      \"modulus\": 3,\n      \"parameter_points\": 27,\n      \"zero_fibre_points\": 27\n    },\n    {\n      \"ambient_points\": 256,\n      \"modulus\": 4,\n      \"parameter_points\": 64,\n      \"zero_fibre_points\": 64\n    },\n    {\n      \"ambient_points\": 625,\n      \"modulus\": 5,\n      \"parameter_points\": 125,\n      \"zero_fibre_points\": 125\n    },\n    {\n      \"ambient_points\": 1296,\n      \"modulus\": 6,\n      \"parameter_points\": 216,\n      \"zero_fibre_points\": 216\n    },\n    {\n      \"ambient_points\": 4096,\n      \"modulus\": 8,\n      \"parameter_points\": 512,\n      \"zero_fibre_points\": 512\n    },\n    {\n      \"ambient_points\": 6561,\n      \"modulus\": 9,\n      \"parameter_points\": 729,\n      \"zero_fibre_points\": 729\n    }\n  ],\n  \"obligations\": [\n    {\n      \"lhs_terms\": 5,\n      \"name\": \"source cusp\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 5,\n      \"variables\": [\n        \"h\",\n        \"u\",\n        \"v\",\n        \"w\"\n      ]\n    },\n    {\n      \"lhs_terms\": 6,\n      \"name\": \"base shift\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 6,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\"\n      ]\n    },\n    {\n      \"lhs_terms\": 9,\n      \"name\": \"base Bezout\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 9,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"lifting first relation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 7,\n      \"name\": \"lifting third relation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 7,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 5,\n      \"name\": \"lifting compatibility\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 5,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"lifting unit ideal\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 9,\n      \"name\": \"lifting W solves h-equation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 9,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 10,\n      \"name\": \"lifting W solves y-squared-equation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 10,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 8,\n      \"name\": \"lifting ideal elimination\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 8,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 3,\n      \"name\": \"parameter satisfies line\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 3,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 3,\n      \"name\": \"parameter round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 3,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"inverse U round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"inverse G round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"gradient\": [\n        0,\n        0,\n        0,\n        0\n      ],\n      \"name\": \"integral critical section\",\n      \"point\": [\n        2,\n        1,\n        -1,\n        1\n      ],\n      \"x_y_s_F\": [\n        -1,\n        1,\n        1,\n        -1\n      ]\n    }\n  ],\n  \"scope\": \"September 24 companion; written universal-ring argument in PROOF.md; not a Lean proof\",\n  \"status\": \"certified integer polynomial identities\"\n}\nRESULT: certified integer polynomial identities and integral critical section\n",
+      "stderr": ""
+    },
+    {
+      "label": "primary rejection cusp",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "cusp"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 1,
+      "exit": 1,
+      "seconds": 0.507,
+      "stdout": "",
+      "stderr": "RESULT: not certified (source cusp: nonzero integer polynomial residual)\n"
+    },
+    {
+      "label": "primary rejection bezout",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "bezout"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 1,
+      "exit": 1,
+      "seconds": 0.534,
+      "stdout": "",
+      "stderr": "RESULT: not certified (base Bezout: nonzero integer polynomial residual)\n"
+    },
+    {
+      "label": "primary rejection inverse",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "inverse"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 1,
+      "exit": 1,
+      "seconds": 0.652,
+      "stdout": "",
+      "stderr": "RESULT: not certified (lifting third relation: nonzero integer polynomial residual)\n"
+    },
+    {
+      "label": "primary rejection point",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "point"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 1,
+      "exit": 1,
+      "seconds": 0.942,
+      "stdout": "",
+      "stderr": "RESULT: not certified (integral critical section is not certified)\n"
+    },
+    {
+      "label": "independent FLINT and dual replay",
+      "argv": [
+        "/home/spinoza/github/math-research/.venv/bin/python",
+        "independent_replay.py"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 0.858,
+      "stdout": "{\n  \"F\": -1,\n  \"finite_rings\": [\n    {\n      \"ambient_points\": 256,\n      \"parameter_points\": 64,\n      \"ring\": \"F2[e]/(e^2)\",\n      \"zero_fibre_points\": 64\n    },\n    {\n      \"ambient_points\": 6561,\n      \"parameter_points\": 729,\n      \"ring\": \"F3[e]/(e^2)\",\n      \"zero_fibre_points\": 729\n    }\n  ],\n  \"gradient\": [\n    0,\n    0,\n    0,\n    0\n  ],\n  \"integer_polynomial_identities\": 14,\n  \"point\": [\n    2,\n    1,\n    -1,\n    1\n  ]\n}\nRESULT: independent replay passed (FLINT identities and dual arithmetic)\n",
+      "stderr": ""
+    },
+    {
+      "label": "independent rejection identity",
+      "argv": [
+        "/home/spinoza/github/math-research/.venv/bin/python",
+        "-O",
+        "independent_replay.py",
+        "--negative-control",
+        "identity"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 1,
+      "exit": 1,
+      "seconds": 0.11,
+      "stdout": "",
+      "stderr": "RESULT: independent replay rejected (FLINT cusp identity failed)\n"
+    },
+    {
+      "label": "independent rejection point",
+      "argv": [
+        "/home/spinoza/github/math-research/.venv/bin/python",
+        "-O",
+        "independent_replay.py",
+        "--negative-control",
+        "point"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 1,
+      "exit": 1,
+      "seconds": 0.1,
+      "stdout": "",
+      "stderr": "RESULT: independent replay rejected (dual critical value failed)\n"
+    },
+    {
+      "label": "independent rejection inverse",
+      "argv": [
+        "/home/spinoza/github/math-research/.venv/bin/python",
+        "-O",
+        "independent_replay.py",
+        "--negative-control",
+        "inverse"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 1,
+      "exit": 1,
+      "seconds": 0.096,
+      "stdout": "",
+      "stderr": "RESULT: independent replay rejected (dual parameter round trip failed)\n"
+    },
+    {
+      "label": "versions",
+      "argv": [
+        "/home/spinoza/github/math-research/.venv/bin/python",
+        "-c",
+        "import sys,flint;print(sys.version);print(\"python-flint\",flint.__version__);print(\"FLINT\",flint.__FLINT_VERSION__)"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 0.095,
+      "stdout": "3.10.20 (main, Mar  3 2026, 14:59:16) [Clang 21.1.4 ]\npython-flint 0.9.0\nFLINT 3.6.0\n",
+      "stderr": ""
+    },
+    {
+      "label": "primary dependency versions",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-c",
+        "import sys,sympy,coverage;print(sys.version);print(\"SymPy\",sympy.__version__);print(\"coverage\",coverage.__version__)"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 0.756,
+      "stdout": "3.10.20 (main, Mar  3 2026, 14:59:16) [Clang 21.1.4 ]\nSymPy 1.14.0\ncoverage 7.15.0\n",
+      "stderr": ""
+    },
+    {
+      "label": "scoped branch coverage",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "coverage",
+        "run",
+        "--branch",
+        "--source=checker",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "."
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 8.811,
+      "stdout": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 7.908s\n\nOK\n"
+    },
+    {
+      "label": "coverage report",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "coverage",
+        "report",
+        "-m"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 0.244,
+      "stdout": "Name         Stmts   Miss Branch BrPart  Cover   Missing\n--------------------------------------------------------\nchecker.py     140     26     38      3    78%   154, 156, 165-187, 191\n--------------------------------------------------------\nTOTAL          140     26     38      3    78%\n",
+      "stderr": ""
+    },
+    {
+      "label": "coverage JSON",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "coverage",
+        "json",
+        "-o",
+        "coverage.json"
+      ],
+      "cwd": "research/family049_integral",
+      "expected_exit": 0,
+      "exit": 0,
+      "seconds": 0.282,
+      "stdout": "",
+      "stderr": "Wrote JSON report to coverage.json\n"
+    },
+    {
+      "label": "coverage unit and integration",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "coverage",
+        "run",
+        "--branch",
+        "--source=checker",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "."
+      ],
+      "cwd": "research/family049_integral",
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 5.911,
+      "stdout": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 5.121s\n\nOK\n"
+    },
+    {
+      "label": "coverage primary CLI",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "coverage",
+        "run",
+        "--append",
+        "--branch",
+        "--source=checker",
+        "checker.py",
+        "--finite-controls"
+      ],
+      "cwd": "research/family049_integral",
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 1.716,
+      "stdout": "{\n  \"F_degree\": 17,\n  \"F_terms\": 69,\n  \"assumptions_for_noncoordinate_conclusion\": \"commutative unital base ring with 1 != 0\",\n  \"count\": 15,\n  \"domain\": \"ZZ\",\n  \"finite_controls\": [\n    {\n      \"ambient_points\": 16,\n      \"modulus\": 2,\n      \"parameter_points\": 8,\n      \"zero_fibre_points\": 8\n    },\n    {\n      \"ambient_points\": 81,\n      \"modulus\": 3,\n      \"parameter_points\": 27,\n      \"zero_fibre_points\": 27\n    },\n    {\n      \"ambient_points\": 256,\n      \"modulus\": 4,\n      \"parameter_points\": 64,\n      \"zero_fibre_points\": 64\n    },\n    {\n      \"ambient_points\": 625,\n      \"modulus\": 5,\n      \"parameter_points\": 125,\n      \"zero_fibre_points\": 125\n    },\n    {\n      \"ambient_points\": 1296,\n      \"modulus\": 6,\n      \"parameter_points\": 216,\n      \"zero_fibre_points\": 216\n    },\n    {\n      \"ambient_points\": 4096,\n      \"modulus\": 8,\n      \"parameter_points\": 512,\n      \"zero_fibre_points\": 512\n    },\n    {\n      \"ambient_points\": 6561,\n      \"modulus\": 9,\n      \"parameter_points\": 729,\n      \"zero_fibre_points\": 729\n    }\n  ],\n  \"obligations\": [\n    {\n      \"lhs_terms\": 5,\n      \"name\": \"source cusp\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 5,\n      \"variables\": [\n        \"h\",\n        \"u\",\n        \"v\",\n        \"w\"\n      ]\n    },\n    {\n      \"lhs_terms\": 6,\n      \"name\": \"base shift\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 6,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\"\n      ]\n    },\n    {\n      \"lhs_terms\": 9,\n      \"name\": \"base Bezout\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 9,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"lifting first relation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 7,\n      \"name\": \"lifting third relation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 7,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 5,\n      \"name\": \"lifting compatibility\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 5,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"lifting unit ideal\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 9,\n      \"name\": \"lifting W solves h-equation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 9,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 10,\n      \"name\": \"lifting W solves y-squared-equation\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 10,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 8,\n      \"name\": \"lifting ideal elimination\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 8,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 3,\n      \"name\": \"parameter satisfies line\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 3,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 3,\n      \"name\": \"parameter round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 3,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"inverse U round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"lhs_terms\": 4,\n      \"name\": \"inverse G round trip\",\n      \"residual_terms\": 0,\n      \"rhs_terms\": 4,\n      \"variables\": [\n        \"h\",\n        \"x\",\n        \"y\",\n        \"s\",\n        \"alpha\",\n        \"beta\",\n        \"U\",\n        \"G\",\n        \"W\",\n        \"T\"\n      ]\n    },\n    {\n      \"gradient\": [\n        0,\n        0,\n        0,\n        0\n      ],\n      \"name\": \"integral critical section\",\n      \"point\": [\n        2,\n        1,\n        -1,\n        1\n      ],\n      \"x_y_s_F\": [\n        -1,\n        1,\n        1,\n        -1\n      ]\n    }\n  ],\n  \"scope\": \"September 24 companion; written universal-ring argument in PROOF.md; not a Lean proof\",\n  \"status\": \"certified integer polynomial identities\"\n}\nRESULT: certified integer polynomial identities and integral critical section\n",
+      "stderr": ""
+    },
+    {
+      "label": "coverage negative CLI cusp",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "-m",
+        "coverage",
+        "run",
+        "--append",
+        "--branch",
+        "--source=checker",
+        "checker.py",
+        "--negative-control",
+        "cusp"
+      ],
+      "cwd": "research/family049_integral",
+      "exit": 1,
+      "expected_exit": 1,
+      "seconds": 1.006,
+      "stdout": "",
+      "stderr": "RESULT: not certified (source cusp: nonzero integer polynomial residual)\n"
+    },
+    {
+      "label": "coverage negative CLI bezout",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "-m",
+        "coverage",
+        "run",
+        "--append",
+        "--branch",
+        "--source=checker",
+        "checker.py",
+        "--negative-control",
+        "bezout"
+      ],
+      "cwd": "research/family049_integral",
+      "exit": 1,
+      "expected_exit": 1,
+      "seconds": 0.738,
+      "stdout": "",
+      "stderr": "RESULT: not certified (base Bezout: nonzero integer polynomial residual)\n"
+    },
+    {
+      "label": "coverage negative CLI inverse",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "-m",
+        "coverage",
+        "run",
+        "--append",
+        "--branch",
+        "--source=checker",
+        "checker.py",
+        "--negative-control",
+        "inverse"
+      ],
+      "cwd": "research/family049_integral",
+      "exit": 1,
+      "expected_exit": 1,
+      "seconds": 0.774,
+      "stdout": "",
+      "stderr": "RESULT: not certified (lifting third relation: nonzero integer polynomial residual)\n"
+    },
+    {
+      "label": "coverage negative CLI point",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "-m",
+        "coverage",
+        "run",
+        "--append",
+        "--branch",
+        "--source=checker",
+        "checker.py",
+        "--negative-control",
+        "point"
+      ],
+      "cwd": "research/family049_integral",
+      "exit": 1,
+      "expected_exit": 1,
+      "seconds": 1.268,
+      "stdout": "",
+      "stderr": "RESULT: not certified (integral critical section is not certified)\n"
+    },
+    {
+      "label": "combined coverage report",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "coverage",
+        "report",
+        "-m"
+      ],
+      "cwd": "research/family049_integral",
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 0.16,
+      "stdout": "Name         Stmts   Miss Branch BrPart  Cover   Missing\n--------------------------------------------------------\nchecker.py     140      2     38      3    97%   154, 156, 180->185\n--------------------------------------------------------\nTOTAL          140      2     38      3    97%\n",
+      "stderr": ""
+    },
+    {
+      "label": "combined coverage JSON",
+      "argv": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "coverage",
+        "json",
+        "-o",
+        "coverage.json"
+      ],
+      "cwd": "research/family049_integral",
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 0.164,
+      "stdout": "",
+      "stderr": "Wrote JSON report to coverage.json\n"
+    }
+  ],
+  "files_sha256": {
+    "LICENSE": "0bc7f950be7c67cd218b910b42527e71099c9ef3cf9bc1c1bf77e99468fda2ec",
+    "PROOF.md": "9a3362fa084c6f65964262fadc5adbab38a44f9ce84e6798414931a8c1b53f75",
+    "README.md": "7b01b250c6241ecc081c2ba2a2aaef64463850cf4ae314be9202baf7fad8145d",
+    "SOURCE-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "checker.py": "f925ea874f6bd05cc806ab5ac61f2bfdc38c5d5957ef41e80b1876e2824b5e21",
+    "coverage-output.txt": "6c0df578c9802bc756e97b1048fb84cd851f049b4bc708ca77eb7a474d537fcb",
+    "coverage.json": "2631550c07fbcd4a81106211a397d5519aef676081deb575782efdc345d13e06",
+    "independent-output.txt": "b628d4019d92097636effd4168904d1164ca2252d7da50488939633d29631a2a",
+    "independent_replay.py": "c4d5a75fda5f2ef219c17f46fbcc6c54c8ee0f5186c3cb6be50e694044e3ab3a",
+    "output.txt": "535ab1addd6bfa8e07b0184459e1f00118e3a4c9771ab4b6aa5fea8f57c3415f",
+    "requirements-review.txt": "4cef508304e84c21f73cf412712165dc26e40978cb784bc08a876948b559d90d",
+    "requirements.txt": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+    "review.md": "eeb10e4a537fc5d784f1c2aeacb64b3ba46b5b0320e9986b971f8bd781dfb735",
+    "source-pins.json": "b168e70fd2163e997e1bb1371c357f1b32f07ea2af1cb81acd9afe427aee2f9a",
+    "test_checker.py": "8cd78d207804155c0dd373fd7456d14a1f9fec5102fe870098751eb25b06b0ec",
+    "tests-output.txt": "e58e180e365fee567ce208ee2a766319b88d9cbef1ee0a42aba4867647de65d4"
+  },
+  "scope": "Exact integer polynomial identities and finite-ring controls supporting written universal-ring proof; not kernel verification or human review.",
+  "coverage_note": "Combined primary unit and direct CLI traces. Two defensive finite-control rejection branches are not independently triggered; CLI acceptance/rejection is also tested in separate optimized subprocesses.",
+  "archive_working_directory": "research/family049_integral",
+  "destination_working_directory": "rows/049/integral"
+}

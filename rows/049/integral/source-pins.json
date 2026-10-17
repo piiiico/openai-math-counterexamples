@@ -1,0 +1,72 @@
+{
+  "source_files": [
+    {
+      "repository": "openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/An-explicit-noncoordinate-polynomial-with-affine-three-space-zero-fibre-September-24-2026/build/paper.tex",
+      "sha256": "60993c0b524291b7f707e42eec89ec7e910c22760d81f1d3af007c229228c13c",
+      "role": "mathematical formulas and arbitrary-ring lifting lemma"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/OAI/AlgebraicGeometry/AbhyankarSathaye/CriticalPoint.lean",
+      "sha256": "8482fed2b765a9cdcbb651302ce0f1dd9916a009bd785bca371640b01974e33b",
+      "role": "bounded statement/critical-point overlap inspection; not rebuilt"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/OAI/AlgebraicGeometry/AbhyankarSathaye/Counterexample.lean",
+      "sha256": "75c94499e489e26905564aa853cde0875bbab6354d29aff7ebb8bf80899bb04f",
+      "role": "bounded statement/critical-point overlap inspection; not rebuilt"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/OAI/AlgebraicGeometry/AbhyankarSathaye/Fiber.lean",
+      "sha256": "d00e86d6250e5f0b63af7a486134d58fe2d60b50c1ff8c6f1d109f6d44156c49",
+      "role": "bounded statement/critical-point overlap inspection; not rebuilt"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/OAI/AlgebraicGeometry/AbhyankarSathaye/NonCoordinate.lean",
+      "sha256": "4d65effda7f183af78ad4c46ad3ea01cf9eb9ec8cc9aba113160a2e61f3c2ac8",
+      "role": "bounded statement/critical-point overlap inspection; not rebuilt"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "role": "source license"
+    }
+  ],
+  "archive_base": "52ab73b360fba80b177a85be7393bc6c6c6d79b0",
+  "destination_base": "dbd2e8f440ac8f4a7fe4a4b6515a9d95065eceb7",
+  "predecessor": {
+    "repository": "carlostoledo1891/cert-machine",
+    "commit": "3fabbb80f8a4e9df8c3e623d28259823b4c3a05a",
+    "path": "instruments/openaimath/finite/f106_abhyankar_sathaye.py",
+    "role": "prior exact integer inverse-map certificate; inspected for overlap, not copied",
+    "sha256": "ab48acb2a98b1f995639f0fa4bceb04b796021e81b170bd7767120ad31c42508"
+  },
+  "coordination_claim": "https://github.com/piiiico/openai-math-counterexamples/issues/7",
+  "attribution": {
+    "contributor": "Alexander Richard Towell",
+    "ai_assistance": "Substantial OpenAI Codex assistance; one separately tasked AI reviewer; no human peer review claimed"
+  },
+  "destination_instructions": [
+    {
+      "path": "AGENTS.md",
+      "commit": "dbd2e8f440ac8f4a7fe4a4b6515a9d95065eceb7",
+      "sha256": "5acbd38fd3db234262f01e09202f9023cc30578be277eb5850b59354fe7697b2"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "commit": "dbd2e8f440ac8f4a7fe4a4b6515a9d95065eceb7",
+      "sha256": "c47a7cee7a623e1a1d5538ec92e04357c776db9fbfb285aec4d50ddc16c87de3"
+    }
+  ]
+}

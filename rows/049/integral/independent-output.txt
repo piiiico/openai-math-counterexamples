@@ -1,0 +1,31 @@
+{
+  "F": -1,
+  "finite_rings": [
+    {
+      "ambient_points": 256,
+      "parameter_points": 64,
+      "ring": "F2[e]/(e^2)",
+      "zero_fibre_points": 64
+    },
+    {
+      "ambient_points": 6561,
+      "parameter_points": 729,
+      "ring": "F3[e]/(e^2)",
+      "zero_fibre_points": 729
+    }
+  ],
+  "gradient": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "integer_polynomial_identities": 14,
+  "point": [
+    2,
+    1,
+    -1,
+    1
+  ]
+}
+RESULT: independent replay passed (FLINT identities and dual arithmetic)
