@@ -1,0 +1,51 @@
+{
+  "arithmetic": "exact rational sufficient inequalities; outward decimal summaries",
+  "block_log2": 512,
+  "block_sign_count": 13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096,
+  "cdf_error_binary_exponent": 256,
+  "cell_degree_upper_bound": 224945703134967749083124024958324091149330983394461652247431156354153322755338423589499011107068841024399473221707902942646464156528597796396995705476907198840832,
+  "central_upper_enclosure": "0.112260923650",
+  "certified_gain_ratio_lower": "1/50",
+  "classical_dependency": "iid Berry--Esseen C<=1; see Shevtsova arXiv:1111.6554v1 Corollary 1",
+  "finite_controls": {
+    "reports": [
+      {
+        "central_block": 4,
+        "deficit": "-905/4096",
+        "identity_checked_exactly": true,
+        "interval_atoms_included": true,
+        "leaf_blocks": 4,
+        "report_cells": 107,
+        "retained_variance": "7227/2560",
+        "weighted_input_tuples": 625
+      },
+      {
+        "central_block": 16,
+        "deficit": "-125059/524288",
+        "identity_checked_exactly": true,
+        "interval_atoms_included": true,
+        "leaf_blocks": 4,
+        "report_cells": 359,
+        "retained_variance": "5949189477/2135425024",
+        "weighted_input_tuples": 2125
+      }
+    ],
+    "restricted_moments": {
+      "exact_CDF_distance": "5853/65536",
+      "interval_endpoint_cases": 612,
+      "two_sided_second_moment_cases": 3
+    },
+    "scope": "complete small weighted binomial examples; not proof by sampling or large-N enumeration"
+  },
+  "finite_interval_mass_binary_exponent": 86,
+  "gain_ratio_lower_enclosure": "0.026467562004",
+  "input_blocks": 16777218,
+  "mean_bias_upper_enclosure": "0.000000000001904255",
+  "product_mass_binary_exponent": 1442840662,
+  "scope": "one explicit finite observation stage; no amplification or final Boolean readout; written proof, not Lean",
+  "status": "certified finite-sign scalar budget",
+  "tail_cutoff": 16,
+  "tail_upper_enclosure": "0.001896514346",
+  "total_sign_count": 224945716542775679025721124532349089355177110873827472839824534077714766477102453663045987908943139191302900911739761129132515010282480608343565651910556204924928
+}
+RESULT: certified finite-sign predictor gain > Q_N/50
