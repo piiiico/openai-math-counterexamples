@@ -1,0 +1,1 @@
+RESULT: not certified (uniform fourth-moment bound is insufficient)

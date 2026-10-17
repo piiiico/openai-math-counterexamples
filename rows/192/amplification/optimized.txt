@@ -1,0 +1,122 @@
+{
+  "arithmetic": "exact rational scalar inequalities; symbolic stage count not expanded",
+  "cdf_error_binary_exponent": 256,
+  "central_upper_enclosure": "0.112260923650",
+  "certified_gain_ratio_lower": "1/50",
+  "classical_dependency": "iid Berry--Esseen C<=1; Shevtsova1111.6554v1 Corollary1",
+  "copy_count": {
+    "binary_exponent": 512,
+    "power_of_current_sign_count": 2
+  },
+  "final_sign_count_power_of_current_sign_count": 3,
+  "finite_controls": {
+    "comparisons": {
+      "exact_comparison_cases": 368,
+      "scope": "rational-square controls plus irrational sqrt(2) boundaries"
+    },
+    "fourier": {
+      "examples": [
+        {
+          "actual_degree": 2,
+          "ambient_signs": 6,
+          "degree_upper": 2,
+          "singleton_sum": "1",
+          "truth_table_entries": 64
+        },
+        {
+          "actual_degree": 4,
+          "ambient_signs": 4,
+          "degree_upper": 4,
+          "singleton_sum": "3/2",
+          "truth_table_entries": 16
+        },
+        {
+          "actual_degree": 8,
+          "ambient_signs": 8,
+          "degree_upper": 8,
+          "singleton_sum": "15/16",
+          "truth_table_entries": 256
+        }
+      ],
+      "truth_table_entries": 336
+    },
+    "recurrences": {
+      "scope": "finite controls of formulas; full induction is written in PROOF.md",
+      "small_recurrence_cases": 36
+    },
+    "scope": "complete stated small domains; no target Boolean truth table evaluated",
+    "score_laws": {
+      "examples": [
+        {
+          "degree": 1,
+          "fourth_identity_cases": 4,
+          "n": 1,
+          "readout_copies": 1,
+          "readout_mean_absolute_sum": "1",
+          "variance": "1"
+        },
+        {
+          "degree": 1,
+          "fourth_identity_cases": 4,
+          "n": 3,
+          "readout_copies": 9,
+          "readout_mean_absolute_sum": "315/128",
+          "variance": "1"
+        },
+        {
+          "degree": 2,
+          "fourth_identity_cases": 4,
+          "n": 2,
+          "readout_copies": 4,
+          "readout_mean_absolute_sum": "27/16",
+          "variance": "4/3"
+        },
+        {
+          "degree": 4,
+          "fourth_identity_cases": 4,
+          "n": 4,
+          "readout_copies": 16,
+          "readout_mean_absolute_sum": "437893890380859375/144115188075855872",
+          "variance": "16/15"
+        }
+      ],
+      "fourth_identity_cases": 16,
+      "one_copy_counterexample": {
+        "half_bound_fails": true,
+        "mean_absolute_score": "1/2",
+        "n": 4,
+        "observation": "whether all four signs are +1",
+        "variance": "16/15"
+      }
+    }
+  },
+  "fourth_moment_upper": 4,
+  "gain_ratio_lower_enclosure": "0.026467562004",
+  "inputs_per_report": 16777218,
+  "leaves": 16777217,
+  "next_degree_bound": {
+    "binary_exponent": 512,
+    "coefficient": 16777217,
+    "power_of_current_degree": 1,
+    "power_of_current_sign_count": 2
+  },
+  "next_sign_count": {
+    "binary_exponent": 512,
+    "coefficient": 16777218,
+    "power_of_current_sign_count": 3
+  },
+  "product_mass_binary_exponent": 1442840662,
+  "ratio_gain_binary_exponent": 1442840692,
+  "readout_copies_power_of_current_sign_count": 2,
+  "readout_normalized_absolute_moment_strict_lower": "1/2",
+  "scope": "written recursive construction and costs; no target truth table or formal proof",
+  "stage_count": {
+    "binary_exponent": 1442840692,
+    "coefficient": 4
+  },
+  "status": "certified scalar amplification and readout budget",
+  "tail_cutoff_binary_exponent": 64,
+  "tail_upper_enclosure": "0.001896514346",
+  "target_integer": 1
+}
+RESULT: certified amplification and readout budgets
