@@ -1,0 +1,114 @@
+{
+  "python": "3.10.20 (main, Mar  3 2026, 14:59:16) [Clang 21.1.4 ]",
+  "primary_dependencies": "standard library",
+  "optional_independent_dependencies": {
+    "python-flint": "0.9.0",
+    "precision_bits": 256
+  },
+  "checks": [
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "checker.py"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.211348,
+      "output": "output.txt",
+      "sha256": "3a2de7dcc8143e7396626a8434acbfacdec23b3a56066a3b01acd5ce29780676"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".",
+        "-v"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 1.27378,
+      "output": "tests.txt",
+      "sha256": "46462024a402998db1632e301ee9a8903b488830ab665d64dc00212c57f63f3d"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "checker.py",
+        "--negative-control",
+        "coarse-grid"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.227983,
+      "output": "negative-coarse.txt",
+      "sha256": "873db4e6aa03bcb86cc21867dd2a8a97704a3e850124758ed88f5a0024e253d7"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "checker.py",
+        "--negative-control",
+        "strong-margin"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.157403,
+      "output": "negative-margin.txt",
+      "sha256": "873db4e6aa03bcb86cc21867dd2a8a97704a3e850124758ed88f5a0024e253d7"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.179257,
+      "output": "optimized.txt",
+      "sha256": "3a2de7dcc8143e7396626a8434acbfacdec23b3a56066a3b01acd5ce29780676"
+    },
+    {
+      "command": [
+        "/home/spinoza/github/math-research/.venv/bin/python",
+        "independent_arb.py"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.146641,
+      "output": "independent-output.txt",
+      "sha256": "30def69460e21b74a5168213187de8ede85c17c41a1f5588c7276d78409b90f8"
+    }
+  ],
+  "formal_proof": false,
+  "human_peer_review": false,
+  "separate_ai_review": "review.md",
+  "recorded_at": "2026-10-17T08:23:04Z",
+  "coverage": {
+    "statements": 101,
+    "branches": 36,
+    "missing_statements": 0,
+    "missing_branches": 0,
+    "percent": 100,
+    "output": "coverage.txt",
+    "command": "python3 -m coverage run --branch --data-file=/tmp/family192-final-coverage -m unittest discover -s .; append primary checker CLI runs (success, both negative controls, missing certificate); python3 -m coverage report --data-file=/tmp/family192-final-coverage -m",
+    "note": "Coverage is implementation coverage, not a proof of the analytic argument."
+  },
+  "file_sha256": {
+    "PROOF.md": "f6654f41b2b54d3a27ddf89eadc4319a67baab356a3cdec0d64fe7b7fb6fc032",
+    "certificate.json": "ac23f344d48cd50a0b22c15542451add637ebc467bfb0c0a374b320e7d6752f4",
+    "checker.py": "4040024ee7dd5940acea9509bb6720117e77faa5fb13c7aed3d16af68c7e3f66",
+    "test_checker.py": "9b2d9c37745dbfb88e896b425e01cca8fa926f5fb0d01edf02125ea9021ff189",
+    "independent_arb.py": "877929d0044b4710438a330b8ceca1e389a524e8cedd0718366cf4e7ddca87cb",
+    "requirements-arb.txt": "a7ee18c261cbd4064a3367386efb2a9c9ed16b6b7c97313a8a824a5948bb1cb5"
+  }
+}

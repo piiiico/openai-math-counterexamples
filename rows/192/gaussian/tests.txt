@@ -1,0 +1,19 @@
+test_cli_failure_and_optimized_python (test_checker.CertificateTests) ... ok
+test_coarser_grid_is_not_certified (test_checker.CertificateTests) ... ok
+test_complete_certificate_and_derived_dimension (test_checker.CertificateTests) ... ok
+test_exponential_tail_direction_and_refinement (test_checker.CertificateTests) ... ok
+test_exponential_zero_and_known_rational_enclosure (test_checker.CertificateTests) ... ok
+test_false_interval_mass_is_rejected (test_checker.CertificateTests) ... ok
+test_false_strengthened_margin_is_rejected (test_checker.CertificateTests) ... ok
+test_geometric_and_density_ratio_conditions_are_enforced (test_checker.CertificateTests) ... ok
+test_insufficient_taylor_order_is_rejected (test_checker.CertificateTests) ... ok
+test_invalid_geometry_is_rejected (test_checker.CertificateTests) ... ok
+test_malformed_parameter_types_and_schema_are_rejected (test_checker.CertificateTests) ... ok
+test_missing_and_unrecognized_parameters_are_rejected (test_checker.CertificateTests) ... ok
+test_outward_decimal_rounding (test_checker.CertificateTests) ... ok
+test_standard_certificate_cli (test_checker.CertificateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.122s
+
+OK

@@ -1,0 +1,18 @@
+{
+  "arithmetic": "exact rational Taylor bounds; outward decimal summaries",
+  "central_upper_enclosure": "0.112260923650",
+  "certified_gain_ratio_lower": "1/50",
+  "exp_terms": 128,
+  "gain_ratio_lower_enclosure": "0.026467562004",
+  "input_count": 16777218,
+  "interval_mass_binary_exponent": 85,
+  "leaf_count": 16777217,
+  "predictor_on_A": "6291456",
+  "predictor_on_B": "50331651/8",
+  "product_mass_binary_exponent": 1426063445,
+  "scope": "Gaussian predictor certificate; analytic bridge in PROOF.md; no Boolean witness",
+  "status": "certified_scalar_sufficient_inequalities",
+  "tail_upper_enclosure": "0.001896514346",
+  "total_mean_bias_upper_enclosure": "0.000000000001904255"
+}
+RESULT: certified Gaussian predictor gain > Q*1/50
