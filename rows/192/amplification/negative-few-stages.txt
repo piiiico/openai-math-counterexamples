@@ -1,0 +1,1 @@
+RESULT: not certified (iteration padding does not cover inverse ratio gain)

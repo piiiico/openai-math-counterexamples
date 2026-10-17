@@ -1,0 +1,50 @@
+{
+  "workspace_base": "4cac5b0c97ab608c21c889a3b240f7465513d6a3",
+  "source_repository": "openai/math",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "sources": [
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/00-introduction.tex",
+      "sha256": "c1af2a21b1c43449234a2e525cfd77c6580681a7a7386356f9cf0e7036b703c3",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/00-introduction.tex",
+      "note": "Additional source identity check for the original row: byte-identical to its saved hash at fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb. No new claim about its Boolean theorem."
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/01-observations.tex",
+      "sha256": "8e12855dbf6275d197ba61d4acbf0d3e1aabdd079ba83ca2d022a40475328fc0",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/01-observations.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/02-reporting.tex",
+      "sha256": "57ea4c0606a60b04dce3b5669a858dc0f9b9cbb79c90b2b5bd230a4e9cb7352b",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/02-reporting.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/03-alternatives.tex",
+      "sha256": "4d998ab33a8064f6a3187eb64635ef183effc602229ab6fc9bc3a573cb9919ac",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/03-alternatives.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/06-small-width.tex",
+      "sha256": "69e971694cdd748ff681fd969254e86569395ae150b687a343d6a237139e4871",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/06-small-width.tex"
+    }
+  ],
+  "destination_repository": "piiiico/openai-math-counterexamples",
+  "destination_base": "dbd2e8f440ac8f4a7fe4a4b6515a9d95065eceb7",
+  "coordination_claim": "https://github.com/piiiico/openai-math-counterexamples/issues/5",
+  "claim_label_note": "Issue created successfully; API reported insufficient permission to apply optional check-request label. Verified issue open.",
+  "scope": "Explicit finite Gaussian parameters only; full Boolean witness remains not-explicit.",
+  "author": "Alexander Richard Towell",
+  "ai_assistance": "Substantial OpenAI Codex assistance in derivation, implementation, verification and separate AI review.",
+  "overlap_refresh": {
+    "at": "2026-10-17T08:23:04Z",
+    "destination_main": "dbd2e8f440ac8f4a7fe4a4b6515a9d95065eceb7",
+    "open_prs": 0,
+    "open_issues": [
+      5
+    ],
+    "claim_comments": 0,
+    "scope": "Bounded repository/source/course search; no global novelty claim."
+  }
+}

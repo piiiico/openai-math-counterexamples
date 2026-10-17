@@ -1,0 +1,58 @@
+{
+  "workspace_base": "2d681afbf366e29f9f9c5b86ba9ff2b6d2dfa0d8",
+  "source_repository": "openai/math",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "sources": [
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/00-introduction.tex",
+      "sha256": "c1af2a21b1c43449234a2e525cfd77c6580681a7a7386356f9cf0e7036b703c3",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/00-introduction.tex",
+      "note": "Additional source identity check for the original row: byte-identical to its saved hash at fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb. No new claim about its Boolean theorem."
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/01-observations.tex",
+      "sha256": "8e12855dbf6275d197ba61d4acbf0d3e1aabdd079ba83ca2d022a40475328fc0",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/01-observations.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/02-reporting.tex",
+      "sha256": "57ea4c0606a60b04dce3b5669a858dc0f9b9cbb79c90b2b5bd230a4e9cb7352b",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/02-reporting.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/03-alternatives.tex",
+      "sha256": "4d998ab33a8064f6a3187eb64635ef183effc602229ab6fc9bc3a573cb9919ac",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/03-alternatives.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/06-small-width.tex",
+      "sha256": "69e971694cdd748ff681fd969254e86569395ae150b687a343d6a237139e4871",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/06-small-width.tex"
+    }
+  ],
+  "predecessor_public_head": "71f02660684fe63b82b55ada1fff81b66baa0afa",
+  "predecessor_packet": "research/family192_gaussian",
+  "predecessor_files": {
+    "checker.py": "4040024ee7dd5940acea9509bb6720117e77faa5fb13c7aed3d16af68c7e3f66",
+    "certificate.json": "ac23f344d48cd50a0b22c15542451add637ebc467bfb0c0a374b320e7d6752f4"
+  },
+  "classical_dependency": {
+    "author": "Irina Shevtsova",
+    "title": "On the absolute constants in the Berry--Esseen type inequalities for identically distributed summands",
+    "arxiv": "1111.6554v1",
+    "url": "https://arxiv.org/pdf/1111.6554v1",
+    "pdf_sha256": "3530d84e4f44816e0a1d2172a3edb2caca66ec5fa13201df692b9ce6fc71d048",
+    "location": "Corollary 1, printed page 3",
+    "used": "Uniform iid Kolmogorov error at most beta3/sqrt(N); source gives stronger constant 0.4748",
+    "hypotheses": "iid centered variance-one summands with finite absolute third moment; uniform signs have beta3=1",
+    "status": "inherited classical theorem, not independently proved or formalized"
+  },
+  "destination_repository": "piiiico/openai-math-counterexamples",
+  "destination_base": "dbd2e8f440ac8f4a7fe4a4b6515a9d95065eceb7",
+  "existing_pr": "https://github.com/piiiico/openai-math-counterexamples/pull/6",
+  "continuation_claim": "https://github.com/piiiico/openai-math-counterexamples/issues/5#issuecomment-6232946267",
+  "scope": "Explicit finite-sign observation stage, with complete sign count and cell-degree bound; no subsequent amplification or final Boolean readout",
+  "author": "Alexander Richard Towell",
+  "ai_assistance": "Substantial OpenAI Codex assistance in derivation, implementation, verification, and separately tasked AI review; not human peer review",
+  "license": "New code and prose MIT; source mechanisms credited, source documents not vendored."
+}

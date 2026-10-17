@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "block_log2": 512,
+  "tail_cutoff": 16,
+  "finite_mass_binary_exponent": 86,
+  "gain_ratio_lower": {
+    "numerator": 1,
+    "denominator": 50
+  },
+  "predecessor": {
+    "directory": "../gaussian",
+    "files": {
+      "checker.py": "4040024ee7dd5940acea9509bb6720117e77faa5fb13c7aed3d16af68c7e3f66",
+      "certificate.json": "ac23f344d48cd50a0b22c15542451add637ebc467bfb0c0a374b320e7d6752f4"
+    }
+  }
+}

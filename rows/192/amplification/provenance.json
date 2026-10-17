@@ -1,0 +1,81 @@
+{
+  "workspace_base": "edf059c3c16855a8677fd21a8870c1c3b1487443",
+  "source_repository": "openai/math",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "sources": [
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/00-introduction.tex",
+      "sha256": "c1af2a21b1c43449234a2e525cfd77c6580681a7a7386356f9cf0e7036b703c3",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/00-introduction.tex",
+      "note": "Additional source identity check for the original row: byte-identical to its saved hash at fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb. No new claim about its Boolean theorem."
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/01-observations.tex",
+      "sha256": "8e12855dbf6275d197ba61d4acbf0d3e1aabdd079ba83ca2d022a40475328fc0",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/01-observations.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/02-reporting.tex",
+      "sha256": "57ea4c0606a60b04dce3b5669a858dc0f9b9cbb79c90b2b5bd230a4e9cb7352b",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/02-reporting.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/03-alternatives.tex",
+      "sha256": "4d998ab33a8064f6a3187eb64635ef183effc602229ab6fc9bc3a573cb9919ac",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/03-alternatives.tex"
+    },
+    {
+      "path": "preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/06-small-width.tex",
+      "sha256": "69e971694cdd748ff681fd969254e86569395ae150b687a343d6a237139e4871",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026/build/sections/06-small-width.tex"
+    }
+  ],
+  "classical_dependency": {
+    "author": "Irina Shevtsova",
+    "title": "On the absolute constants in the Berry--Esseen type inequalities for identically distributed summands",
+    "arxiv": "1111.6554v1",
+    "url": "https://arxiv.org/pdf/1111.6554v1",
+    "pdf_sha256": "3530d84e4f44816e0a1d2172a3edb2caca66ec5fa13201df692b9ce6fc71d048",
+    "location": "Corollary 1, printed page 3",
+    "used": "Uniform iid Kolmogorov error at most beta3/sqrt(N); source gives stronger constant 0.4748",
+    "hypotheses": "iid centered variance-one summands with finite absolute third moment; uniform signs have beta3=1",
+    "status": "inherited classical theorem, not independently proved or formalized"
+  },
+  "predecessor_public_head": "8506c3b54c8d1656a9e87dc98a84b3b5d992e62b",
+  "gaussian_files": {
+    "checker.py": "4040024ee7dd5940acea9509bb6720117e77faa5fb13c7aed3d16af68c7e3f66",
+    "certificate.json": "ac23f344d48cd50a0b22c15542451add637ebc467bfb0c0a374b320e7d6752f4"
+  },
+  "destination_base": "dbd2e8f440ac8f4a7fe4a4b6515a9d95065eceb7",
+  "destination_repository": "piiiico/openai-math-counterexamples",
+  "existing_pr": "https://github.com/piiiico/openai-math-counterexamples/pull/6",
+  "claim": "https://github.com/piiiico/openai-math-counterexamples/issues/5#issuecomment-6233192964",
+  "author": "Alexander Richard Towell",
+  "ai_assistance": "Substantial OpenAI Codex assistance; one separate AI review is not human peer review",
+  "scope": "Explicit recursive construction and sign/degree budget; no evaluated target truth table, efficient algorithm, or formal proof",
+  "additional_source": {
+    "path": "lean/ComparatorChallenges/SquareRootDegree.lean",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/ComparatorChallenges/SquareRootDegree.lean",
+    "sha256": "72f48e513f3159bf80d25c7ed5afee9f3224f5c09c672777ead3f1ec7309ac4f",
+    "finding": "main proof is sorry; inspected for statement scope, not used as a proved theorem; no Lean build performed",
+    "limitation": "Only the comparator interface was inspected; this is not an audit of a separate proof implementation."
+  },
+  "overlap": {
+    "checked_at": "2026-10-17T11:09:45Z",
+    "destination_head": "8506c3b54c8d1656a9e87dc98a84b3b5d992e62b",
+    "open_issues_and_prs": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "substantive_feedback": false,
+    "competing_repository_claim": false,
+    "course": "https://kokunoyumeto.github.io/open-math-courses-public/courses/the-square-root-degree-bound/providers.html",
+    "formalization_catalog": "https://prove2.me/collections/oai-math?offset=20&status=completed",
+    "catalog_finding": "Family192 main target described as Open; inspection provides no claim of a completed formal proof or an exhaustive overlap search",
+    "limitation": "Bounded source/repository/catalogue refresh; not global novelty evidence",
+    "prepublication_refresh_at": "2026-10-17T11:23:23Z",
+    "prepublication_source_and_head_unchanged": true
+  }
+}

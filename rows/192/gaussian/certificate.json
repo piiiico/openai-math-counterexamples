@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "leaf_count": 16777217,
+  "cutoff": {"numerator": 8, "denominator": 1},
+  "shift": {"numerator": 3, "denominator": 8},
+  "radius": {"numerator": 1, "denominator": 8589934592},
+  "gain_ratio_lower": {"numerator": 1, "denominator": 50},
+  "interval_mass_binary_exponent": 85,
+  "exp_terms": 128
+}
