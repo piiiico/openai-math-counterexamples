@@ -1,0 +1,16 @@
+test_characteristic_two_critical_section_is_off_zero_fibre (test_checker.IntegralCertificateTests) ... ok
+test_corrupted_formulas_and_noncritical_point_are_rejected (test_checker.IntegralCertificateTests) ... ok
+test_empty_finite_control_domain_is_rejected (test_checker.IntegralCertificateTests) ... ok
+test_finite_controls_reject_corrupted_inverse (test_checker.IntegralCertificateTests) ... ok
+test_finite_ring_controls_include_zero_divisors (test_checker.IntegralCertificateTests) ... ok
+test_integral_certificate_cli (test_checker.IntegralCertificateTests) ... ok
+test_integral_critical_section_and_complete_obligations (test_checker.IntegralCertificateTests) ... ok
+test_malformed_critical_point_is_rejected (test_checker.IntegralCertificateTests) ... ok
+test_optimized_cli_rejects_every_mutation (test_checker.IntegralCertificateTests) ... ok
+test_optimized_cli_with_finite_controls_passes (test_checker.IntegralCertificateTests) ... ok
+test_zero_ring_and_noninteger_modulus_are_rejected (test_checker.IntegralCertificateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 4.659s
+
+OK
