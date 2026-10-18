@@ -1,0 +1,9 @@
+{
+  "variables": 330,
+  "independently_generated_clauses": 31201,
+  "verified_rup_additions": 327,
+  "final_empty_clause": true,
+  "canonical_cnf_sha256": "c48bbb7191b7f7f8a1058ac9bf6a1fecfda26cad5d18de6d79c97c620a625f56",
+  "certificate_sha256": "10d7c6ad10a592b8dbf2f10cfa6dd4144aaff95af9ad1ac36aa4b8c8d924f74a",
+  "scope": "finite TenSystem only; no geometry, topology, or Lean build"
+}

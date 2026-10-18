@@ -1,0 +1,21 @@
+{
+  "solver": "Glucose4",
+  "python_sat": "1.9.dev6",
+  "seconds": 0.053427852981258184,
+  "stats": {
+    "restarts": 1,
+    "conflicts": 327,
+    "decisions": 437,
+    "propagations": 19051
+  },
+  "proof_additions": 327,
+  "ignored_deletions": 1276,
+  "constraint_counts": {
+    "pure": 120,
+    "down": 840,
+    "no_boundary": 840,
+    "complementary": 4200,
+    "pair_count": 25200,
+    "nonempty": 1
+  }
+}

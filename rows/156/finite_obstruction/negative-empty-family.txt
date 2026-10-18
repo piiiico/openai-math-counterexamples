@@ -1,0 +1,1 @@
+FAIL: clause 2 is not reverse-unit-propagation implied

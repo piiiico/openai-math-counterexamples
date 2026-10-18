@@ -1,0 +1,1 @@
+FAIL: corrupted six-label system violates pair/complement axioms

@@ -1,0 +1,9 @@
+{
+  "variables": 2,
+  "available_nontautological_clauses": 9,
+  "formula_subsets": 512,
+  "assumption_sets": 16,
+  "compared_cases": 8192,
+  "reported_conflicts_checked_unsatisfiable": 7744,
+  "persistent_watch_state": true
+}

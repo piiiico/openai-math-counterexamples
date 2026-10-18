@@ -1,0 +1,28 @@
+{
+  "variables": 330,
+  "clauses": 31201,
+  "constraint_counts": {
+    "pure": 120,
+    "down": 840,
+    "no_boundary": 840,
+    "complementary": 4200,
+    "pair_count": 25200,
+    "nonempty": 1
+  },
+  "verified_rup_additions": 327,
+  "final_empty_clause": true,
+  "weakened_axiom_models_checked": 2,
+  "scope": "finite TenSystem only; geometric and topological bridge not checked",
+  "finite_controls": {
+    "complementary_pair_choices": 1024,
+    "six_systems": 12,
+    "five_cycle_links": 72,
+    "four_subset_checks": 180,
+    "restricted_link_comparisons": 720,
+    "five_label_unique_restrictions": 72,
+    "permutations": 720,
+    "automorphisms": 60,
+    "orbits": 1
+  }
+}
+RESULT: certified finite ten-label obstruction
