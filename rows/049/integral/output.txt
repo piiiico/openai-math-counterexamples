@@ -1,0 +1,311 @@
+{
+  "F_degree": 17,
+  "F_terms": 69,
+  "assumptions_for_noncoordinate_conclusion": "commutative unital base ring with 1 != 0",
+  "count": 15,
+  "domain": "ZZ",
+  "finite_controls": [
+    {
+      "ambient_points": 16,
+      "modulus": 2,
+      "parameter_points": 8,
+      "zero_fibre_points": 8
+    },
+    {
+      "ambient_points": 81,
+      "modulus": 3,
+      "parameter_points": 27,
+      "zero_fibre_points": 27
+    },
+    {
+      "ambient_points": 256,
+      "modulus": 4,
+      "parameter_points": 64,
+      "zero_fibre_points": 64
+    },
+    {
+      "ambient_points": 625,
+      "modulus": 5,
+      "parameter_points": 125,
+      "zero_fibre_points": 125
+    },
+    {
+      "ambient_points": 1296,
+      "modulus": 6,
+      "parameter_points": 216,
+      "zero_fibre_points": 216
+    },
+    {
+      "ambient_points": 4096,
+      "modulus": 8,
+      "parameter_points": 512,
+      "zero_fibre_points": 512
+    },
+    {
+      "ambient_points": 6561,
+      "modulus": 9,
+      "parameter_points": 729,
+      "zero_fibre_points": 729
+    }
+  ],
+  "obligations": [
+    {
+      "lhs_terms": 5,
+      "name": "source cusp",
+      "residual_terms": 0,
+      "rhs_terms": 5,
+      "variables": [
+        "h",
+        "u",
+        "v",
+        "w"
+      ]
+    },
+    {
+      "lhs_terms": 6,
+      "name": "base shift",
+      "residual_terms": 0,
+      "rhs_terms": 6,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s"
+      ]
+    },
+    {
+      "lhs_terms": 9,
+      "name": "base Bezout",
+      "residual_terms": 0,
+      "rhs_terms": 9,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s"
+      ]
+    },
+    {
+      "lhs_terms": 4,
+      "name": "lifting first relation",
+      "residual_terms": 0,
+      "rhs_terms": 4,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 7,
+      "name": "lifting third relation",
+      "residual_terms": 0,
+      "rhs_terms": 7,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 5,
+      "name": "lifting compatibility",
+      "residual_terms": 0,
+      "rhs_terms": 5,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 4,
+      "name": "lifting unit ideal",
+      "residual_terms": 0,
+      "rhs_terms": 4,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 9,
+      "name": "lifting W solves h-equation",
+      "residual_terms": 0,
+      "rhs_terms": 9,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 10,
+      "name": "lifting W solves y-squared-equation",
+      "residual_terms": 0,
+      "rhs_terms": 10,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 8,
+      "name": "lifting ideal elimination",
+      "residual_terms": 0,
+      "rhs_terms": 8,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 3,
+      "name": "parameter satisfies line",
+      "residual_terms": 0,
+      "rhs_terms": 3,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 3,
+      "name": "parameter round trip",
+      "residual_terms": 0,
+      "rhs_terms": 3,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 4,
+      "name": "inverse U round trip",
+      "residual_terms": 0,
+      "rhs_terms": 4,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "lhs_terms": 4,
+      "name": "inverse G round trip",
+      "residual_terms": 0,
+      "rhs_terms": 4,
+      "variables": [
+        "h",
+        "x",
+        "y",
+        "s",
+        "alpha",
+        "beta",
+        "U",
+        "G",
+        "W",
+        "T"
+      ]
+    },
+    {
+      "gradient": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "integral critical section",
+      "point": [
+        2,
+        1,
+        -1,
+        1
+      ],
+      "x_y_s_F": [
+        -1,
+        1,
+        1,
+        -1
+      ]
+    }
+  ],
+  "scope": "September 24 companion; written universal-ring argument in PROOF.md; not a Lean proof",
+  "status": "certified integer polynomial identities"
+}
+RESULT: certified integer polynomial identities and integral critical section
