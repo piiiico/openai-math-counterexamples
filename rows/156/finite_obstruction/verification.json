@@ -1,0 +1,247 @@
+{
+  "recorded_at": "2026-10-18T05:48:56.838603+00:00",
+  "python": "3.10.20 (main, Mar  3 2026, 14:59:16) [Clang 21.1.4 ]",
+  "verification_dependencies": "Python standard library only",
+  "optional_generation_dependency": "python-sat==1.9.dev6, Glucose4",
+  "checks": [
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "checker.py",
+        "--finite-controls"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.8426,
+      "output": "output.txt",
+      "sha256": "e4f0446abe452ba88444807717e1ef0f8362f3c55d28ea936eadeccf1f7694ca"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--finite-controls"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.848472,
+      "output": "optimized.txt",
+      "sha256": "e4f0446abe452ba88444807717e1ef0f8362f3c55d28ea936eadeccf1f7694ca"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".",
+        "-v"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 12.187422,
+      "output": "tests.txt",
+      "sha256": "a39f45701429f8bb4f2d2c5683815bc873a10a31662e40480aaa44dfe9897595"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "false-clause"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.201504,
+      "output": "negative-false-clause.txt",
+      "sha256": "68154cb021641ba81ea45fb38f96d4b9b643cdb96f5992c956bf585e587dd794"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "truncated"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.126438,
+      "output": "negative-truncated.txt",
+      "sha256": "744c1d7b3e2e0f01b013484ec24f5d3ab1cc88568e19a49fb299917d16118fe0"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "empty-family"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.183052,
+      "output": "negative-empty-family.txt",
+      "sha256": "c03849d748f199a7f26b3ffe1124b177d8c3a04c241a2f47a9b6d506248f41be"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "simplex-boundary"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.126279,
+      "output": "negative-simplex-boundary.txt",
+      "sha256": "c03849d748f199a7f26b3ffe1124b177d8c3a04c241a2f47a9b6d506248f41be"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "six-system"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.153447,
+      "output": "negative-six-system.txt",
+      "sha256": "3a3faa951fec5cf347b31bed8216e6d263ed2af2ff7b21000b752637b4e88864"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "independent_check.py"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 9.783023,
+      "output": "independent-output.txt",
+      "sha256": "4e763f112badb100318c7d55e9a73b73118298bad1290bf7be37cb5dd4c2762a"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "independent_check.py",
+        "--negative-control",
+        "unsound-clause"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.064373,
+      "output": "independent-negative-unsound-clause.txt",
+      "sha256": "035d483c237d60d3094096402a65de5f51507220dd2dbb693b0d3b9989f16f75"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "independent_check.py",
+        "--negative-control",
+        "false-clause"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.136644,
+      "output": "independent-negative-false-clause.txt",
+      "sha256": "035d483c237d60d3094096402a65de5f51507220dd2dbb693b0d3b9989f16f75"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "independent_check.py",
+        "--negative-control",
+        "truncated"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.065403,
+      "output": "independent-negative-truncated.txt",
+      "sha256": "b933a84415fa7701a05dc34ff17d685bde2d75c36f652887803585d85e5f640d"
+    },
+    {
+      "command": [
+        "python3",
+        "review_controls.py"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.131822,
+      "output": "review-controls.txt",
+      "sha256": "f1212fba4a49d1382219c01355342086808a0d01d68f3f9ce59fb2e7d7676715"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "review_controls.py",
+        "--negative-control"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.039403,
+      "output": "review-controls-negative.txt",
+      "sha256": "fea3b4c37e77c3694502f4e75b1f5efabca4747f3250e66bfccb6d01a37736e5"
+    }
+  ],
+  "file_sha256": {
+    "PROOF.md": "47e5178f479f1f9dfcf7772222ee15a8bf9ad0685a85fb30b03fea6c498c7e78",
+    "certificate.json": "10d7c6ad10a592b8dbf2f10cfa6dd4144aaff95af9ad1ac36aa4b8c8d924f74a",
+    "encoding.py": "70a4350279dcca960e1e6be335c0af3003a8a6ff1268bbd9475adb806886f073",
+    "rup.py": "508de5602d51235a1eb0f07b8ca2b7f0d35a66d4ebbb5c9dbcb8aeb4f38a37e7",
+    "checker.py": "ff10d1c1d766f0fb7313c0b5f3448b4f5b92923e850b1de88e53404299869efa",
+    "finite_controls.py": "9e0063956761863bcf23ed66da43e3a56bc15e66cefbbdcdf0f37ec2187054e6",
+    "test_checker.py": "8364a82ae39abfc4a6fbc0035a629467e88c79d8db4b2766191897a39c143da2",
+    "independent_check.py": "58f1b0bf1cc6748d851250aaf3bf782b37c21a7ffc61f09eb9593ab3d3d801cb",
+    "requirements-generation.txt": "0fe827dd21e30ffb0c85a4a186dbe5d2b6afa40ec05019f146bf3dfee69b2e0d",
+    "README.md": "b8b13e0b3b516df0690210dd78b37c8b85276f0728e6e634aebf6310f87af74b",
+    "review_controls.py": "eecf9c2ca83f40d838e06f9ed6661ea5f432a03fcc2b5085551e328fd61f0777",
+    "review_notes.md": "6040d4ba3df9dc3b0f9edebe693d74bdcc64626bbad8929d46ac1f8a60798adf",
+    "coverage.txt": "58b797df6165f5cd07aeeaf914fa4430cd19a4ce0623ef238e682c8739293927",
+    "generation.json": "db694927ca463e03e7943e6b645be55020dff3856ce294f7401053cff9ec73cb",
+    "generate.py": "56c596887a0af866e12fd4cabff6db9041125174bce69fe7a45b9191209d35b6",
+    "source-pins.json": "b38af0f23e543ee5659ebeaa3337cd0bb73569ea7a239dc4cba68bc68a2c0a0b"
+  },
+  "normal_optimized_outputs_identical": true,
+  "formal_proof": false,
+  "human_peer_review": false,
+  "scope": "All encoded finite TenSystem assignments via a verified RUP refutation; no full geometry/topology or Lean build.",
+  "coverage": {
+    "tool": "coverage==7.15.0",
+    "scope": [
+      "encoding",
+      "rup",
+      "checker",
+      "finite_controls",
+      "independent_check"
+    ],
+    "totals": {
+      "covered_lines": 360,
+      "num_statements": 389,
+      "percent_covered": 90.54290718038528,
+      "percent_covered_display": "91",
+      "missing_lines": 29,
+      "excluded_lines": 0,
+      "percent_statements_covered": 92.54498714652956,
+      "percent_statements_covered_display": "93",
+      "num_branches": 182,
+      "num_partial_branches": 21,
+      "covered_branches": 157,
+      "missing_branches": 25,
+      "percent_branches_covered": 86.26373626373626,
+      "percent_branches_covered_display": "86"
+    },
+    "report": "coverage.txt",
+    "limitation": "Unexercised defensive/CLI branches are listed; no full-theorem or verifier-correctness inference."
+  },
+  "completed_at": "2026-10-18T05:52:34.144623+00:00"
+}

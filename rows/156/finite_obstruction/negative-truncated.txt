@@ -1,0 +1,1 @@
+FAIL: refutation must end in the empty clause

@@ -1,0 +1,20 @@
+test_complete_refutation (test_checker.EntryTests) ... ok
+test_corrupted_certificate_rejected (test_checker.EntryTests) ... ok
+test_remaining_rejecting_controls (test_checker.EntryTests) ... ok
+test_six_system_domain_and_properties (test_checker.EntryTests) ... ok
+test_actual_certificate (test_checker.IndependentTests) ... ok
+test_clause_multiset_is_identical (test_checker.IndependentTests) ... ok
+test_conflict_and_satisfiable_controls (test_checker.IndependentTests) ... ok
+test_packing_and_domain_rejections (test_checker.IndependentTests) ... ok
+test_refutation_and_unsound_clause (test_checker.IndependentTests) ... ok
+test_complete_toy_refutation (test_checker.RupTests) ... ok
+test_empty_and_inconsistent_base (test_checker.RupTests) ... ok
+test_reject_incomplete_or_unsound_proof (test_checker.RupTests) ... ok
+test_reject_invalid_literals (test_checker.RupTests) ... ok
+test_satisfiable_weakened_models (test_checker.RupTests) ... ok
+test_watch_movement_across_queries (test_checker.RupTests) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 12.134s
+
+OK

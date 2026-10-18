@@ -1,0 +1,83 @@
+{
+  "archive_base": "ca27e34ee03f6a2328269166ab1d65a57ef11bf9",
+  "source_repository": "openai/math",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "sources": [
+    {
+      "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/topology.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/topology.tex",
+      "sha256": "74ef6525de39b86781ac2a8a1b841bd0fd6082e3e288415449d6c613d0eca9a1",
+      "lines": 312,
+      "landmarks": []
+    },
+    {
+      "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/six-labels.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/six-labels.tex",
+      "sha256": "962e6eb75a7558df8da9fe898ee17c661549368b6b69b9fad7e60d69e0871a71",
+      "lines": 102,
+      "landmarks": [
+        {
+          "line": 10,
+          "text": "\\begin{definition}\\label{def:six-system}"
+        },
+        {
+          "line": 44,
+          "text": "\\begin{lemma}\\label{lem:six-properties}"
+        }
+      ]
+    },
+    {
+      "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/ten-labels.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/ten-labels.tex",
+      "sha256": "362fd7d0affd665257e3823779b646b56478d0ed729c33644a10550fa6d2a12c",
+      "lines": 216,
+      "landmarks": [
+        {
+          "line": 8,
+          "text": "\\begin{lemma}\\label{lem:facet-complement}"
+        },
+        {
+          "line": 41,
+          "text": "\\begin{lemma}\\label{lem:two-tetrahedra}"
+        },
+        {
+          "line": 177,
+          "text": "\\begin{theorem}\\label{thm:no-ten-labels}"
+        }
+      ]
+    },
+    {
+      "path": "lean/OAI/Geometry/Borsuk/TenLabels/Labels.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Geometry/Borsuk/TenLabels/Labels.lean",
+      "sha256": "2edf8f16845c943113b43f34542a4bcdd26872910067b35d184c76915882ebb0",
+      "lines": 140,
+      "landmarks": [
+        {
+          "line": 13,
+          "text": "structure TenSystem (T Q : Family) : Prop where"
+        }
+      ]
+    },
+    {
+      "path": "lean/OAI/Geometry/Borsuk/FiniteCases/Cases001.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Geometry/Borsuk/FiniteCases/Cases001.lean",
+      "sha256": "98b830a8244031b0a7bb02cd9f20d052cc10a14642e68337acc673779c607aa9",
+      "lines": 447,
+      "landmarks": []
+    },
+    {
+      "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/extension.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/extension.tex",
+      "sha256": "899289dcbd82beeafbcdb60dd8b22a9a5f704dcb1ef2e27eaa01466342d86bf7",
+      "lines": 185,
+      "scope": "Inspected only to identify the unverified bridge; not used by the finite checker."
+    }
+  ],
+  "source_lean_scope": "TenSystem and one finite-case source inspected; full source Lean development exists but was not rebuilt or independently audited end to end.",
+  "destination_repository": "piiiico/openai-math-counterexamples",
+  "destination_base": "dbd2e8f440ac8f4a7fe4a4b6515a9d95065eceb7",
+  "claim": "https://github.com/piiiico/openai-math-counterexamples/issues/9",
+  "overlap": "Fresh family156 issue/PR searches returned zero before posting; no Borsuk issue in openai/math. Independent verification of prior finite proof, no novelty claim.",
+  "author": "Alexander Richard Towell",
+  "assistance": "Substantial OpenAI Codex assistance; one separately tasked AI review, not human peer review."
+}
