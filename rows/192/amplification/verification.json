@@ -1,0 +1,226 @@
+{
+  "recorded_at": "2026-10-17T11:21:23.761595+00:00",
+  "python": "3.10.20 (main, Mar  3 2026, 14:59:16) [Clang 21.1.4 ]",
+  "primary_dependencies": "standard library",
+  "optional_independent_dependencies": {
+    "python-flint": "0.9.0",
+    "FLINT": "3.6.0",
+    "precision_bits": 384
+  },
+  "checks": [
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "checker.py",
+        "--finite-controls"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.141259,
+      "output": "output.txt",
+      "sha256": "52e08c0c51fe30e9d8ac07e8904c4e013f8ce0270b4ceb2e96db0932a6f5e507"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".",
+        "-v"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 1.563681,
+      "output": "tests.txt",
+      "sha256": "83e35b2361ffd829f47c3cf5d3fed4dbe7340e8d8e7e7f59561e30beae6db5f8"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--finite-controls"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.139229,
+      "output": "optimized.txt",
+      "sha256": "52e08c0c51fe30e9d8ac07e8904c4e013f8ce0270b4ceb2e96db0932a6f5e507"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "few-copies"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.111805,
+      "output": "negative-few-copies.txt",
+      "sha256": "23e8b7dd72596f0c8dff6fa3cf43a711626efc99f681c84b5b62cadcbbb3a10f"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "short-tail"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.107721,
+      "output": "negative-short-tail.txt",
+      "sha256": "23e8b7dd72596f0c8dff6fa3cf43a711626efc99f681c84b5b62cadcbbb3a10f"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "long-tail"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.124042,
+      "output": "negative-long-tail.txt",
+      "sha256": "23e8b7dd72596f0c8dff6fa3cf43a711626efc99f681c84b5b62cadcbbb3a10f"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "strong-gain"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.120685,
+      "output": "negative-strong-gain.txt",
+      "sha256": "23e8b7dd72596f0c8dff6fa3cf43a711626efc99f681c84b5b62cadcbbb3a10f"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "strong-mass"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.112269,
+      "output": "negative-strong-mass.txt",
+      "sha256": "55f60c1d0ee6377bd4b80eaf3b2250efa61c274ee90bd2b4d361010d58b9599a"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "few-stages"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.10369,
+      "output": "negative-few-stages.txt",
+      "sha256": "7c33542fce7e825feedd71851dd8e7a5a76ff88e7cfb7866772f25f94d45c2fc"
+    },
+    {
+      "command": [
+        "/home/spinoza/venv/bin/python3",
+        "-O",
+        "checker.py",
+        "--negative-control",
+        "fourth-moment"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.080965,
+      "output": "negative-fourth-moment.txt",
+      "sha256": "9df8d4396d7416005ad18fc2f36d524e7649626140c966ea3a32ad71bfc58a0f"
+    },
+    {
+      "command": [
+        "/home/spinoza/github/math-research/.venv/bin/python",
+        "independent_arb.py"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "seconds": 0.059943,
+      "output": "independent-output.txt",
+      "sha256": "402e98b85f16bad54762758e69cce666c6897fe1365a77109a9dcd948d715219"
+    },
+    {
+      "command": [
+        "/home/spinoza/github/math-research/.venv/bin/python",
+        "-O",
+        "independent_arb.py",
+        "--negative-control"
+      ],
+      "cwd": "packet directory",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "seconds": 0.069799,
+      "output": "independent-negative.txt",
+      "sha256": "618ac69c35f945f1df3d3c1571c21de3dd069f02489a7dd23a16d12f8eb9b458"
+    }
+  ],
+  "formal_proof": false,
+  "human_peer_review": false,
+  "separate_ai_review": "review.md",
+  "file_sha256": {
+    "PROOF.md": "00b6db19c3f5f6fde4a012aa5dd7224d5275b0df0e992d216da910a1bddfb0ac",
+    "certificate.json": "d916571a55769311855e1ed8ef59d365f2cda0a622dd8c6445e34f38b350615d",
+    "checker.py": "638cfb6c68be1fec1b765be8db8a8fa45ac063a0068ca317b2d839074a817ecf",
+    "finite_controls.py": "c6380ba996d214c9de9225b2b56e434324ff3d040203ad3e2dc4a76f44af52d1",
+    "test_checker.py": "5f516be37c869b94918df4826ea2cb5b407c5a40e4dda7ba66e74af00811b49a",
+    "independent_arb.py": "1bb444ca160cf9865bff87a6d8026bdf11e35ed79fe200427ab6fd0de6fc2910",
+    "requirements-arb.txt": "4cef508304e84c21f73cf412712165dc26e40978cb784bc08a876948b559d90d"
+  },
+  "coverage": {
+    "scope": [
+      "checker.py",
+      "finite_controls.py"
+    ],
+    "totals": {
+      "covered_lines": 213,
+      "num_statements": 213,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100",
+      "num_branches": 80,
+      "num_partial_branches": 0,
+      "covered_branches": 80,
+      "missing_branches": 0,
+      "percent_branches_covered": 100.0,
+      "percent_branches_covered_display": "100"
+    },
+    "output": "coverage.txt",
+    "command": "coverage run --branch -m unittest discover -s .; append primary CLI with/without finite controls, all seven negatives, and package-module finite-controls invocation; report checker.py finite_controls.py",
+    "note": "Implementation coverage only; not formal proof coverage."
+  },
+  "archive_certificate_sha256": "daf1aea6ef75f28d27188e1cc59f81b10d92053f0bbfb7eb5a252acdfad63857",
+  "relocation": "Only gaussian.directory becomes ../gaussian; destination replay must reproduce the archived output exactly."
+}

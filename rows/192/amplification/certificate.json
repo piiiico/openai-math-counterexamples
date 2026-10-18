@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "copy_log2": 512,
+  "tail_log2": 64,
+  "fourth_moment_upper": 4,
+  "mass_log2": 86,
+  "gain_denominator": 50,
+  "padding_log2": 30,
+  "gaussian": {
+    "directory": "../gaussian",
+    "files": {
+      "checker.py": "4040024ee7dd5940acea9509bb6720117e77faa5fb13c7aed3d16af68c7e3f66",
+      "certificate.json": "ac23f344d48cd50a0b22c15542451add637ebc467bfb0c0a374b320e7d6752f4"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+test_all_four_false_budgets_fail_under_optimized_python (test_checker.FiniteTransferTests) ... ok
+test_corrupted_deficit_identity_is_detected (test_checker.FiniteTransferTests) ... ok
+test_default_certificate_cli (test_checker.FiniteTransferTests) ... ok
+test_discrete_control_domain_and_nonpositive_example (test_checker.FiniteTransferTests) ... ok
+test_exact_cost_and_mass_accounting (test_checker.FiniteTransferTests) ... ok
+test_finite_controls_and_optimized_output (test_checker.FiniteTransferTests) ... ok
+test_invalid_dependency_manifest_rejected (test_checker.FiniteTransferTests) ... ok
+test_invalid_schemas_and_parameters_are_rejected (test_checker.FiniteTransferTests) ... ok
+test_missing_and_malformed_certificate_fail_closed (test_checker.FiniteTransferTests) ... ok
+test_no_positive_leaf_mass_from_small_block (test_checker.FiniteTransferTests) ... ok
+test_pinned_dependency_rejects_changed_hash (test_checker.FiniteTransferTests) ... ok
+test_tail_cutoff_cannot_omit_selector_region (test_checker.FiniteTransferTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.947s
+
+OK
