@@ -1,0 +1,6 @@
+F_2: fibre points 8 (p^3=8), images 8, round-trip identity True
+F_3: fibre points 27 (p^3=27), images 27, round-trip identity True
+F_5: fibre points 125 (p^3=125), images 125, round-trip identity True
+F_7: fibre points 343 (p^3=343), images 343, round-trip identity True
+F(2,1,-1,1) = -1  grad = [0, 0, 0, 0]
+moved point (2,1,-1,2) dF/dh = 124958
