@@ -1,0 +1,34 @@
+test_complete_refutation (test_checker.EntryTests.test_complete_refutation) ... ok
+test_corrupted_certificate_rejected (test_checker.EntryTests.test_corrupted_certificate_rejected) ... ok
+test_remaining_rejecting_controls (test_checker.EntryTests.test_remaining_rejecting_controls) ... ok
+test_six_system_domain_and_properties (test_checker.EntryTests.test_six_system_domain_and_properties) ... ok
+test_actual_certificate (test_checker.IndependentTests.test_actual_certificate) ... ok
+test_clause_multiset_is_identical (test_checker.IndependentTests.test_clause_multiset_is_identical) ... ok
+test_conflict_and_satisfiable_controls (test_checker.IndependentTests.test_conflict_and_satisfiable_controls) ... ok
+test_packing_and_domain_rejections (test_checker.IndependentTests.test_packing_and_domain_rejections) ... ok
+test_refutation_and_unsound_clause (test_checker.IndependentTests.test_refutation_and_unsound_clause) ... ok
+test_complete_toy_refutation (test_checker.RupTests.test_complete_toy_refutation) ... ok
+test_empty_and_inconsistent_base (test_checker.RupTests.test_empty_and_inconsistent_base) ... ok
+test_reject_incomplete_or_unsound_proof (test_checker.RupTests.test_reject_incomplete_or_unsound_proof) ... ok
+test_reject_invalid_literals (test_checker.RupTests.test_reject_invalid_literals) ... ok
+test_satisfiable_weakened_models (test_checker.RupTests.test_satisfiable_weakened_models) ... ok
+test_watch_movement_across_queries (test_checker.RupTests.test_watch_movement_across_queries) ... ok
+test_certificate_schema_and_pins_are_checked (test_no_down.NoDownTests.test_certificate_schema_and_pins_are_checked) ... ok
+test_complete_primary_refutation (test_no_down.NoDownTests.test_complete_primary_refutation) ... ok
+test_control_with_nontriple_T_respects_source_family_domain (test_no_down.NoDownTests.test_control_with_nontriple_T_respects_source_family_domain) ... ok
+test_corrupt_and_truncated_proofs_are_rejected (test_no_down.NoDownTests.test_corrupt_and_truncated_proofs_are_rejected) ... ok
+test_distinct_encodings_agree (test_no_down.NoDownTests.test_distinct_encodings_agree) ... ok
+test_independent_checker_rejects_invalid_proofs (test_no_down.NoDownTests.test_independent_checker_rejects_invalid_proofs) ... ok
+test_invalid_label_is_rejected (test_no_down.NoDownTests.test_invalid_label_is_rejected) ... ok
+test_local_clause_truth_tables (test_no_down.NoDownTests.test_local_clause_truth_tables) ... ok
+test_no_boundary_applies_even_when_triangle_is_not_in_T (test_no_down.NoDownTests.test_no_boundary_applies_even_when_triangle_is_not_in_T) ... ok
+test_optimized_cli_failure_is_nonzero (test_no_down.NoDownTests.test_optimized_cli_failure_is_nonzero) ... ok
+test_saved_satisfiable_controls (test_no_down.NoDownTests.test_saved_satisfiable_controls) ... ok
+test_source_driven_cnf_reconstruction (test_no_down.NoDownTests.test_source_driven_cnf_reconstruction) ... ok
+test_tetra_card_and_pure_are_not_lost (test_no_down.NoDownTests.test_tetra_card_and_pure_are_not_lost) ... ok
+test_unrestricted_nonempty_and_exact_omission (test_no_down.NoDownTests.test_unrestricted_nonempty_and_exact_omission) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 55.345s
+
+OK

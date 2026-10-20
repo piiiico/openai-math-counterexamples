@@ -1,0 +1,1 @@
+**63 of 63 counterexample families classified** · open 0 · holds 8 · fails 0 · not-explicit 9 · not-finite 46<br>plus 1 outside the census, a counterexample OpenAI added in a correction: 342 holds

@@ -1,0 +1,14 @@
+[
+  {
+    "experiment": "remove_down_keep_old_fixed_facet",
+    "outcome": "old proof rejected",
+    "error": "clause 2 is not reverse-unit-propagation implied",
+    "meaning": "This proof is invalid on the weaker clauses; not a counterexample to the weakened proposition."
+  },
+  {
+    "experiment": "remove_down_use_unrestricted_nonempty",
+    "outcome": "old proof rejected",
+    "error": "clause 2 is not reverse-unit-propagation implied",
+    "meaning": "This proof is invalid on the weaker clauses; not a counterexample to the weakened proposition."
+  }
+]

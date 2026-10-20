@@ -1,0 +1,18 @@
+Installed 1 package in 35ms
+test_certificate_schema_and_pins_are_checked (test_no_down.NoDownTests.test_certificate_schema_and_pins_are_checked) ... ok
+test_complete_primary_refutation (test_no_down.NoDownTests.test_complete_primary_refutation) ... ok
+test_control_with_nontriple_T_respects_source_family_domain (test_no_down.NoDownTests.test_control_with_nontriple_T_respects_source_family_domain) ... ok
+test_corrupt_and_truncated_proofs_are_rejected (test_no_down.NoDownTests.test_corrupt_and_truncated_proofs_are_rejected) ... ok
+test_distinct_encodings_agree (test_no_down.NoDownTests.test_distinct_encodings_agree) ... ok
+test_independent_checker_rejects_invalid_proofs (test_no_down.NoDownTests.test_independent_checker_rejects_invalid_proofs) ... ok
+test_invalid_label_is_rejected (test_no_down.NoDownTests.test_invalid_label_is_rejected) ... ok
+test_no_boundary_applies_even_when_triangle_is_not_in_T (test_no_down.NoDownTests.test_no_boundary_applies_even_when_triangle_is_not_in_T) ... ok
+test_optimized_cli_failure_is_nonzero (test_no_down.NoDownTests.test_optimized_cli_failure_is_nonzero) ... ok
+test_saved_satisfiable_controls (test_no_down.NoDownTests.test_saved_satisfiable_controls) ... ok
+test_tetra_card_and_pure_are_not_lost (test_no_down.NoDownTests.test_tetra_card_and_pure_are_not_lost) ... ok
+test_unrestricted_nonempty_and_exact_omission (test_no_down.NoDownTests.test_unrestricted_nonempty_and_exact_omission) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 150.907s
+
+OK

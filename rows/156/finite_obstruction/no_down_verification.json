@@ -1,0 +1,140 @@
+{
+  "verified_at": "2026-10-20T11:42:29.963256+00:00",
+  "python": "3.13.15",
+  "platform": "Linux x86_64",
+  "source_and_predecessor_hash_checks": [
+    {
+      "path": "lean/OAI/Geometry/Borsuk/TenLabels/Labels.lean",
+      "sha256": "2edf8f16845c943113b43f34542a4bcdd26872910067b35d184c76915882ebb0",
+      "matches": true
+    },
+    {
+      "path": "rows/156/finite_obstruction/encoding.py",
+      "sha256": "70a4350279dcca960e1e6be335c0af3003a8a6ff1268bbd9475adb806886f073",
+      "matches": true
+    },
+    {
+      "path": "rows/156/finite_obstruction/rup.py",
+      "sha256": "508de5602d51235a1eb0f07b8ca2b7f0d35a66d4ebbb5c9dbcb8aeb4f38a37e7",
+      "matches": true
+    },
+    {
+      "path": "rows/156/finite_obstruction/independent_check.py",
+      "sha256": "58f1b0bf1cc6748d851250aaf3bf782b37c21a7ffc61f09eb9593ab3d3d801cb",
+      "matches": true
+    },
+    {
+      "path": "rows/156/finite_obstruction/LICENSE",
+      "sha256": "0bc7f950be7c67cd218b910b42527e71099c9ef3cf9bc1c1bf77e99468fda2ec",
+      "matches": true
+    },
+    {
+      "path": "rows/156/pico_sat_crosscheck.py",
+      "sha256": "9a808cacee381119403e37e35c519117ec8f56457e8de8a188e3570c7357746f",
+      "matches": true
+    },
+    {
+      "path": "rows/156/pico_sat_crosscheck.txt",
+      "sha256": "8b2a4b0f449ee3018e28279b8a0f7057d038f49dded677ffd5791182cd1cc479",
+      "matches": true
+    }
+  ],
+  "input": {
+    "variables": 330,
+    "clauses": 30361,
+    "omitted_source_fields": [
+      "down"
+    ],
+    "symmetry_reduction": false,
+    "nonempty": "all 210 tetrahedron variables"
+  },
+  "complete_replays": [
+    {
+      "implementation": "unchanged watched-literal engine; set-based encoder adapted for exact omission",
+      "command": "python3 rows/156/finite_obstruction/no_down.py",
+      "exit": 0,
+      "additions": 18302,
+      "elapsed_seconds": 39.249,
+      "output": "no_down-output.txt"
+    },
+    {
+      "implementation": "unchanged full-scan bitmask engine; separate bitmask clause generator",
+      "command": "python3 rows/156/finite_obstruction/no_down_independent.py",
+      "exit": 0,
+      "additions": 18302,
+      "elapsed_seconds": 935.9,
+      "output": "no_down-independent-output.txt"
+    }
+  ],
+  "tests": {
+    "command": "python3 -m unittest discover -s rows/156/finite_obstruction -v",
+    "passed": 29,
+    "original_tests": 15,
+    "new_tests": 14,
+    "elapsed_seconds": 55.345,
+    "log": "no_down-tests.txt"
+  },
+  "coverage": {
+    "tool": "coverage 7.16.2",
+    "report": "no_down-coverage.txt",
+    "statement_and_branch_percent": 79,
+    "scope": "12 initial supplement tests, before adding two preserved reviewer checks. Standalone primary/full-scan CLI runs and the later 424 truth-table cases are separate evidence, outside this coverage measurement. Uncovered lines include CLI paths, error branches, and the full independent positive replay already executed separately."
+  },
+  "semantic_controls": {
+    "satisfiable_further_weakenings": [
+      "remove nonempty",
+      "remove pure"
+    ],
+    "source_reconstruction": "all 30,361 clauses match",
+    "local_truth_table_cases": 424,
+    "nontriple_T": "allowed according to source subset-family type",
+    "no_boundary": "applies whether or not face is in T"
+  },
+  "failure_controls": {
+    "optimized_primary_false_clause": "exit 1",
+    "optimized_independent_truncated": "exit 1",
+    "other_unit_controls": "corrupt pins, unsupported empty clause, truncated proof and removal of nonempty rejected",
+    "old_certificate": "fails at addition 2 with only down removed, with or without fixed-facet normalization"
+  },
+  "required_checks": {
+    "metric": "1696 rational vectors; 37665 pairs; exit 0",
+    "build": "python3 build.py; exit 0",
+    "scope": "only row 156 changed; census byte-identical; docs page changes only rebuild date",
+    "whitespace": "git diff --check passed"
+  },
+  "reproducibility": "Pinned optional generation reproduced certificate and satisfying models byte for byte; see no_down-regeneration.json.",
+  "review": "one separately tasked AI reviewer; NO_DOWN_REVIEW.md; not human peer review",
+  "limitations": [
+    "Finite encoded five-field statement only",
+    "Written source-to-CNF bridge not formally verified",
+    "No topology, geometry, complete Borsuk theorem or Lean rebuild",
+    "Two replayers reuse explicitly pinned predecessor engines",
+    "No global novelty claim; Pico omission observation credited"
+  ],
+  "contributor": "Alexander Richard Towell",
+  "assistance": "Substantial OpenAI Codex assistance",
+  "artifact_hashes": {
+    "NO_DOWN.md": "d5952d026d33f7fd57916c3f54e0d78a4bee2feadde65bc09b12073e14717a4a",
+    "NO_DOWN_REVIEW.md": "7f901925b46d64573a59c1399e8ef075a2c2e2cff36bc0e29657de93dbbae708",
+    "no_down-build.txt": "4327dcc9591b70d37703d84acda7dc23b8c2e3992aa46753751e165de8a3bfe1",
+    "no_down-checks.json": "2e07670ccd1da0045ba67b1e3bed839f19de45a8b1aad081e0cd669afc1bc67a",
+    "no_down-coverage-tests.txt": "3107a796a96a2696a088a6c90009a7f1a6a2d44d12cc0b5c9db446d72e7e4130",
+    "no_down-coverage.txt": "76ce6b764f5063acc8b06c31d0972d394b167de06644a5d29e7ac6c2ee765fb8",
+    "no_down-independent-output.txt": "ab033eb579e0d8325efd74d24bb5ff4dfd4cbfb3d0be42887937bec976685766",
+    "no_down-metric-recheck.txt": "5c78f9b2c9fce6b0da0c25c44ec77ab9fd682b6b587e4b1aab5c889f37079627",
+    "no_down-negative-independent.txt": "b933a84415fa7701a05dc34ff17d685bde2d75c36f652887803585d85e5f640d",
+    "no_down-negative-primary.txt": "68154cb021641ba81ea45fb38f96d4b9b643cdb96f5992c956bf585e587dd794",
+    "no_down-old-proof-controls.json": "608550fea7ef156b4628fed4458ca63d9a484b0594e39160e1970342cf9e5952",
+    "no_down-output.txt": "027c5257b963d1c9a1f325a7f450f643a4a0181c54574c9a4ba6e452fe905ec1",
+    "no_down-regeneration.json": "6a83492e9b2ebd63603a103bc7611e12ae65c22cf3731151ae4cc6bcce8bfbe3",
+    "no_down-tests.txt": "88ea652cab49901ba1e00f72a0e89bd5daa90f31c0891ad2259739e3dd5b759b",
+    "no_down.py": "61a9ec8995e10fcc9bc58e9836ee4d4265ea92fda49ce00dd21c9586039c44fc",
+    "no_down_certificate.json": "f98da2cbdc8584a180fee391e6a03dc8ee6367bd31828b22e6652e9b0fc4ddd1",
+    "no_down_generate.py": "a648ef897662f95d0c844a742711fed542bf0ec009f5c736270afa30b8a7fd9d",
+    "no_down_generation.json": "cf82c18940ca2c5097e6a69b3848eb1fed45279f260894695f6ab1c10a33b348",
+    "no_down_independent.py": "84659a522a1e44b1456a2021158929451ad7f20b2bbfec467292373c0225dded",
+    "no_down_models.json": "b36fb84c128b0d0a7893810fb047afbf6363bcf429fb5da7219f003b53d624ea",
+    "no_down_source_pins.json": "78789ca8c31532ba5afc87580d4d2a26c7a9114250adebf104f0a0bf3c12896d",
+    "test_no_down.py": "d1f96086ee977e39a9c5b95fffa8a46a9002a20ee1f02df4e5a687e45bbf0122"
+  }
+}

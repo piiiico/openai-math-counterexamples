@@ -1,0 +1,8 @@
+{
+  "certificate_regeneration": "byte-identical",
+  "satisfying_models_regeneration": "byte-identical",
+  "generation_budget_seconds": 300,
+  "certificate_sha256": "f98da2cbdc8584a180fee391e6a03dc8ee6367bd31828b22e6652e9b0fc4ddd1",
+  "command": "timeout 300 python3 no_down_generate.py",
+  "python_sat": "1.9.dev6"
+}
