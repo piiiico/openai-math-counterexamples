@@ -1,0 +1,21 @@
+{
+  "variables": 330,
+  "clauses": 30361,
+  "omitted_source_fields": [
+    "down"
+  ],
+  "nonempty": "unrestricted OR over all 210 tetrahedra",
+  "symmetry_reduction": false,
+  "verified_rup_additions": 18302,
+  "final_empty_clause": true,
+  "canonical_cnf_sha256": "78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10",
+  "controls": {
+    "satisfying_models": 2,
+    "missing_axioms": [
+      "nonempty",
+      "pure"
+    ]
+  },
+  "scope": "finite weakened TenSystem only; no topology or Lean verification"
+}
+RESULT: certified finite ten-label obstruction without down

@@ -1,0 +1,37 @@
+{
+  "python": "3.13.15",
+  "python_sat": "1.9.dev6",
+  "solver": "Glucose4",
+  "elapsed_seconds": 0.9198858579620719,
+  "stats": {
+    "restarts": 1,
+    "conflicts": 18302,
+    "decisions": 22662,
+    "propagations": 806319
+  },
+  "additions": 18302,
+  "ignored_deletions": 10919,
+  "variables": 330,
+  "clauses": 30361,
+  "original_constraint_counts": {
+    "pure": 120,
+    "down": 840,
+    "no_boundary": 840,
+    "complementary": 4200,
+    "pair_count": 25200,
+    "nonempty": 1
+  },
+  "omitted": [
+    "down"
+  ],
+  "symmetry_reduction": false,
+  "nonempty_encoding": "OR of all 210 tetrahedron variables",
+  "seed": null,
+  "heuristics": "pinned solver defaults; certificate replay does not trust them",
+  "stopping_rule": "one finite-domain solve, externally capped at 300 seconds; then complete certificate replay",
+  "model_control": {
+    "omitted_additional_field": "pure",
+    "triples": 30,
+    "tetrahedra": 5
+  }
+}

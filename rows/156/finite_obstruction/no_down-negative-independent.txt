@@ -1,0 +1,1 @@
+FAIL: proof must end with an empty clause

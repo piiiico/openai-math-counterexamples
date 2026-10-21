@@ -1,0 +1,66 @@
+{
+  "source_definition_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "destination_base": "5c9236ec5b12ff35e74f6c69437fdcade9d26245",
+  "claim": "TenSystem without down, with nonempty Q and all other fields retained",
+  "files": [
+    {
+      "repository": "openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/OAI/Geometry/Borsuk/TenLabels/Labels.lean",
+      "sha256": "2edf8f16845c943113b43f34542a4bcdd26872910067b35d184c76915882ebb0",
+      "bytes": 5006,
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Geometry/Borsuk/TenLabels/Labels.lean"
+    },
+    {
+      "repository": "piiiico/openai-math-counterexamples",
+      "commit": "5c9236ec5b12ff35e74f6c69437fdcade9d26245",
+      "path": "rows/156/finite_obstruction/encoding.py",
+      "sha256": "70a4350279dcca960e1e6be335c0af3003a8a6ff1268bbd9475adb806886f073",
+      "bytes": 2983,
+      "role": "unchanged reused predecessor"
+    },
+    {
+      "repository": "piiiico/openai-math-counterexamples",
+      "commit": "5c9236ec5b12ff35e74f6c69437fdcade9d26245",
+      "path": "rows/156/finite_obstruction/rup.py",
+      "sha256": "508de5602d51235a1eb0f07b8ca2b7f0d35a66d4ebbb5c9dbcb8aeb4f38a37e7",
+      "bytes": 3854,
+      "role": "unchanged reused predecessor"
+    },
+    {
+      "repository": "piiiico/openai-math-counterexamples",
+      "commit": "5c9236ec5b12ff35e74f6c69437fdcade9d26245",
+      "path": "rows/156/finite_obstruction/independent_check.py",
+      "sha256": "58f1b0bf1cc6748d851250aaf3bf782b37c21a7ffc61f09eb9593ab3d3d801cb",
+      "bytes": 7606,
+      "role": "unchanged reused predecessor"
+    },
+    {
+      "repository": "piiiico/openai-math-counterexamples",
+      "commit": "5c9236ec5b12ff35e74f6c69437fdcade9d26245",
+      "path": "rows/156/finite_obstruction/LICENSE",
+      "sha256": "0bc7f950be7c67cd218b910b42527e71099c9ef3cf9bc1c1bf77e99468fda2ec",
+      "bytes": 1081,
+      "role": "unchanged reused predecessor"
+    },
+    {
+      "repository": "piiiico/openai-math-counterexamples",
+      "commit": "5c9236ec5b12ff35e74f6c69437fdcade9d26245",
+      "path": "rows/156/pico_sat_crosscheck.py",
+      "sha256": "9a808cacee381119403e37e35c519117ec8f56457e8de8a188e3570c7357746f",
+      "bytes": 1686,
+      "role": "prior omission observation and distinct solver encoding; no proof log"
+    },
+    {
+      "repository": "piiiico/openai-math-counterexamples",
+      "commit": "5c9236ec5b12ff35e74f6c69437fdcade9d26245",
+      "path": "rows/156/pico_sat_crosscheck.txt",
+      "sha256": "8b2a4b0f449ee3018e28279b8a0f7057d038f49dded677ffd5791182cd1cc479",
+      "bytes": 338,
+      "role": "prior omission observation and distinct solver encoding; no proof log"
+    }
+  ],
+  "coordination_url": "https://github.com/piiiico/openai-math-counterexamples/issues/9#issuecomment-6289678286",
+  "prior_observation": "https://github.com/piiiico/openai-math-counterexamples/pull/10#issuecomment-6248771785",
+  "overlap": "At 2026-10-20 setup, no open issues/PRs and no omission refutation in the current tree. Pico observation explicitly credited; no global novelty assessment."
+}

@@ -1,0 +1,10 @@
+{
+  "variables": 330,
+  "independently_generated_clauses": 30361,
+  "verified_rup_additions": 18302,
+  "final_empty_clause": true,
+  "canonical_cnf_sha256": "78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10",
+  "certificate_sha256": "f98da2cbdc8584a180fee391e6a03dc8ee6367bd31828b22e6652e9b0fc4ddd1",
+  "scope": "no down; no symmetry reduction; finite claim only"
+}
+Independent full-scan replay completed in 935.900 seconds.

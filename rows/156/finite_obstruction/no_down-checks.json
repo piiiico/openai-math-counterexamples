@@ -1,0 +1,57 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "rows/156/finite_obstruction/no_down.py"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "elapsed_seconds": 39.249,
+    "output": "no_down-output.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "rows/156/finite_obstruction",
+      "-v"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "elapsed_seconds": 55.441,
+    "output": "no_down-tests.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "-O",
+      "-B",
+      "rows/156/finite_obstruction/no_down.py",
+      "--negative-control",
+      "false-clause"
+    ],
+    "expected_exit": 1,
+    "actual_exit": 1,
+    "elapsed_seconds": 0.234,
+    "output": "no_down-negative-primary.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "-O",
+      "-B",
+      "rows/156/finite_obstruction/no_down_independent.py",
+      "--negative-control",
+      "truncated"
+    ],
+    "expected_exit": 1,
+    "actual_exit": 1,
+    "elapsed_seconds": 0.139,
+    "output": "no_down-negative-independent.txt"
+  }
+]
