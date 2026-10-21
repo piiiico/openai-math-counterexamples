@@ -1,0 +1,6 @@
+h=1 non-anchor region: 8x8; 48 bodies
+CNF: 314 variables, 981 clauses; 25 RUP additions
+original bodies: 8
+leaf-hitting-set edits/new bodies: 2 8
+optimal fixed-anchor repair edits: 4
+RESULT: certified fixed-anchor repair optimum 4 at h=1

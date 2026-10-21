@@ -1,0 +1,4 @@
+Ordered role bodies: 48
+Exhausted repairs with zero through three edits: 43745; all contain a body
+Four-edit witness cells: (52, 53, 60, 61); contains no body
+RESULT: independent exhaustive optimum 4 at h=1

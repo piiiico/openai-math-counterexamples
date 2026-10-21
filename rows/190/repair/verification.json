@@ -1,0 +1,74 @@
+{
+  "python": "3.13.15",
+  "verification_started": "2026-10-21T13:45:50Z",
+  "source_pins": "source-pins.json",
+  "normal_tests": 16,
+  "optimized_tests": 16,
+  "h1_domain": {
+    "editable_cells": 64,
+    "ordered_role_bodies": 48,
+    "budget_excluded": 3,
+    "minimum_fixed_anchor_repairs": 4,
+    "independent_complete_cases": 43745,
+    "enumeration_order": "lexicographic subsets, sizes0 through3",
+    "enumeration_seed": null
+  },
+  "certificate": {
+    "variables": 314,
+    "clauses": 981,
+    "RUP_additions": 25,
+    "optional_generator": "python-sat==1.8.dev24 / Glucose4",
+    "solver_required_for_verification": false
+  },
+  "strict_controls": [
+    "truncated proof",
+    "satisfiable constraint weakening with explicit two-edit witness",
+    "invalid upper-bound witness",
+    "independent input mutation producing a genuine three-edit repair"
+  ],
+  "finite_depths_checked": [
+    1,
+    2,
+    3
+  ],
+  "all_depth_proof_kind": "written proof",
+  "unrestricted_exact_distance": "inherits source lower bound; not inferred from finite computation",
+  "human_peer_review": false,
+  "kernel_verification": false,
+  "coverage_tool": "coverage==7.10.7",
+  "coverage": {
+    "independent.py": {
+      "covered_lines": 51,
+      "num_statements": 54,
+      "percent_covered": 90.78947368421052,
+      "percent_covered_display": "91",
+      "missing_lines": 3,
+      "excluded_lines": 0,
+      "num_branches": 22,
+      "num_partial_branches": 4,
+      "covered_branches": 18,
+      "missing_branches": 4
+    },
+    "repair.py": {
+      "covered_lines": 219,
+      "num_statements": 221,
+      "percent_covered": 98.67986798679868,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "num_branches": 82,
+      "num_partial_branches": 2,
+      "covered_branches": 80,
+      "missing_branches": 2
+    }
+  },
+  "predecessor_comparison": {
+    "original_cells": 64,
+    "ordered_bodies": 48,
+    "original_P_bodies": 8,
+    "all_match": true,
+    "by": "separately tasked AI reviewer",
+    "predecessor_sha256": "8f5283d389a935dea3ab305fe8482509c77b411ad401d4d7f06d688367471b23"
+  },
+  "output_sha256": "302b36e115f952db819185cbecacd4de417f7a24ee186cd64471f32d78566a66"
+}

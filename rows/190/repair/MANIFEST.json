@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "CITATION.cff": "3709f775a4537752121766e604e250a082a9866fc91c7f09a9839a6745d5f748",
+    "LICENSE": "957a1d8af769cbbdd3e9b69a59dbe9f46ad75ceb199fce755a6deb84ab9c7017",
+    "PROOF.md": "3787bc8bb32e655006e9e8f1d9f23b610eb988de5991122e991cfdc7120bd148",
+    "README.md": "517aa1a25ac753619bcab4079a0f044a6c568a3d1a012ebd39cddd9190ecfb1e",
+    "REVIEW.md": "d4ff25fb607c01bfb2ce23f650dc33af09ffa007b5bb588d0fe57e3d8014b408",
+    "certificate.json": "fa86592883567e447f7e11c2840398d49ba8a20a24e17e441494a0dfb642bc17",
+    "generate.py": "c96c83c1dca6e67f75d50f4be586e2cec1a6ec0e66919c5f651aad3386a4358a",
+    "independent.py": "cc879c0867d307aa6d2f6b408e9d6dd326ab86f37c2892d8c7b169a507570cb3",
+    "logs/coverage.txt": "68d94b8c1c833eb92778fef443477849f0c6c94d3728e97aef5d4c0c91158ca4",
+    "logs/independent.txt": "316a2e2cab3a72dd255f8f79a97c6f3af472385d14976010f088a54503a3c121",
+    "logs/reproduce.txt": "cb4d629e6a76a14be9f3ca655bd33a1915a067a869d1cc42f8615ed8ff491fe7",
+    "output.txt": "302b36e115f952db819185cbecacd4de417f7a24ee186cd64471f32d78566a66",
+    "repair.py": "494c64b287a63b8c914bed62e15afe34b25029c9440f62bcec167f5712d74ca8",
+    "reproduce.sh": "e10fd7148da108a186cb87cecea6205c6369e169159e643545991f81fbee64cf",
+    "source/01-introduction.tex": "88d6ccc55361ba0409a9d532a8b075f3f688c44568a376c5f5b27f437bf110b2",
+    "source/02-construction.tex": "19dbe8eea7abc5165a27f450bb4fab0d9c2f59caf40eaec47c6ace73819916ec",
+    "source/03-pinning.tex": "bda96d50abbf389ef99fdc0a8888b3068c6d25d79c213f15edf7d66907c89467",
+    "source/03b-count.tex": "11c3c67a6c042ef1d03387ac2c3e76a89703d508efbb24480f7d1ada0f6f47be",
+    "source/04-distance.tex": "4f7e9ca6e5f9a88d3a091758acf76dade80096f06a978089b3b232d355125acb",
+    "source/05-conclusion.tex": "69887cbbce732bcf32e271b8bb4c1823e6d17a82e22e920572b4b3f886c78da9",
+    "source/LICENSE-Apache-2.0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "source/SHA256SUMS": "4134151bbc146ee90d9012873372d70c5b2b4b87b5c512a86c606f78113bca8d",
+    "source-pins.json": "0b58ad275bc984df016d7cda686f02be159deed00714c0f4a06355c8dca08064",
+    "test_repair.py": "ab2a997220246b05dc81a8548a99048364db3efc300465e38ea26dfef659787c",
+    "verification.json": "5335f36e5ac3e73f134bfc5c89b6fae03b16efa866140d89f3ff5f79156d8f32",
+    "visit.json": "420189ad9cc5e85fc107f64e9f3f137b2cda47739c035ae8751c4e5a61cce0b5"
+  }
+}
