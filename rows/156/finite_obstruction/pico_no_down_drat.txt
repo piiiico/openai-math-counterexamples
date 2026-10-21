@@ -1,0 +1,10 @@
+pico clauses 30361 canonical sha256 78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10
+matches certificate canonical_cnf_sha256: True
+drat-trim forward, full proof: VERIFIED
+control truncated to 9000 lines: NOT VERIFIED
+control lines 2..9000 removed: NOT VERIFIED
+control bare empty clause: NOT VERIFIED
+control CNF without pure: NOT VERIFIED
+packet no-pure model satisfies CNF without pure: True | violates pure clauses: 30
+RESULT: PASS
+drat-trim commit 2e3b2dc0ecf938addbd779d42877b6ed69d9a985, gcc 14.2.0 -O2, Python 3.13.5, Linux x86_64, 2026-10-21T02:43:21Z
