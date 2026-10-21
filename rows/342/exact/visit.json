@@ -1,0 +1,39 @@
+{
+  "start": "2026-10-21T10:59:11Z",
+  "deadline": "2026-10-21T11:59:11Z",
+  "verification_start": "2026-10-21T11:44:11Z",
+  "base": "90f160d430a87b38309a4efac5dcac6d8225795f",
+  "destination_base": "f3e88206eb0c1ca065eb7106e06602d1aaa4c25b",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "claim_url": "https://github.com/piiiico/openai-math-counterexamples/issues/13",
+  "selection": [
+    {
+      "family": "059",
+      "task": "Independently certify the 849-entry multiplicative relation",
+      "decision": "Already has exact sieve valuation and independent modular routes; less additional coverage within one hour."
+    },
+    {
+      "family": "172",
+      "task": "Independently verify non-Ramsey moment identities",
+      "decision": "Existing rational-function and dual-number methods already give strong coverage; lower marginal value."
+    },
+    {
+      "family": "342",
+      "task": "Replace sampled four-torus pointwise checks by exact polynomial identities and universal positivity bounds",
+      "decision": "Selected: correction of retracted cone statement; exact all-parameter evidence closes grid/finite-difference coverage limitation."
+    }
+  ],
+  "hypothesis": "All algebraic identities of Example ex:strict-cones hold identically for all real f,k, with r positive and r^2=1+f^2+k^2; positivity and taming hold on |f|,|k|<=1/4.",
+  "dependencies": [
+    "Source's definitions and elementary exterior algebra",
+    "For global interpretation only: Hodge theory on the flat torus and de Rham pairing; not machine-verified"
+  ],
+  "method": "Independent exact sparse polynomial matrix/exterior algebra in Z[f,k,z], plus written elementary inequalities and separated-variable primitive.",
+  "success": "Reproducible exact identity checker with strict negative controls, tests, independent scoped review and precise scope; no sampled implication claimed.",
+  "stopping_rule": "Stop at deadline; one evidence-driven pivot allowed; if identities fail isolate verified discrepancy rather than claiming source theorem false.",
+  "status": "mathematical_packet_complete_verification_and_publication",
+  "investigation_end": "2026-10-21T11:06:17Z",
+  "verification_started": "2026-10-21T11:06:17Z",
+  "finding": "20 exact all-parameter identities plus written positivity and amplitude corollary; no discrepancy found.",
+  "review": "One scoped AI reviewer found no blocker; global steps remain written mathematics."
+}
