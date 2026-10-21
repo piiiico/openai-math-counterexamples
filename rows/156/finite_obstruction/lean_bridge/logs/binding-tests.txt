@@ -1,0 +1,22 @@
+test_accepts_clause_and_literal_reordering (test_binding.BindingTests.test_accepts_clause_and_literal_reordering) ... ok
+test_accepts_exact_formula (test_binding.BindingTests.test_accepts_exact_formula) ... ok
+test_preserves_clause_multiplicity (test_binding.BindingTests.test_preserves_clause_multiplicity) ... ok
+test_rejects_changed_variable_meaning (test_binding.BindingTests.test_rejects_changed_variable_meaning) ... ok
+test_rejects_changed_variable_order (test_binding.BindingTests.test_rejects_changed_variable_order) ... ok
+test_rejects_duplicate_clause_in_place_of_another (test_binding.BindingTests.test_rejects_duplicate_clause_in_place_of_another) ... ok
+test_rejects_duplicate_literal (test_binding.BindingTests.test_rejects_duplicate_literal) ... ok
+test_rejects_filtered_out_obligation (test_binding.BindingTests.test_rejects_filtered_out_obligation) ... ok
+test_rejects_invalid_counts_and_schema (test_binding.BindingTests.test_rejects_invalid_counts_and_schema) ... ok
+test_rejects_invalid_literals (test_binding.BindingTests.test_rejects_invalid_literals) ... ok
+test_rejects_malformed_variable_rows (test_binding.BindingTests.test_rejects_malformed_variable_rows) ... ok
+test_rejects_missing_clause_even_when_counts_are_adjusted (test_binding.BindingTests.test_rejects_missing_clause_even_when_counts_are_adjusted) ... ok
+test_rejects_non_list_clause (test_binding.BindingTests.test_rejects_non_list_clause) ... ok
+test_rejects_sign_change (test_binding.BindingTests.test_rejects_sign_change) ... ok
+test_full_binding_and_cli_rejection_controls (test_binding.IntegrationTests.test_full_binding_and_cli_rejection_controls) ... ok
+test_rejects_each_wrong_source_hash (test_binding.IntegrationTests.test_rejects_each_wrong_source_hash) ... ok
+test_rejects_wrong_reference_cnf_hash (test_binding.IntegrationTests.test_rejects_wrong_reference_cnf_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.728s
+
+OK

@@ -1,0 +1,16 @@
+Family156Bridge.model_satisfies_generated_cnf {T Q : Family} (h : FiveFields T Q) (hne : ∃ S, Q S) :
+  Satisfies (model T Q) generatedCNF
+Family156Bridge.encoded_model_satisfies_cnf {T Q : Family} (h : FiveFields T Q) (hne : ∃ S, Q S) :
+  EncodedSatisfies (encodedModel T Q) encodedCNF
+'Family156Bridge.encoded_model_satisfies_cnf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Family156Bridge.encoded_unsat_implies_no_source_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+@encoded_model_satisfies_cnf : ∀ {T Q : Family},
+  FiveFields T Q → (∃ S, Q S) → EncodedSatisfies (encodedModel T Q) encodedCNF
+{
+  "variables": 330,
+  "clauses": 30361,
+  "raw_obligations": 30361,
+  "well_formed_obligations": 30361,
+  "canonical_cnf_sha256": "78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10"
+}
+RESULT: exact source-to-CNF binding verified after fresh Lean build
