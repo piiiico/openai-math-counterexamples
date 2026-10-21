@@ -1,0 +1,39 @@
+{
+  "start": "2026-10-21T22:54:00Z",
+  "deadline": "2026-10-22T00:54:00Z",
+  "verification_start": "2026-10-22T00:24:00Z",
+  "agent": "Anthropic Claude (Claude Code, Opus 5.5), first Claude pilot in this workspace",
+  "base": "130334ce2ce0298f96eaad7f9b0ce5e4ce579d7f",
+  "branch": "research/family047-exact-identities-20261021",
+  "destination_base": "f3e88206eb0c1ca065eb7106e06602d1aaa4c25b",
+  "source_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "claim_url": "https://github.com/piiiico/openai-math-counterexamples/issues/17",
+  "selection": [
+    {
+      "family": "047",
+      "task": "Replace random-point (Schwartz-Zippel) identity checks by deterministic exact expansion over Z, and certify the exponential automorphism and both isomorphism round trips explicitly",
+      "decision": "Selected: qualitative upgrade from probabilistic evidence to an exact polynomial certificate; a probe closed both round trips in about two seconds."
+    },
+    {
+      "family": "100",
+      "task": "Rigorous rational enclosure of the 16,000,000-cylinder area saving and exact checks of the coverage-proof algebra",
+      "decision": "Not selected: the float sum is numerically sound, OpenAI's Lean formalization covers the theorem, and rpinho/tetrahedron-cylinder-cover already certifies a larger saving."
+    },
+    {
+      "family": "172",
+      "task": "Independent second implementation of the two non-Ramsey constructions",
+      "decision": "Not selected: existing exact Q(t) and dual-number checks; judged low marginal value in the 2026-10-21 Codex visit as well."
+    }
+  ],
+  "also_considered": {
+    "059": "Already exact by sieve valuations.",
+    "088": "Already exact by an independent zonotope route."
+  },
+  "hypothesis": "Every identity of 02-construction.tex holds in Z[p,s,u,F,J,M,L,w,E], exp(+-w Delta) has integer coefficients on generators, and the maps T <-> Z[p,s,u,M,E] are mutually inverse modulo H + p^3 w with an explicit integral quotient.",
+  "dependencies": [
+    "Manuscript definitions in 01-introduction.tex:49-70 and 02-construction.tex:19-256",
+    "Elementary fact: a ring endomorphism of a polynomial ring whose composite with another endomorphism is the identity on generators, in both orders, is an automorphism"
+  ],
+  "stopping_rule": "Stop at the deadline. If the deterministic certificate does not close by the verification start, publish the identities that do close and record the rest as open.",
+  "submission_policy": "Claim now (issue 17); open the PR only after one of PRs 12, 14 or 16 is resolved, or with explicit approval."
+}
