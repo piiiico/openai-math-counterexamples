@@ -86,6 +86,22 @@ Expected: exit 0, both theorem axiom lists contain only
 The command recompiles the core before its consumers and creates a fresh export;
 without `--run-lean` it checks only the bundled JSON.
 
+### Cold Mathlib loads and timeouts
+
+`check_lean_binding.py` gives each of its three Lean subprocesses a 120-second
+wall-clock limit. A first Mathlib load on a slow disk can exceed this limit even
+after `lake exe cache get`. In his
+[independent AI rerun](https://github.com/piiiico/openai-math-counterexamples/pull/12#issuecomment-6343497809),
+Pico reported 6 minutes 49 seconds for the first core compilation and successful
+reproduction with each limit increased to 1,800 seconds.
+
+If the command reports a timeout, use a disposable checkout and
+change all three `timeout=120` arguments in `build_and_export` to `timeout=1800`,
+then rerun the command above. Retain `--run-lean` so the retry still compiles the
+proof and consumers, generates a fresh export, and checks the complete binding.
+This workaround changes only the time allowance; record the local modification
+and actual runtime with the rerun. A timeout alone gives no verdict on the proof.
+
 In the owning math-research workspace, use
 `--packet-dir ../family156_down_omission/packet/rows/156/finite_obstruction` instead.
 
