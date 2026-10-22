@@ -1,0 +1,9 @@
+.................
+----------------------------------------------------------------------
+Ran 17 tests in 3.731s
+
+OK
+lines   cov%   module   (path)
+  121    88%   check_lean_binding   (/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_lean_bridge/check_lean_binding.py)
+   59    84%   home.spinoza.github.math-research..worktrees.family156-lean-bridge-20261021.research.family156_down_omission.packet.rows.156.finite_obstruction.encoding   (/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction/encoding.py)
+  135    99%   test_binding   (/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_lean_bridge/test_binding.py)

@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-21T08:17:25Z",
+  "classification": "kernel-checked forward reduction plus external exact CNF binding",
+  "python": "3.13.15",
+  "lean": "leanprover/lean4:v4.33.1",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "main_theorem": "Family156Bridge.encoded_model_satisfies_cnf",
+  "main_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "unsat_corollary_requires_explicit_unsat_hypothesis": true,
+  "variables": 330,
+  "raw_obligations": 30361,
+  "well_formed_obligations": 30361,
+  "clauses": 30361,
+  "variable_meanings": "complete ordered table matched",
+  "clauses_comparison": "complete multiset, including multiplicities",
+  "canonical_cnf_sha256": "78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10",
+  "tests": 17,
+  "normal_cli_positive_and_three_negative_controls": true,
+  "optimized_cli_positive_and_three_negative_controls": true,
+  "lean_mutation": "Removing the negative T guard from pure clauses fails with an unsolved False goal",
+  "output_sha256": "a70af64ba8c5732cc18a7164fc72be3fc380bc8eecc16fa84a00f3743e066289",
+  "review": "One separately tasked AI review of core, fresh export, source pins, and binding checker; see REVIEW.md",
+  "not_verified_here": [
+    "kernel-checked UNSAT certificate soundness or replay",
+    "source full Lean project",
+    "compiler/export/parser correctness",
+    "reverse reduction",
+    "geometry or topology",
+    "human peer review",
+    "global novelty"
+  ],
+  "certificate_replay": "Existing accepted replays inherited; not rerun during this bridge visit",
+  "local_environment": "Pinned cached dependencies reused read-only; new affected module rebuilt locally",
+  "contributor": "Alexander Richard Towell",
+  "ai_assistance": "Substantial OpenAI Codex assistance"
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "command": [
+      "/home/spinoza/venv/bin/python",
+      "check_lean_binding.py",
+      "--packet-dir",
+      "/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction"
+    ],
+    "returncode": 0,
+    "expected": 0,
+    "stdout": "{\n  \"variables\": 330,\n  \"clauses\": 30361,\n  \"raw_obligations\": 30361,\n  \"well_formed_obligations\": 30361,\n  \"canonical_cnf_sha256\": \"78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10\"\n}\nRESULT: exact source-to-CNF binding verified for saved export\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/spinoza/venv/bin/python",
+      "check_lean_binding.py",
+      "--packet-dir",
+      "/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction",
+      "--negative-control",
+      "drop-clause"
+    ],
+    "returncode": 1,
+    "expected": 1,
+    "stdout": "",
+    "stderr": "RESULT: FAIL: clause multiset differs: missing=1, extra=0\n"
+  },
+  {
+    "command": [
+      "/home/spinoza/venv/bin/python",
+      "check_lean_binding.py",
+      "--packet-dir",
+      "/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction",
+      "--negative-control",
+      "flip-literal"
+    ],
+    "returncode": 1,
+    "expected": 1,
+    "stdout": "",
+    "stderr": "RESULT: FAIL: clause multiset differs: missing=1, extra=1\n"
+  },
+  {
+    "command": [
+      "/home/spinoza/venv/bin/python",
+      "check_lean_binding.py",
+      "--packet-dir",
+      "/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction",
+      "--negative-control",
+      "swap-variables"
+    ],
+    "returncode": 1,
+    "expected": 1,
+    "stdout": "",
+    "stderr": "RESULT: FAIL: ordered variable meanings differ\n"
+  },
+  {
+    "command": [
+      "/home/spinoza/venv/bin/python",
+      "-O",
+      "check_lean_binding.py",
+      "--packet-dir",
+      "/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction"
+    ],
+    "returncode": 0,
+    "expected": 0,
+    "stdout": "{\n  \"variables\": 330,\n  \"clauses\": 30361,\n  \"raw_obligations\": 30361,\n  \"well_formed_obligations\": 30361,\n  \"canonical_cnf_sha256\": \"78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10\"\n}\nRESULT: exact source-to-CNF binding verified for saved export\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/spinoza/venv/bin/python",
+      "-O",
+      "check_lean_binding.py",
+      "--packet-dir",
+      "/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction",
+      "--negative-control",
+      "drop-clause"
+    ],
+    "returncode": 1,
+    "expected": 1,
+    "stdout": "",
+    "stderr": "RESULT: FAIL: clause multiset differs: missing=1, extra=0\n"
+  },
+  {
+    "command": [
+      "/home/spinoza/venv/bin/python",
+      "-O",
+      "check_lean_binding.py",
+      "--packet-dir",
+      "/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction",
+      "--negative-control",
+      "flip-literal"
+    ],
+    "returncode": 1,
+    "expected": 1,
+    "stdout": "",
+    "stderr": "RESULT: FAIL: clause multiset differs: missing=1, extra=1\n"
+  },
+  {
+    "command": [
+      "/home/spinoza/venv/bin/python",
+      "-O",
+      "check_lean_binding.py",
+      "--packet-dir",
+      "/home/spinoza/github/math-research/.worktrees/family156-lean-bridge-20261021/research/family156_down_omission/packet/rows/156/finite_obstruction",
+      "--negative-control",
+      "swap-variables"
+    ],
+    "returncode": 1,
+    "expected": 1,
+    "stdout": "",
+    "stderr": "RESULT: FAIL: ordered variable meanings differ\n"
+  },
+  {
+    "control": "remove negative T guard from pure clauses",
+    "returncode": 1,
+    "expected": "nonzero proof failure",
+    "stdout": "/tmp/family156-guard-etbffum6/MissingPureGuard.lean:180:35: error: unsolved goals\nT Q : Family\nh : FiveFields T Q\nhne : \u2203 S, Q S\nU : Finset Labels\nhw : WellFormed (Obligation.pure U)\nhU : \u00acT U\n\u22a2 False\n/tmp/family156-guard-etbffum6/MissingPureGuard.lean:231:28: error: Application type mismatch: The argument\n  hl\nhas type\n  l \u2208 clause (Obligation.pure U)\nbut is expected to have type\n  ?m.39 \u2208 ?m.37 :: ?m.38\nin the application\n  List.mem_cons.mp hl\n",
+    "stderr": ""
+  }
+]

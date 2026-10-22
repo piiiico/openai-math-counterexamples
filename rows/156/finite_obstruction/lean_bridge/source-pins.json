@@ -1,0 +1,14 @@
+{
+  "openai_math_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "labels_sha256": "2edf8f16845c943113b43f34542a4bcdd26872910067b35d184c76915882ebb0",
+  "certificate_source_commit": "c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9",
+  "source_files": {
+    "encoding.py": "70a4350279dcca960e1e6be335c0af3003a8a6ff1268bbd9475adb806886f073",
+    "no_down.py": "61a9ec8995e10fcc9bc58e9836ee4d4265ea92fda49ce00dd21c9586039c44fc",
+    "rup.py": "508de5602d51235a1eb0f07b8ca2b7f0d35a66d4ebbb5c9dbcb8aeb4f38a37e7",
+    "no_down_certificate.json": "f98da2cbdc8584a180fee391e6a03dc8ee6367bd31828b22e6652e9b0fc4ddd1"
+  },
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "canonical_cnf_sha256": "78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10"
+}
