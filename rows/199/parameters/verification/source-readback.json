@@ -1,0 +1,32 @@
+[
+  {
+    "path": "preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026/build/03-algebra.tex",
+    "sha256": "f3da85912c346824c1532feb9b410e169a0b520e8261ebbea2a95e8527908af5",
+    "bytes": 9232,
+    "matches": true
+  },
+  {
+    "path": "preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026/build/04-resolution.tex",
+    "sha256": "d19c8a962c5883d1f53d920604c137229b01c9c8370a17ca6fbfa0abbdbf2636",
+    "bytes": 9408,
+    "matches": true
+  },
+  {
+    "path": "lean/OAI/Algebra/AuslanderReiten/Resolutions/Resolution.lean",
+    "sha256": "0a3446c388082f7d83136b75e57f6c25f0bd8c7cbbe22c501ec3354ba06786c6",
+    "bytes": 9249,
+    "matches": true
+  },
+  {
+    "path": "lean/OAI/Algebra/AuslanderReiten/Parameters.lean",
+    "sha256": "6c4ab8159f92a99c679a51f56972ade3a379c3780255bd4fb0dfb7073b110fc7",
+    "bytes": 3148,
+    "matches": true
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "matches": true
+  }
+]

@@ -1,0 +1,2 @@
+RESULT: 1000 polynomial associativity identities; 30 exact field/parameter cases; 710 degrees in each complex; all kernel/image and homology witnesses agree.
+SCOPE: augmentation defects and Hom-complex cohomology; Ext only when the displayed resolution is exact.

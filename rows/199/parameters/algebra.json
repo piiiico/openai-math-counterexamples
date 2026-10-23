@@ -1,0 +1,206 @@
+{
+  "idempotents": [
+    "e",
+    "f"
+  ],
+  "basis": [
+    {
+      "name": "e",
+      "left": "e",
+      "right": "e",
+      "degree": 0
+    },
+    {
+      "name": "f",
+      "left": "f",
+      "right": "f",
+      "degree": 0
+    },
+    {
+      "name": "x",
+      "left": "e",
+      "right": "e",
+      "degree": 2
+    },
+    {
+      "name": "y",
+      "left": "e",
+      "right": "e",
+      "degree": 2
+    },
+    {
+      "name": "z",
+      "left": "e",
+      "right": "e",
+      "degree": 4
+    },
+    {
+      "name": "u",
+      "left": "e",
+      "right": "f",
+      "degree": 1
+    },
+    {
+      "name": "v",
+      "left": "e",
+      "right": "f",
+      "degree": 3
+    },
+    {
+      "name": "t",
+      "left": "f",
+      "right": "e",
+      "degree": 1
+    },
+    {
+      "name": "j",
+      "left": "f",
+      "right": "e",
+      "degree": 3
+    },
+    {
+      "name": "n",
+      "left": "f",
+      "right": "f",
+      "degree": 2
+    }
+  ],
+  "products": [
+    {
+      "inputs": [
+        "x",
+        "y"
+      ],
+      "output": {
+        "z": [
+          1
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "y",
+        "x"
+      ],
+      "output": {
+        "z": [
+          0
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "x",
+        "u"
+      ],
+      "output": {
+        "v": [
+          0
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "y",
+        "u"
+      ],
+      "output": {
+        "v": [
+          0
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "t",
+        "x"
+      ],
+      "output": {
+        "j": [
+          0
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "t",
+        "y"
+      ],
+      "output": {
+        "j": [
+          2
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "u",
+        "t"
+      ],
+      "output": {
+        "y": [
+          0
+        ],
+        "x": [
+          1
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "v",
+        "t"
+      ],
+      "output": {
+        "z": [
+          1
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "u",
+        "j"
+      ],
+      "output": {
+        "z": [
+          0
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "t",
+        "u"
+      ],
+      "output": {
+        "n": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "n",
+        "t"
+      ],
+      "output": {
+        "j": [
+          1
+        ]
+      }
+    },
+    {
+      "inputs": [
+        "u",
+        "n"
+      ],
+      "output": {
+        "v": [
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "control": null,
+    "exit": 0,
+    "stdout": "RESULT: 1000 polynomial associativity identities; 30 exact field/parameter cases; 710 degrees in each complex; all kernel/image and homology witnesses agree.\nSCOPE: augmentation defects and Hom-complex cohomology; Ext only when the displayed resolution is exact.\n",
+    "stderr": ""
+  },
+  {
+    "control": "product",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "REJECT: polynomial associativity at ('u', 't', 'y'): {'z': 4} != {'z': 2}\n"
+  },
+  {
+    "control": "root",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "REJECT: false root-of-unity exactness rejected by computed homology\n"
+  },
+  {
+    "control": "zero-dual",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "REJECT: false generic dual profile at q=0 rejected by computed cohomology\n"
+  }
+]
