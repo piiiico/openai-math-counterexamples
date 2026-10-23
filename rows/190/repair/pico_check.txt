@@ -1,0 +1,5 @@
+non-anchor rows/cols 8 8
+ordered candidate bodies 48
+bodies in original 8
+witness edits 4 bodies after 0
+subsets of size<=3 tried 43745 repair found None

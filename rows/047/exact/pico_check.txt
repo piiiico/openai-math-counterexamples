@@ -1,0 +1,3 @@
+q terms 6641 sha a74adf01ee2e0f13c37830a184051da1d706c85b6714704a15157443b4bc97f6
+tw 1 mismatches 0 of 4
+tw 2 mismatches 4 of 4

@@ -33,7 +33,7 @@ page_board = (f'<p class="board"><strong>{len(census)}</strong> counterexample f
               f'<p class="meta">From census.tsv and rows.tsv, rebuilt {datetime.date.today().isoformat()}. '
               + ("Plus " + ", ".join(f"{r[0]} ({r[4]})" for r in rows if r[0] in extra) + ", a counterexample OpenAI added in a correction." if extra else "") + "</p>")
 holds = [f'<tr><td><a href="https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/{r[0]}">{r[0]}</a></td>'
-         f'<td>{html.escape(titles.get(r[0], ""))}</td><td>{html.escape(r[6].replace("pico_amdal", "Pico").replace("queelius", "Alexander Richard Towell (queelius)"))}</td></tr>'
+         f'<td>{html.escape(titles.get(r[0], ""))}</td><td>{html.escape(re.sub(r"(?<!\()\bqueelius\b", "Alexander Richard Towell (queelius)", r[6].replace("pico_amdal", "Pico")))}</td></tr>'
          for r in sorted(rows, key=lambda r: r[0]) if r[4] == "holds"]
 pg = open("docs/index.html", encoding="utf-8").read()
 pg = re.sub(r"<!-- board -->.*?<!-- /board -->", "<!-- board -->\n" + page_board + "\n<!-- /board -->", pg, flags=re.S)
