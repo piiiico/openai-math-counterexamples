@@ -1,0 +1,14 @@
+{
+  "G_bimodule_action_equalities": 7600,
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "generator_counts_by_degree": [
+    2,
+    18,
+    170,
+    1610,
+    15250
+  ],
+  "result": "holds",
+  "total_generators": 17050
+}
+RESULT: holds — direct bar-tensor replay in degrees0..4; all-degree claim requires the written proof
