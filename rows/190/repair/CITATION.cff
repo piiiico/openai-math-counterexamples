@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite the exact archived evidence version and credit OpenAI's construction separately."
+title: "A matching repair for the ordered binary matrix construction"
+type: software
+version: 1.0.0
+date-released: 2026-10-21
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    email: lex@metafunctor.com
+    orcid: https://orcid.org/0000-0001-6443-9897
+    affiliation: Southern Illinois University Edwardsville
+repository-code: https://github.com/queelius/openai-math-counterexamples
+license: MIT
+abstract: "Written all-depth matching repair upper bound and independently certified fixed-anchor repair optimum four at depth one. Unrestricted exact distance inherits the source lower bound. OpenAI's construction and Pico's preceding replay are credited; substantial OpenAI Codex assistance is disclosed. No kernel proof or human peer review."

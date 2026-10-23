@@ -1,0 +1,36 @@
+{
+  "start": "2026-10-21T13:34:56Z",
+  "deadline": "2026-10-21T14:19:56Z",
+  "verification_begins_no_later": "2026-10-21T14:04:56Z",
+  "workspace_base": "f41b85951b4d45596f09b9c4914323aa6d5eed13",
+  "counterexamples_base": "f3e88206eb0c1ca065eb7106e06602d1aaa4c25b",
+  "openai_source": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "question": "Determine the exact minimum number of non-anchor-cell edits making the h=1 host H-free; all anchor-incident entries fixed.",
+  "comparison": [
+    {
+      "family": "059",
+      "decision": "Existing exact valuation and modular routes; less additional coverage."
+    },
+    {
+      "family": "172",
+      "decision": "Existing rational-function and dual-number checks; less additional coverage."
+    },
+    {
+      "family": "190",
+      "decision": "Selected: exact restricted repair cost is not given in inspected source or prior checker. Hitting original copies need not be a repair."
+    }
+  ],
+  "hypothesis": "A complete 64-variable body-avoidance model exactly describes fixed-anchor repairs at h=1; its optimum can be certified within the visit.",
+  "dependencies": [
+    "Pinned host/pattern definitions",
+    "Written arbitrary-edit anchor-rigidity specialization using only eight non-anchor rows",
+    "Exact finite SAT/certificate or independently checkable enumeration"
+  ],
+  "success": "Explicit optimal repair, complete reduction proof, reproducible lower-bound certificate and strict controls; otherwise exact blocker.",
+  "stopping_rule": "At most45 minutes, final 15 verification; at most one evidence-driven pivot; no next cycle automatically.",
+  "status": "completed_mathematics_under_verification",
+  "claim": "https://github.com/piiiico/openai-math-counterexamples/issues/15",
+  "finding": "Explicit all-depth m\u00b2 repair; source-dependent distance equality; independent fixed-anchor h=1 optimum4.",
+  "evidence_driven_extension": "The h=1 block repair admits the same all-depth proof after preserving the trace/rigidity premise. No new mechanism or cycle.",
+  "verification_started": "2026-10-21T13:45:50Z"
+}

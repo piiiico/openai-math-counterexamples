@@ -1,0 +1,15 @@
+{
+  "openai_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "preprint": "preprints/Polynomial-removal-fails-for-ordered-binary-matrices-September-25-2026/build/sections",
+  "files": {
+    "01-introduction.tex": "88d6ccc55361ba0409a9d532a8b075f3f688c44568a376c5f5b27f437bf110b2",
+    "02-construction.tex": "19dbe8eea7abc5165a27f450bb4fab0d9c2f59caf40eaec47c6ace73819916ec",
+    "03-pinning.tex": "bda96d50abbf389ef99fdc0a8888b3068c6d25d79c213f15edf7d66907c89467",
+    "03b-count.tex": "11c3c67a6c042ef1d03387ac2c3e76a89703d508efbb24480f7d1ada0f6f47be",
+    "04-distance.tex": "4f7e9ca6e5f9a88d3a091758acf76dade80096f06a978089b3b232d355125acb",
+    "05-conclusion.tex": "69887cbbce732bcf32e271b8bb4c1823e6d17a82e22e920572b4b3f886c78da9"
+  },
+  "predecessor_repository_commit": "f3e88206eb0c1ca065eb7106e06602d1aaa4c25b",
+  "predecessor_checker_path": "rows/190/check.py",
+  "predecessor_checker_sha256": "8f5283d389a935dea3ab305fe8482509c77b411ad401d4d7f06d688367471b23"
+}
