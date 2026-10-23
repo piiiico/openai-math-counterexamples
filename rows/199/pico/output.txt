@@ -1,0 +1,8 @@
+TeX table rows parsed: 20; entries: 179; data.json entries: 179
+weight rule violations: 0
+unmutated data.json: exit 0; RESULT: holds — exact finite cocycle and twisted boundary identities; full counterexample theorem not checked
+mutation a (delete zxJv): exit 1; RESULT: FAIL: cocycle at ('x', 'y', 'x', 'J'): {'v': [(1, 0)]}
+mutation b triple: ('t', 'x', 'J')
+mutation b (add txJ -> q^3 f): exit 1; RESULT: FAIL: cocycle at ('u', 't', 'x', 'J'): {'u': [(3, 0)]}
+mutation c (EyJT q^3 -> q^2): exit 1; RESULT: FAIL: cocycle at ('x', 'X', 'y', 'J'): {'T': [(2, 0), (3, 0)]}
+RESULT: holds — TeX table = data.json (179/179), weight rule holds, 3 outside mutations rejected
