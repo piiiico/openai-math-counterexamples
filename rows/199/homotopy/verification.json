@@ -1,0 +1,58 @@
+{
+  "verified_at": "2026-10-23T12:52:47.307785+00:00",
+  "python": "3.13.15 (main, Sep 29 2026, 15:01:28) [Clang 22.1.3 ]",
+  "dependencies": "Python standard library; coverage7.13.4 used only for development",
+  "claim": "Explicit G satisfies pB=dG+Gd in all degrees, assuming the pinned finite boundary identity",
+  "evidence": "Written proof plus bounded direct sparse-tensor replay; no kernel proof or human peer review",
+  "generator_counts_by_degree": [
+    2,
+    18,
+    170,
+    1610,
+    15250
+  ],
+  "total_generators": 17050,
+  "G_action_equalities": 7600,
+  "B_action_equalities": 7600,
+  "tests_normal": 15,
+  "tests_optimized": 15,
+  "primary_rejecting_controls_per_mode": 4,
+  "additional_convention_control": "Wrong prefix comparison has nonzero residual Hq e[x]z on e[x|u|j]e",
+  "finite_domain": "Every composable radical generator in degrees0..4; every basis left and twisted right action in degrees0..2",
+  "seed": null,
+  "stopping_rule": "Exhaust declared finite domains; no adaptive search",
+  "coverage": {
+    "covered_lines": 133,
+    "num_statements": 133,
+    "percent_covered": 100.0,
+    "percent_covered_display": "100",
+    "missing_lines": 0,
+    "excluded_lines": 0,
+    "percent_statements_covered": 100.0,
+    "percent_statements_covered_display": "100",
+    "num_branches": 72,
+    "num_partial_branches": 0,
+    "covered_branches": 72,
+    "missing_branches": 0,
+    "percent_branches_covered": 100.0,
+    "percent_branches_covered_display": "100"
+  },
+  "coverage_scope": "bar.py under tests, positive CLI and four negative CLI runs; coverage is not a proof of correctness",
+  "review": {
+    "type": "one separately tasked AI mathematical/code review",
+    "report": "REVIEW.md",
+    "blocking_findings": []
+  },
+  "inherited_assumptions": [
+    "Characteristic2",
+    "H invertible",
+    "Specified source algebra and suffix comparison",
+    "Finite boundary identity, rechecked by the pinned predecessor",
+    "Python implementation and source transcription"
+  ],
+  "limitations": [
+    "Full source counterexample, resolution, stable category passage and Ext vanishing unchecked",
+    "Algebra and coefficient arithmetic reused explicitly from predecessor",
+    "No global novelty claim"
+  ]
+}

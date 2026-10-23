@@ -1,0 +1,105 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 1123,
+      "sha256": "49dfafb13aa8cb62668448eabfa9d2d73ababbc1c60d9f400112d0a1de6b3e0a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1155,
+      "sha256": "0c8a52ffb9cbbfb85f840b0ab6e41734122b97b3c8297a44fd20150d46ceab44"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1017,
+      "sha256": "2f130146f083012c4e4fb612b1e0d8aba952e766b004ec31c8821b6ae996d05b"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 6603,
+      "sha256": "739913d5f78b54f660830ff92bf6a6cc9fa00986db759bfdf72cdc993f179cf9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3492,
+      "sha256": "7e9e8e8d53ea624a9c35348f878da50233f9cf0d8f2546efcc10e83aad32f570"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 3539,
+      "sha256": "c433231a91d5f0103c85186192dd41621279fbd7d7f5c90c1a6f12523664e205"
+    },
+    {
+      "path": "check.py",
+      "bytes": 13102,
+      "sha256": "a024e861ac1f1c615ac9c4f74be029a9c2d4fe64397c4eab4827ff16618aaee3"
+    },
+    {
+      "path": "data.json",
+      "bytes": 12630,
+      "sha256": "1e188a4b7c234545f41df3acb647cbf46d3ba77a44782930cb8f364529812fdb"
+    },
+    {
+      "path": "logs/coverage-final.json",
+      "bytes": 21816,
+      "sha256": "320e9a42e12f6fcd3970f09243027bbab6c39705536ba8108781a894d1a6c732"
+    },
+    {
+      "path": "logs/reproduce.txt",
+      "bytes": 3963,
+      "sha256": "3153ec51fde713ca7d4dc3e2bbce33b3aff8ffbb50bfc998cef43b8b51ae10a8"
+    },
+    {
+      "path": "output.txt",
+      "bytes": 462,
+      "sha256": "f645a4fda8f9142779cceed6a19d489918700d22672f9707bfa4ff8f43bb892d"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 1873,
+      "sha256": "6a43c515dbf64f0f180cbdb1523b0d4682aa023fe23195f0911d8fc7e5289a6a"
+    },
+    {
+      "path": "review_oracle.py",
+      "bytes": 6522,
+      "sha256": "e71929e5a983d90b06785bf1e80d9005a4c56f0fa37b39ce078c39909a172b99"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 2224,
+      "sha256": "edd39a74ab161bb85875e3173565a1a8089b6ae4e060342b46ed0b0195170535"
+    },
+    {
+      "path": "sources/01-introduction.tex",
+      "bytes": 14045,
+      "sha256": "ea50dfba92fe6182d24af373a7680a24afbe8f30fd54f9f8ca95b4b949ccf0bb"
+    },
+    {
+      "path": "sources/03-algebra.tex",
+      "bytes": 9232,
+      "sha256": "f3da85912c346824c1532feb9b410e169a0b520e8261ebbea2a95e8527908af5"
+    },
+    {
+      "path": "sources/09-cochain.tex",
+      "bytes": 5209,
+      "sha256": "838a489943b88b3501248a02d4835d09124a6b0002834de6fd380057948d340a"
+    },
+    {
+      "path": "sources/LICENSE-openai",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "test_check.py",
+      "bytes": 6605,
+      "sha256": "d2533f12542b7637195a9f81b01ce852aa27dc1790ec0ae555f62a5bee2baf0e"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 3969,
+      "sha256": "e299aeb0ff3c82e8fda521c3920670b4ecd850de4776bb825b29ce079c0cac9b"
+    }
+  ]
+}

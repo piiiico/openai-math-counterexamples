@@ -1,0 +1,102 @@
+Pinned source/dependency hashes: 8 verified
+$ python dependency/check.py
+{
+  "associativity_triples": 8000,
+  "boundary_pairs": 324,
+  "cochain_entries": 179,
+  "cocycle_quadruples": 104976,
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "composable_quadruples": 15250,
+  "cycle_boundary": {},
+  "cycle_evaluation": {
+    "f": [
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  "result": "holds",
+  "trace_duality_pairs": 400
+}
+RESULT: holds — exact finite cocycle and twisted boundary identities; full counterexample theorem not checked
+$ python bar.py
+{
+  "G_bimodule_action_equalities": 7600,
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "generator_counts_by_degree": [
+    2,
+    18,
+    170,
+    1610,
+    15250
+  ],
+  "result": "holds",
+  "total_generators": 17050
+}
+RESULT: holds — direct bar-tensor replay in degrees0..4; all-degree claim requires the written proof
+$ python -m unittest discover -s . -p test_bar.py
+...............
+----------------------------------------------------------------------
+Ran 15 tests in 2.384s
+
+OK
+$ python bar.py --mutate omit-inverse-twist
+RESULT: FAIL: pB+dG+Gd at (2, ('e', 'u', 'U', 'e')): {"('e', 'E')": [(1, 0), (1, 1)]}
+$ python bar.py --mutate omit-H
+RESULT: FAIL: pB+dG+Gd at (2, ('e', 'u', 'j', 'e')): {"('e', 'z')": [(1, 0), (1, 1)]}
+$ python bar.py --mutate drop-u
+RESULT: FAIL: pB+dG+Gd at (2, ('e', 'x', 'u', 'f')): {"('e', 'v')": [(1, 1)]}
+$ python bar.py --mutate zero-G1
+RESULT: FAIL: pB+dG+Gd at (2, ('e', 'x', 'u', 'f')): {"('x', 'u')": [(1, 1)], "('e', 'v')": [(1, 1)]}
+$ python -O dependency/check.py
+{
+  "associativity_triples": 8000,
+  "boundary_pairs": 324,
+  "cochain_entries": 179,
+  "cocycle_quadruples": 104976,
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "composable_quadruples": 15250,
+  "cycle_boundary": {},
+  "cycle_evaluation": {
+    "f": [
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  "result": "holds",
+  "trace_duality_pairs": 400
+}
+RESULT: holds — exact finite cocycle and twisted boundary identities; full counterexample theorem not checked
+$ python -O bar.py
+{
+  "G_bimodule_action_equalities": 7600,
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "generator_counts_by_degree": [
+    2,
+    18,
+    170,
+    1610,
+    15250
+  ],
+  "result": "holds",
+  "total_generators": 17050
+}
+RESULT: holds — direct bar-tensor replay in degrees0..4; all-degree claim requires the written proof
+$ python -O -m unittest discover -s . -p test_bar.py
+...............
+----------------------------------------------------------------------
+Ran 15 tests in 2.295s
+
+OK
+$ python -O bar.py --mutate omit-inverse-twist
+RESULT: FAIL: pB+dG+Gd at (2, ('e', 'u', 'U', 'e')): {"('e', 'E')": [(1, 0), (1, 1)]}
+$ python -O bar.py --mutate omit-H
+RESULT: FAIL: pB+dG+Gd at (2, ('e', 'u', 'j', 'e')): {"('e', 'z')": [(1, 0), (1, 1)]}
+$ python -O bar.py --mutate drop-u
+RESULT: FAIL: pB+dG+Gd at (2, ('e', 'x', 'u', 'f')): {"('e', 'v')": [(1, 1)]}
+$ python -O bar.py --mutate zero-G1
+RESULT: FAIL: pB+dG+Gd at (2, ('e', 'x', 'u', 'f')): {"('x', 'u')": [(1, 1)], "('e', 'v')": [(1, 1)]}
+RESULT: Family 199 explicit homotopy replay and rejecting controls reproduced

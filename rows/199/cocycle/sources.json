@@ -1,0 +1,38 @@
+{
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "source_repository": "https://github.com/openai/math",
+  "files": [
+    {
+      "path": "preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026/build/01-introduction.tex",
+      "local": "sources/01-introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026/build/01-introduction.tex",
+      "sha256": "ea50dfba92fe6182d24af373a7680a24afbe8f30fd54f9f8ca95b4b949ccf0bb",
+      "bytes": 14045
+    },
+    {
+      "path": "preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026/build/03-algebra.tex",
+      "local": "sources/03-algebra.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026/build/03-algebra.tex",
+      "sha256": "f3da85912c346824c1532feb9b410e169a0b520e8261ebbea2a95e8527908af5",
+      "bytes": 9232
+    },
+    {
+      "path": "preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026/build/09-cochain.tex",
+      "local": "sources/09-cochain.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026/build/09-cochain.tex",
+      "sha256": "838a489943b88b3501248a02d4835d09124a6b0002834de6fd380057948d340a",
+      "bytes": 5209
+    },
+    {
+      "path": "LICENSE",
+      "local": "sources/LICENSE-openai",
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    }
+  ],
+  "census_base": "c2e5beae98d646be10adf2975641180374bb0379",
+  "workspace_base": "09b3868a55051dac773d93bd12146ed16152dd04",
+  "claim": "https://github.com/piiiico/openai-math-counterexamples/issues/22",
+  "python": "3.13.15 (main, Sep 29 2026, 15:01:28) [Clang 22.1.3 ]"
+}

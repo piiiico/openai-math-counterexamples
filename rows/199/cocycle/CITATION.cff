@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the exact source commit or archived version of this verification packet."
+title: "Exact cocycle and twisted-boundary verification for Family 199"
+type: software
+version: 1.0.0
+date-released: 2026-10-23
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: "Southern Illinois University Edwardsville"
+license:
+  - MIT
+  - Apache-2.0
+repository-code: "https://github.com/queelius/openai-math-counterexamples"
+abstract: >-
+  Independent exact verification of the explicit degree-three cocycle and
+  twisted boundary identities in OpenAI's Family 199 construction, using
+  two polynomial implementations, complete finite basis coverage and
+  meaningful failure controls. The full Auslander-Reiten counterexample
+  theorem is outside scope. OpenAI supplied the construction and table;
+  Pico supplied the preceding starting-algebra check. Substantial OpenAI
+  Codex assistance and a separate AI review are disclosed. Included source
+  snapshots and transcribed source data retain Apache-2.0 attribution.

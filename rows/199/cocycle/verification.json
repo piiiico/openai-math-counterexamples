@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-23T09:41:53.406855+00:00",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "python": "3.13.15 (main, Sep 29 2026, 15:01:28) [Clang 22.1.3 ]",
+  "runtime_dependencies": "Python standard library only",
+  "reproduce": "python reproduce.py",
+  "expected": "RESULT: Family 199 exact identities and rejecting controls reproduced; exit 0",
+  "mathematical_scope": "Exact finite polynomial identities, with a written multilinearity and cycle-pairing argument. Full AR counterexample unverified.",
+  "formal_proof": false,
+  "human_peer_review": false,
+  "complete_basis_coverage": {
+    "C_dimension": 10,
+    "T_dimension": 20,
+    "radical_dimension": 18,
+    "cochain_entries": 179,
+    "associativity_triples": 8000,
+    "trace_duality_pairs": 400,
+    "cocycle_quadruples": 104976,
+    "composable_quadruples": 15250,
+    "boundary_pairs": 324,
+    "bar_cycle_boundary": "zero",
+    "bar_cycle_evaluation": "q^3 f"
+  },
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "nonvanishing_assumption": "q nonzero; true in source field F_2(q,H1,H2)",
+  "boundary_assumption": "H invertible",
+  "tests": {
+    "framework": "unittest",
+    "ordinary": 22,
+    "optimized": 22,
+    "seeded_arithmetic_oracle": {
+      "seed": 19901,
+      "cases": 1000,
+      "domain": "Each factor samples 0..12 distinct monomials from q degree0..5 and H degree-3..3; integer multiplicity convolution modulo2.",
+      "stopping_rule": "Exactly1000cases; no adaptive search."
+    }
+  },
+  "negative_controls": [
+    {
+      "mutation": "p(t,y,J)=q^2 f",
+      "primary_residual": "(q^2+q^3)u at (u,t,y,J)",
+      "reviewer_residual": "(q^2+q^3)F at (F,t,y,J)",
+      "normal_exit": 1,
+      "optimized_exit": 1
+    },
+    {
+      "mutation": "omit h(w) on boundary left side",
+      "residual": "q(1+H)z at (u,j)",
+      "normal_exit": 1,
+      "optimized_exit": 1
+    },
+    {
+      "mutation": "xJ=qT",
+      "residual": "(1+q)T at (x,Z,u)",
+      "normal_exit": 1,
+      "optimized_exit": 1
+    }
+  ],
+  "vacuity_controls": [
+    "Zero cochain satisfies cocycle equation but fails the full interface.",
+    "At q=0 the evaluation vanishes.",
+    "The missing-H residual vanishes at H=1, showing specialization is insufficient."
+  ],
+  "independent_review": {
+    "status": "completed_no_unresolved_correctness_blocker",
+    "implementation": "review_oracle.py",
+    "sha256": "e71929e5a983d90b06785bf1e80d9005a4c56f0fa37b39ce078c39909a172b99",
+    "method": "Separately transcribed data; binary F2[q] polynomials; push nonzero p contributions into differential coefficient table; direct H coefficient split.",
+    "normal_and_optimized_checks": true,
+    "normal_and_optimized_mutation_rejection": true,
+    "report": "REVIEW.md"
+  },
+  "coverage": {
+    "tool": "coverage==7.13.4",
+    "primary_checker": {
+      "covered_lines": 224,
+      "num_statements": 226,
+      "percent_covered": 98.71794871794872,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.11504424778761,
+      "percent_statements_covered_display": "99",
+      "num_branches": 86,
+      "num_partial_branches": 2,
+      "covered_branches": 84,
+      "missing_branches": 2,
+      "percent_branches_covered": 97.67441860465117,
+      "percent_branches_covered_display": "98"
+    },
+    "remaining_uncovered": "Two defensive branches for nonzero displayed-cycle boundary/evaluation after earlier algebra/cocycle/boundary stages passed. Individual cycle evaluation and vacuity controls are tested. No100%coverageclaim."
+  },
+  "output_sha256": "f645a4fda8f9142779cceed6a19d489918700d22672f9707bfa4ff8f43bb892d",
+  "data_sha256": "1e188a4b7c234545f41df3acb647cbf46d3ba77a44782930cb8f364529812fdb",
+  "reproduction_log": "logs/reproduce.txt",
+  "search": "No candidate search; exhaustive finite identities. The seeded oracle is a software test, not a mathematical impossibility theorem."
+}
