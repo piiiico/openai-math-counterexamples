@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "python": "3.13.15",
+  "scope": "Exact verification of the supplied 849-coefficient witness for Lemma seed:product, not the downstream topology theorem.",
+  "method": "Compressed exact GCD splitting with paired integer exponents; no prime sieve, factoring, expanded huge powers or probabilistic acceptance.",
+  "reproduce": {
+    "command": "bash reproduce.sh",
+    "exit_code": 0,
+    "log": "logs/reproduce.txt",
+    "expected_final_line": "RESULT: Family 059 exact GCD cancellation and rejecting controls reproduced"
+  },
+  "tests": {
+    "normal": 22,
+    "optimized": 22,
+    "seeded_rational_oracle_cases": 150,
+    "seed": 5901
+  },
+  "full_relation": {
+    "d": 177147,
+    "support": 849,
+    "max_coefficient_digits": 140,
+    "input_terms": 5094,
+    "combined_nonzero_bases": 5093,
+    "gcd_calls": 9501880,
+    "splits": 17758,
+    "residual_bases": 0,
+    "positive_E": true,
+    "both_products_equal_one": true
+  },
+  "negative_controls": {
+    "names": [
+      "coefficient",
+      "wrong-ratio",
+      "reverse-sign",
+      "invalid-index",
+      "wrong-d"
+    ],
+    "normal_exit_code": 1,
+    "optimized_exit_code": 1,
+    "expected_failure_reasons_checked": true
+  },
+  "independent_review": {
+    "kind": "Separately tasked OpenAI Codex AI review, not human review",
+    "report": "REVIEW.md",
+    "blocking_findings": 0,
+    "checker_sha256": "18bc2730b2110e6ea2d868c6bbaa2bd8c3a9a1c1b5db0c21410f5ca8fdf5d8f2"
+  },
+  "reviewer_oracle": {
+    "command": "python3 -O review_oracle.py",
+    "exit_code": 0,
+    "cases": 729000,
+    "domain": "Three ordered bases from 1..10; each of six exponent components in {-1,0,1}.",
+    "oracle": "Direct integer-power products normalized as Fraction; invariant, acceptance equivalence and coprimality checked.",
+    "log": "logs/review-oracle.txt",
+    "limit": "Exhaustive in this small domain only; not a second full-witness verifier."
+  },
+  "coverage": {
+    "tool": "coverage==7.10.7",
+    "command": "uv tool run --from coverage==7.10.7 coverage run --branch --source=check -m unittest discover -s . -p 'test_*.py'",
+    "totals": {
+      "covered_lines": 173,
+      "num_statements": 174,
+      "percent_covered": 99.17355371900827,
+      "percent_covered_display": "99",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "num_branches": 68,
+      "num_partial_branches": 1,
+      "covered_branches": 67,
+      "missing_branches": 1
+    },
+    "uncovered": "Only the __main__ entry guard in in-process coverage; CLI reproduction exercises it."
+  },
+  "predecessor_comparison": {
+    "repository": "https://github.com/piiiico/openai-math-counterexamples",
+    "commit": "c2e5beae98d646be10adf2975641180374bb0379",
+    "path": "rows/059/check.py",
+    "sha256": "32a1d379f9a75b3bf7705ccad4a7dd6791f23eeb4c7d59b9e61538e315b6092b",
+    "git_blob": "65070bb9ce7307797f0e095cec7cd6cb88b551a6",
+    "exit_code": 0,
+    "log": "logs/predecessor.txt",
+    "timing": "Read and replayed after the independent checker and tests were written and the complete witness passed.",
+    "result": "Exact sieve valuations agree on both products; metadata agree; predecessor negative controls fire."
+  },
+  "source_hashes_checked": true,
+  "formal_proof": false,
+  "human_peer_review": false,
+  "artifact_sha256": {
+    "check.py": "18bc2730b2110e6ea2d868c6bbaa2bd8c3a9a1c1b5db0c21410f5ca8fdf5d8f2",
+    "test_check.py": "6d8d10984453d1c31a1dce28bc8eecbd04a10dac9de5e88e6129f6ad1ebaa911",
+    "review_oracle.py": "c4a8109031509520f6fa02693ad202b4e027ea5625ea317204587a54d0a1e500",
+    "PROOF.md": "81b2dc6dd3ed6b7f0689ce8dd92ffa756dc70a79ed84b0725798294053468e41",
+    "output.txt": "b901370e6daa28058d67af5429dd7768b52a148d894bfe145d139c4788f09d3b",
+    "reproduce.sh": "ee3f1e5b135a9034f46f8cb3254259257fa8aa38d084057766450bd890ec4189"
+  }
+}

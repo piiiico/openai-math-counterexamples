@@ -1,0 +1,31 @@
+source/LICENSE-Apache-2.0.txt: OK
+source/certificate.tex: OK
+source/explicit-relation.json: OK
+source/seeds.tex: OK
+......................
+----------------------------------------------------------------------
+Ran 22 tests in 15.920s
+
+OK
+......................
+----------------------------------------------------------------------
+Ran 22 tests in 13.990s
+
+OK
+d = 177147; support = 849; max coefficient digits = 140
+E = 31041239413124627112654075418900567557860898694076654101041141141334524348338121235247269659966421215865800678626877368275641894156269075320 > 0
+sum |e_b| = 1892431898010203012474989983575268070019952635103197029002616571637230005063390823411692715089718591779229223950319039006585461351701409796728
+input terms = 5094; combined nonzero bases = 5093
+GCD calls = 9501880; splits = 17758; residual bases = 0
+RESULT: holds -- both exact rational products are 1; all indices admissible; E > 0
+coefficient/normal: RESULT: fails -- product identities failed: 13 residual coprime bases
+coefficient/optimized: RESULT: fails -- product identities failed: 13 residual coprime bases
+wrong-ratio/normal: RESULT: fails -- product identities failed: 381 residual coprime bases
+wrong-ratio/optimized: RESULT: fails -- product identities failed: 381 residual coprime bases
+reverse-sign/normal: RESULT: fails -- coefficient sum must be positive
+reverse-sign/optimized: RESULT: fails -- coefficient sum must be positive
+invalid-index/normal: RESULT: fails -- inadmissible index b
+invalid-index/optimized: RESULT: fails -- inadmissible index b
+wrong-d/normal: RESULT: fails -- wrong dimension: expected 3^11
+wrong-d/optimized: RESULT: fails -- wrong dimension: expected 3^11
+RESULT: Family 059 exact GCD cancellation and rejecting controls reproduced

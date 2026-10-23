@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "8049cb3d873e3c7cd08fdd742e978731260ab3aaa2904d850d292189b3ed5f5b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "38bb103653349b4e7ea7eda74de662e0fe38f5c5efa6d5577cfc6dd48baec2e9"
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "81b2dc6dd3ed6b7f0689ce8dd92ffa756dc70a79ed84b0725798294053468e41"
+    },
+    {
+      "path": "README.md",
+      "sha256": "30242e6fd19320d8d378d06b5ec2efe34e80f40896933ba5e2e0e9fd14620e56"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "d81eba7a5964df2f6fab9d3fc2f8d3339b875cfc12837e3cd91356d55d89df32"
+    },
+    {
+      "path": "check.py",
+      "sha256": "18bc2730b2110e6ea2d868c6bbaa2bd8c3a9a1c1b5db0c21410f5ca8fdf5d8f2"
+    },
+    {
+      "path": "logs/coverage.json",
+      "sha256": "bdb2842d59253f8762599dc9b51714076288de64340f05b331b497511fa42055"
+    },
+    {
+      "path": "logs/coverage.txt",
+      "sha256": "a1e34ac2b4128021bf6ec3126c11086638bf5bd8443b4fcd04e5171319ddc497"
+    },
+    {
+      "path": "logs/predecessor.txt",
+      "sha256": "e23981274702edcd1f83a9edce51444a6933dd95caca73ecf241d4e01c49786c"
+    },
+    {
+      "path": "logs/reproduce.txt",
+      "sha256": "1665c1a97ec78642e77e4ac3abfcd3d132b5ef9929dbfeed43085e8ddacbe4a2"
+    },
+    {
+      "path": "logs/review-oracle.txt",
+      "sha256": "30597c962aad9a39dfb0b838396b0b88539b2da15a1378a62489c1d88ccb95ef"
+    },
+    {
+      "path": "output.txt",
+      "sha256": "b901370e6daa28058d67af5429dd7768b52a148d894bfe145d139c4788f09d3b"
+    },
+    {
+      "path": "reproduce.sh",
+      "sha256": "ee3f1e5b135a9034f46f8cb3254259257fa8aa38d084057766450bd890ec4189"
+    },
+    {
+      "path": "review_oracle.py",
+      "sha256": "c4a8109031509520f6fa02693ad202b4e027ea5625ea317204587a54d0a1e500"
+    },
+    {
+      "path": "source-pins.json",
+      "sha256": "81bdf37ca3dbd27c2e567b5af04d5a5d873385f8e9319224ca3cf83b33f96b4e"
+    },
+    {
+      "path": "source/LICENSE-Apache-2.0.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "source/SHA256SUMS",
+      "sha256": "cccb9f8947392099bfacae2b8f1ff3d9c313f613d0665efead03a78db761bb92"
+    },
+    {
+      "path": "source/certificate.tex",
+      "sha256": "022082f8ba3a6807c5448358f17b23fce3f3222ec0c9d217e04887c2798231bd"
+    },
+    {
+      "path": "source/explicit-relation.json",
+      "sha256": "e5a3ad0b8901ac358374575dbaf7be9e03bb84063def63749f16618cf2ba1780"
+    },
+    {
+      "path": "source/seeds.tex",
+      "sha256": "f83599a45fbe0a60e6ee4dcbcb76dc94fed3b4efe30dd1469349231733da4e2e"
+    },
+    {
+      "path": "test_check.py",
+      "sha256": "6d8d10984453d1c31a1dce28bc8eecbd04a10dac9de5e88e6129f6ad1ebaa911"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "255ba51f1546e81a79db14f88865eccac4293b9ebf6dfead7c797611f130f8d6"
+    }
+  ]
+}
