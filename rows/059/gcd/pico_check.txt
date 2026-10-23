@@ -1,0 +1,5 @@
+relation sha256 matches row 059: e5a3ad0b8901ac35
+packet accepts; E agrees with direct sum; residual bases 0
+swap rows 229,86: packet rejects (product identities failed: 26 residual coprime bases)
+swap rows 229,86: Pico sieve rejects (nonzero valuations [9, 21])
+RESULT: packet agrees with Pico's sieve on the real relation and on an E-preserving swap
