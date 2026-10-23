@@ -1,0 +1,96 @@
+Source hashes: 4 verified
+$ python check.py
+{
+  "associativity_triples": 8000,
+  "boundary_pairs": 324,
+  "cochain_entries": 179,
+  "cocycle_quadruples": 104976,
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "composable_quadruples": 15250,
+  "cycle_boundary": {},
+  "cycle_evaluation": {
+    "f": [
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  "result": "holds",
+  "trace_duality_pairs": 400
+}
+RESULT: holds — exact finite cocycle and twisted boundary identities; full counterexample theorem not checked
+$ python -m unittest discover -s . -p test_check.py
+......................
+----------------------------------------------------------------------
+Ran 22 tests in 1.628s
+
+OK
+$ python check.py --mutate cochain
+RESULT: FAIL: cocycle at ('u', 't', 'y', 'J'): {'u': [(2, 0), (3, 0)]}
+$ python check.py --mutate twist
+RESULT: FAIL: twisted boundary at ('u', 'j'): {'z': [(1, 0), (1, 1)]}
+$ python check.py --mutate dual
+RESULT: FAIL: associativity at ('x', 'Z', 'u'): {'T': [(0, 0), (1, 0)]}
+$ python review_oracle.py
+Source cochain transcription: 179/179 exact matches
+Source basis, corners, degrees, 12 products and z support: exact matches
+Independent pushed Hochschild differential: all coefficients zero on 18^4 words
+Independent exact H-coefficient boundary oracle: all 324 pairs zero
+(u,N) nonzero LHS summands (w, output, q-polynomial bits, H degree): [('F', 'T', 2, 1), ('U', 'T', 2, 1), ('t', 'T', 2, 0), ('N', 'T', 2, 1), ('V', 'T', 2, 1), ('j', 'T', 4, 0)]
+u*N = [('T', 3)]
+RESULT: holds — independent source transcription and exact finite identity oracle
+Oracle sha256 e71929e5a983d90b06785bf1e80d9005a4c56f0fa37b39ce078c39909a172b99
+$ python review_oracle.py --mutate cochain
+Source cochain transcription: 179/179 exact matches
+Source basis, corners, degrees, 12 products and z support: exact matches
+Applied cochain mutation: p(t,y,J) = q^2 f
+RESULT: FAIL: Hochschild differential at ('F', 't', 'y', 'J', 'F') q-polynomial bits: 12
+$ python -O check.py
+{
+  "associativity_triples": 8000,
+  "boundary_pairs": 324,
+  "cochain_entries": 179,
+  "cocycle_quadruples": 104976,
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "composable_quadruples": 15250,
+  "cycle_boundary": {},
+  "cycle_evaluation": {
+    "f": [
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  "result": "holds",
+  "trace_duality_pairs": 400
+}
+RESULT: holds — exact finite cocycle and twisted boundary identities; full counterexample theorem not checked
+$ python -O -m unittest discover -s . -p test_check.py
+......................
+----------------------------------------------------------------------
+Ran 22 tests in 1.760s
+
+OK
+$ python -O check.py --mutate cochain
+RESULT: FAIL: cocycle at ('u', 't', 'y', 'J'): {'u': [(2, 0), (3, 0)]}
+$ python -O check.py --mutate twist
+RESULT: FAIL: twisted boundary at ('u', 'j'): {'z': [(1, 0), (1, 1)]}
+$ python -O check.py --mutate dual
+RESULT: FAIL: associativity at ('x', 'Z', 'u'): {'T': [(0, 0), (1, 0)]}
+$ python -O review_oracle.py
+Source cochain transcription: 179/179 exact matches
+Source basis, corners, degrees, 12 products and z support: exact matches
+Independent pushed Hochschild differential: all coefficients zero on 18^4 words
+Independent exact H-coefficient boundary oracle: all 324 pairs zero
+(u,N) nonzero LHS summands (w, output, q-polynomial bits, H degree): [('F', 'T', 2, 1), ('U', 'T', 2, 1), ('t', 'T', 2, 0), ('N', 'T', 2, 1), ('V', 'T', 2, 1), ('j', 'T', 4, 0)]
+u*N = [('T', 3)]
+RESULT: holds — independent source transcription and exact finite identity oracle
+Oracle sha256 e71929e5a983d90b06785bf1e80d9005a4c56f0fa37b39ce078c39909a172b99
+$ python -O review_oracle.py --mutate cochain
+Source cochain transcription: 179/179 exact matches
+Source basis, corners, degrees, 12 products and z support: exact matches
+Applied cochain mutation: p(t,y,J) = q^2 f
+RESULT: FAIL: Hochschild differential at ('F', 't', 'y', 'J', 'F') q-polynomial bits: 12
+RESULT: Family 199 exact identities and rejecting controls reproduced

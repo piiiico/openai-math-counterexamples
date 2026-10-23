@@ -1,0 +1,20 @@
+{
+  "associativity_triples": 8000,
+  "boundary_pairs": 324,
+  "cochain_entries": 179,
+  "cocycle_quadruples": 104976,
+  "coefficient_ring": "F_2[q,H,H^-1]",
+  "composable_quadruples": 15250,
+  "cycle_boundary": {},
+  "cycle_evaluation": {
+    "f": [
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  "result": "holds",
+  "trace_duality_pairs": 400
+}
+RESULT: holds — exact finite cocycle and twisted boundary identities; full counterexample theorem not checked
