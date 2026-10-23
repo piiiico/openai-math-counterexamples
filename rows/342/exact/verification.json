@@ -1,0 +1,38 @@
+{
+  "python": "3.13.15",
+  "verification_started_utc": "2026-10-21T11:06:17Z",
+  "source_pins_checked": true,
+  "tests": {
+    "normal": 15,
+    "optimized": 15
+  },
+  "obligations": {
+    "polynomial_and_exterior": 20,
+    "positive_taming_numerator": 1
+  },
+  "negative_controls": {
+    "eta-factor": 1,
+    "derivative-support": 1,
+    "taming-amplitude": 1
+  },
+  "coverage_tool": "coverage==7.10.7",
+  "checker_coverage": {
+    "covered_lines": 164,
+    "num_statements": 165,
+    "percent_covered": 99.06103286384976,
+    "percent_covered_display": "99",
+    "missing_lines": 1,
+    "excluded_lines": 0,
+    "num_branches": 48,
+    "num_partial_branches": 1,
+    "covered_branches": 47,
+    "missing_branches": 1
+  },
+  "missing_checker_lines": [
+    257
+  ],
+  "output_sha256": "5a9a9772f78ff01ad3e43311872c2ae271c431f0da247d601bbf1c254fb9e3ea",
+  "formal_verification": false,
+  "human_peer_review": false,
+  "scope": "Exact polynomial identities; separate written geometric deductions; no general cone theorem audit."
+}

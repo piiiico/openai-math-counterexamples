@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the exact archived version and credit OpenAI's original construction separately."
+title: "Exact all-parameter algebra for the four-torus cone example"
+type: software
+version: 1.0.0
+date-released: 2026-10-21
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    email: lex@metafunctor.com
+    orcid: https://orcid.org/0000-0001-6443-9897
+    affiliation: Southern Illinois University Edwardsville
+repository-code: https://github.com/queelius/openai-math-counterexamples
+license: MIT
+keywords:
+  - symplectic geometry
+  - exact polynomial verification
+  - reproducible mathematics
+  - AI-assisted research
+abstract: "Independent exact polynomial/exterior-algebra verification of OpenAI's four-torus cone example, with written positivity bounds and a direct amplitude-parameter corollary. Substantial OpenAI Codex assistance is disclosed. Not a kernel proof, human peer review, or new counterexample."

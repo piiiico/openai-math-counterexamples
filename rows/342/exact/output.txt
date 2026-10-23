@@ -1,0 +1,22 @@
+PASS basis_self_dual
+PASS N_self_dual
+PASS N_square
+PASS N_norm
+PASS eta_self_dual_part
+PASS eta_anti_self_dual_part
+PASS eta_invariant
+PASS eta_metric_symmetric
+PASS eta_metric_square
+PASS eta_characteristic_polynomial
+PASS eta_closed_separated_support
+PASS taming_plus
+PASS invariant_projection_plus
+PASS taming_minus
+PASS invariant_projection_minus
+PASS anti_invariant_perp_V
+PASS anti_invariant_perp_W
+PASS zero_mixed_pairing
+PASS positive_self_pairings
+PASS three_point_span
+PASS positive_taming_numerator
+RESULT: exact all-parameter identities verified
