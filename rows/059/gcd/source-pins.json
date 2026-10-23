@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/openai/math",
+  "source_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "current_source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "current_files_byte_identical": true,
+  "paper_directory": "preprints/Ambiently-homeomorphic-isolated-hypersurfaces-of-multiplicities-two-and-three-September-24-2026",
+  "paths": {
+    "seeds.tex": "build/sections/seeds.tex",
+    "certificate.tex": "build/sections/certificate.tex",
+    "explicit-relation.json": "verification/support/explicit-relation.json",
+    "LICENSE-Apache-2.0.txt": "LICENSE"
+  },
+  "sha256": {
+    "LICENSE-Apache-2.0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "certificate.tex": "022082f8ba3a6807c5448358f17b23fce3f3222ec0c9d217e04887c2798231bd",
+    "explicit-relation.json": "e5a3ad0b8901ac358374575dbaf7be9e03bb84063def63749f16618cf2ba1780",
+    "seeds.tex": "f83599a45fbe0a60e6ee4dcbcb76dc94fed3b4efe30dd1469349231733da4e2e"
+  }
+}
