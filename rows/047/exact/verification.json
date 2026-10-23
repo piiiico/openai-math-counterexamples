@@ -1,0 +1,104 @@
+{
+  "verified_at": "2026-10-21T23:31:23Z",
+  "command": "INDEPENDENT=1 bash reproduce.sh",
+  "exit_status": 0,
+  "environment": {
+    "python": "3.13.15",
+    "os": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+    "uv": "uv 0.12.21 (7af826859 2026-09-29 x86_64-unknown-linux-gnu)",
+    "independent_dependency": "sympy==1.14.0"
+  },
+  "workspace_base": "130334ce2ce0298f96eaad7f9b0ce5e4ce579d7f",
+  "source_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "destination_base": "f3e88206eb0c1ca065eb7106e06602d1aaa4c25b",
+  "results": {
+    "check_py": {
+      "checks": 18,
+      "result": "holds",
+      "runtime_seconds_approx": 4
+    },
+    "independent": {
+      "checks": 25,
+      "result": "holds"
+    },
+    "tests": {
+      "count": 20,
+      "normal": "OK",
+      "optimized": "OK"
+    },
+    "negative_controls": {
+      "H-coefficient": {
+        "check_py": [
+          1,
+          1
+        ],
+        "independent": [
+          1,
+          1
+        ]
+      },
+      "derivation-value": {
+        "check_py": [
+          1,
+          1
+        ],
+        "independent": [
+          1,
+          1
+        ]
+      },
+      "linear-coordinates": {
+        "check_py": [
+          1,
+          1
+        ],
+        "independent": [
+          1,
+          1
+        ]
+      },
+      "linear-inverse": {
+        "check_py": [
+          1,
+          1
+        ],
+        "independent": [
+          1,
+          1
+        ]
+      },
+      "e0-sign": {
+        "check_py": [
+          1,
+          1
+        ],
+        "independent": [
+          1,
+          1
+        ]
+      }
+    },
+    "negative_controls_note": "exit statuses under [python3, python3 -O]; check.py controls also require 'RESULT: fails'",
+    "q": {
+      "terms": 6641,
+      "canonical_sha256": "a74adf01ee2e0f13c37830a184051da1d706c85b6714704a15157443b4bc97f6",
+      "serialization": "JSON [[[e_p,e_s,e_u,e_M,e_L,e_w],c],...] sorted by exponents, separators (',',':')",
+      "agreement": "check.py and independent_check.py"
+    },
+    "branch_coverage_check_py": "99% (only the __main__ guard uncovered)"
+  },
+  "file_sha256": {
+    "check.py": "0129aaa94e7b2d96464759321355c960e21f1fe8df2edd1d253f3b60942dd97f",
+    "test_check.py": "12039eb38637e455b78e9b7a34386dd8faaf406a62412c3d4f3c8e7b64585c20",
+    "reproduce.sh": "df67479d015649e287da5511ee481445a6f51edf41b29a9dcd1a9496219d32cc",
+    "PROOF.md": "a2aa7f16fe7522fbeda37861b7eb094ac9ac15441d3dc3658e94bd3fdea59d13",
+    "output.txt": "41c00443d599b957eb4789668efc07d74e03876ba6390e5a2e6db6ce23afc315",
+    "independent/independent_check.py": "e9e31de11c145975fcbc7ec50675947ba1258a4720432acf66962da38de95d30",
+    "independent/requirements.txt": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+    "independent/output.txt": "5918b93c0279499f2cd77ee3d9a326459ad4d4829177ff6a0b2bc5453c9677d3",
+    "source/SHA256SUMS": "0de076127d4768ed74980e6667c5b7f49ba53adae802383ddd7852f43c38aa06",
+    "logs/reproduce.log": "65823835e7b94de7ad9a33553442b5115781dfd43916e0708372df0eced54346",
+    "logs/coverage.txt": "3ae59c9a665038b26e62953e9a8dc84d0e13c6b0a45af588ea792682e3ff66ec"
+  },
+  "classification": "exact finite computation plus written derivation; one scoped AI review; not a kernel proof or human peer review"
+}

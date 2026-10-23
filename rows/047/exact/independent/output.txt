@@ -1,0 +1,27 @@
+[INFO] sympy 1.14.0 (ground types python); exact expansion over ZZ; negative control: none
+[PASS] 01 con:identity: xy - z(z+1) = p^2(H + pu) in Z[p,s,u,F,J] (11 terms; H has 12 terms)
+[PASS] 02a con:localized-coordinates (P -> localized -> P): y - x(x-u^3) = s; x - s^2 - u^3 = p^2 F; z - sx = p^2 J (exact division by p^2)
+[PASS] 02b con:localized-coordinates (localized -> P -> localized): with s = y - x(x-u^3), F = p^-2(x - s^2 - u^3), J = p^-2(z - sx): x, y, z are returned
+[PASS] 02c con:localized-h: H = p^-2(xy - z(z+1)) - pu in Z[p,p^-1,x,y,z,u] (4 terms)
+[PASS] 02d con:domain (extra): u - p^-3(xy - z(z+1)) = -p^-1 H; H mod p = x0^2 F - (1 + 2 s x0) J
+[PASS] 03a con:derivation values = -p^2 d/du of con:localized-coordinates: Delta p=0, Delta u=-p^2, Delta s=-3p^2xu^2, Delta F=(6sx+3)u^2, Delta J=3x^2u^2
+[PASS] 03b Delta x = Delta y = Delta z = 0: term counts of Delta x, Delta y, Delta z: 0, 0, 0
+[PASS] 03c Delta H = p^3 and Delta^2 H = 0: Delta H has 1 terms
+[PASS] 03d Delta locally nilpotent on generators (least k with Delta^k g = 0): p:1 s:4 u:2 F:7 J:4 w:1 (each equals deg_u in localized coordinates + 1)
+[PASS] 04a Delta^i(g)/i! exact over ZZ for all generators: max i per generator: p:0 s:3 u:1 F:6 J:3 w:0; Phi term counts: p:1 s:10 u:2 F:43 J:19 w:1
+[PASS] 04b Phi(H) = H + p^3 w: H at the Phi-images of p,s,u,F,J equals H + p^3 w; the series exp(w Delta)(H) agrees
+[PASS] 04c Phi o Phi^-1 = Phi^-1 o Phi = id on p,s,u,F,J,w: Phi^-1 = exp(-w Delta); both composites computed by substitution
+[PASS] 05a determinant of (F,J) -> (L,M) is 1: det = 1 (computed from the coefficient matrix over Z[p,s,u])
+[PASS] 05b con:linear-inverse after con:linear-coordinates is the identity on F, J
+[PASS] 05c con:linear-coordinates after con:linear-inverse is the identity on L, M
+[PASS] 06 con:h-expansion: H(L) = L - pu + p^2 Q(L) + p^4 F(L)^3 in B[L] (H(L): 45 terms, deg_L 3; Q(L): 23 terms); p | H(L) - L: True
+[PASS] 07a C = Q(0) = M^2(2x0 + 6 s x0^2 + 4 s^2 x0^3 - x0^4): C has 9 terms
+[PASS] 07b Q(L) - C is divisible by L in B[L]: Q1 has 14 terms, deg_L 1
+[PASS] 08 con:root-divisibility: H(L*) = p^3((u - pC) Q1(L*) + p F(L*)^3) in p^3 B, with L* = pu - p^2 C (H(L*): 266 terms); Q(L*) - C = L* Q1(L*): True
+[PASS] 09 con:e-polynomial: H(L) + p^3 w = L - p h (h: 45 terms; e0: 187 terms, deg_L 4, deg_w 1)
+[PASS] 10 con:e-certificate: p^3 e0 - (L - L*) = (p^2 Q1(L) - 1)(H(L) + p^3 w) (198 terms)
+[PASS] 11 H(L* + p^3 Z) divisible by p^3 in B[Z]: p^3 | H(L*+p^3Z) - H(L*): True; W(Z) has 381 terms, deg_Z 3; H(L*+p^3Z) + p^3 W(Z) = 0: True
+[PASS] 12 e0(L = L* + p^3 E, w = W(E)) = E: exact expansion in Z[p,s,u,M,E]
+[PASS] 13a L* + p^3 e0 - L = (p^2 Q1 - 1)(H + p^3 w): image of L is L modulo H + p^3 w (identity 10)
+[PASS] 13b W(e0) - w = q (H + p^3 w): W(e0) - w has 19859 terms, deg_w 3; q in Z[p,s,u,M,L,w] has 6641 terms, deg_w 2; expansion q(H + p^3 w) matches; sha256(q) = a74adf01ee2e0f13c37830a184051da1d706c85b6714704a15157443b4bc97f6 (174988 bytes)
+RESULT: holds (25 passed, 0 failed, 0 skipped; 25 of 25 expected results)

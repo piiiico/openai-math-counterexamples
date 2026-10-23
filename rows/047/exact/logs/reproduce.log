@@ -1,0 +1,48 @@
+source/01-introduction.tex: OK
+source/02-construction.tex: OK
+source/preamble.tex: OK
+source/LICENSE-Apache-2.0.txt: OK
+...........runtime 0.2s
+runtime 1.9s
+runtime 2.0s
+runtime 0.2s
+runtime 1.2s
+.runtime 1.9s
+........
+----------------------------------------------------------------------
+Ran 20 tests in 19.509s
+
+OK
+...........runtime 0.2s
+runtime 1.8s
+runtime 1.8s
+runtime 0.2s
+runtime 1.0s
+.runtime 1.7s
+........
+----------------------------------------------------------------------
+Ran 20 tests in 18.281s
+
+OK
+ok   con:identity  xy - z(z+1) = p^2(H + pu)
+ok   con:localized-coordinates  s = y - x(x-u^3), p^2F = x-s^2-u^3, p^2J = z-sx  [holds by construction of x, y, z; recorded for completeness]
+ok   con:domain  H mod p = x0^2 F - (1 + 2 s x0) J
+ok   con:derivation  Delta x = Delta y = Delta z = 0, Delta H = p^3, Delta^2 H = 0
+ok   local nilpotency  least k with Delta^k(g) = 0  [p:1, s:4, u:2, F:7, J:4]
+ok   exp(+-w Delta) on generators: finite, with exact division by i! over Z  [terms p:1, s:10, u:2, F:43, J:19, w:1]
+ok   Phi(H) = H + p^3 w  (con:cylinder-automorphism)
+ok   Phi^-1(Phi(g)) = g = Phi(Phi^-1(g)) for g in p,s,u,F,J,w
+ok   con:linear-coordinates/-inverse  det = 1, both substitutions are identities
+ok   con:h-expansion  H(L) = L - pu + p^2 Q(L) + p^4 F(L)^3
+ok   con:root  C = Q(0) = M^2(2x0+6sx0^2+4s^2x0^3-x0^4), L divides Q(L) - C
+ok   con:root-divisibility  H(L*) = p^3((u - pC)Q1(L*) + pF(L*)^3)
+ok   H(L) + p^3 w = L - p h  (02-construction.tex:203)
+ok   con:e-certificate  p^3 e0 - (L - L*) = (p^2 Q1 - 1)(H(L) + p^3 w)
+ok   p^3 divides H(L* + p^3 E) in B[E]; W(E) = -H(L* + p^3 E)/p^3  [W terms 381]
+ok   round trip Z[p,s,u,M,E] -> T -> Z[p,s,u,M,E]:  e0(L* + p^3 E, W(E)) = E
+ok   round trip T -> Z[p,s,u,M,E] -> T:  W(e0) - w = q (H(L) + p^3 w), q explicit  [q terms 6641]
+ok   q equals the independently computed quotient (canonical SHA-256)  [sha256 a74adf01ee2e0f13c37830a184051da1d706c85b6714704a15157443b4bc97f6]
+18 checks
+RESULT: holds -- exact Z-polynomial certificate: Phi gives A[w] = P[w]/(H + p^3 w) = T, and T = Z[p,s,u,M,e] by explicit mutually inverse maps
+independent SymPy implementation reproduced; hashes of q agree
+RESULT: family 047 exact certificate and rejection controls reproduced
