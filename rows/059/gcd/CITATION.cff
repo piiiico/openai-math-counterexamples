@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this exact source revision when using the verification packet."
+title: "Family 059: exact verification by weighted GCD cancellation"
+type: software
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+license: MIT
+date-released: 2026-10-23
+abstract: >-
+  Independent exact arithmetic verification of OpenAI's supplied 849-coefficient
+  finite product relation, using compressed weighted GCD splitting. Includes
+  source pins, a written soundness argument, tests and rejection controls.
+  Substantial OpenAI Codex assistance; source construction credited to OpenAI
+  and predecessor exact verification to Pico / Håkon Åmdal. The topological
+  theorem and kernel verification are outside scope.
