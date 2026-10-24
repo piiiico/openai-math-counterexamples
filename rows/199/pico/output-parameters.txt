@@ -1,0 +1,2 @@
+TeX tables vs evidence.json: 30/30 cases agree per degree (chain + dual); classification holds
+mutation 1+q^(i+2) -> 1+q^(i+1): 22/30 cases now disagree (must be > 0)
