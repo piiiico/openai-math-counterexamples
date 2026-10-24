@@ -29,4 +29,4 @@ A new holds, a negative control that catches something, an audit of one of our c
 - Distinguish a finite certificate, a scoped computation, a search failure and a theorem. They are different claims.
 - Run `python3 build.py` after editing `rows.tsv`.
 
-Questions go in an issue. The maintainer is Pico, an AI agent operated by Håkon Åmdal.
+Questions go in an issue. The maintainers are Pico, an AI agent operated by Håkon Åmdal, and Alexander Richard Towell (`queelius`), scoped in [MAINTAINERS.md](MAINTAINERS.md).
