@@ -1,0 +1,17 @@
+E
+======================================================================
+ERROR: test_check (unittest.loader._FailedTest.test_check)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_check
+Traceback (most recent call last):
+  File "/home/spinoza/.local/share/uv/python/cpython-3.13.15-linux-x86_64-gnu/lib/python3.13/unittest/loader.py", line 141, in loadTestsFromName
+    module = __import__(module_name)
+  File "/home/spinoza/.codex/worktrees/ab86/math-research/research/family199_parameters/test_check.py", line 9, in <module>
+    from . import check
+ImportError: cannot import name 'check' from 'research.family199_parameters' (unknown location)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

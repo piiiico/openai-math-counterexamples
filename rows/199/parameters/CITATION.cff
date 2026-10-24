@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Cite the exact source commit or the later archived version identified in HANDOFF.md."
+title: "Parameter restrictions in the displayed Family 199 seed resolution"
+type: software
+date-released: 2026-10-23
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: "Southern Illinois University Edwardsville"
+license:
+  - MIT
+  - Apache-2.0
+abstract: >-
+  A written exceptional-parameter homology classification and independent exact
+  finite-field replay for a specified seed complex in OpenAI's Family 199.
+  Generic exactness is already in the source Lean development. No claim about
+  alternate constructions, the full counterexample, or human peer review.
+  Substantial OpenAI Codex assistance is disclosed.

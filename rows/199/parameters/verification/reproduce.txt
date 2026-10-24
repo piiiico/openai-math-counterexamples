@@ -1,0 +1,60 @@
+Pinned source hashes: 5 verified
+$ python check.py --report /tmp/family199-parameters-8z3goxvp/evidence.json
+RESULT: 1000 polynomial associativity identities; 30 exact field/parameter cases; 710 degrees in each complex; all kernel/image and homology witnesses agree.
+SCOPE: augmentation defects and Hom-complex cohomology; Ext only when the displayed resolution is exact.
+$ python -m unittest -v test_check
+test_cli_controls_exit_nonzero (test_check.ParameterTests.test_cli_controls_exit_nonzero) ... ok
+test_complete_declared_domain (test_check.ParameterTests.test_complete_declared_domain) ... ok
+test_empty_and_zero_matrices (test_check.ParameterTests.test_empty_and_zero_matrices) ... ok
+test_false_generic_profiles_rejected (test_check.ParameterTests.test_false_generic_profiles_rejected) ... ok
+test_field_inverse_and_zero (test_check.ParameterTests.test_field_inverse_and_zero) ... ok
+test_field_rejects_reducible_modulus (test_check.ParameterTests.test_field_rejects_reducible_modulus) ... ok
+test_invalid_domains (test_check.ParameterTests.test_invalid_domains) ... ok
+test_mutated_product_breaks_polynomial_associativity (test_check.ParameterTests.test_mutated_product_breaks_polynomial_associativity) ... ok
+test_one_fails_at_augmentation (test_check.ParameterTests.test_one_fails_at_augmentation) ... ok
+test_order_seven_first_failure_degree_six (test_check.ParameterTests.test_order_seven_first_failure_degree_six) ... ok
+test_primitive_cube_root_first_failure_degree_two (test_check.ParameterTests.test_primitive_cube_root_first_failure_degree_two) ... ok
+test_zero_preserves_resolution_but_not_dual_profile (test_check.ParameterTests.test_zero_preserves_resolution_but_not_dual_profile) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.189s
+
+OK
+$ python check.py --negative-control product
+REJECT: polynomial associativity at ('u', 't', 'y'): {'z': 4} != {'z': 2}
+$ python check.py --negative-control root
+REJECT: false root-of-unity exactness rejected by computed homology
+$ python check.py --negative-control zero-dual
+REJECT: false generic dual profile at q=0 rejected by computed cohomology
+$ python verification/independent_oracle.py algebra.json
+{"degree_cases": 526, "field_sizes": [2, 4, 8, 16], "method": "restriction of scalars to F2; independent XOR-only binary elimination; no field inversion", "parameter_cases": 30, "quotients_and_representative_bases_checked": 1052}
+$ python -O check.py --report /tmp/family199-parameters-8z3goxvp/evidence.json
+RESULT: 1000 polynomial associativity identities; 30 exact field/parameter cases; 710 degrees in each complex; all kernel/image and homology witnesses agree.
+SCOPE: augmentation defects and Hom-complex cohomology; Ext only when the displayed resolution is exact.
+$ python -O -m unittest -v test_check
+test_cli_controls_exit_nonzero (test_check.ParameterTests.test_cli_controls_exit_nonzero) ... ok
+test_complete_declared_domain (test_check.ParameterTests.test_complete_declared_domain) ... ok
+test_empty_and_zero_matrices (test_check.ParameterTests.test_empty_and_zero_matrices) ... ok
+test_false_generic_profiles_rejected (test_check.ParameterTests.test_false_generic_profiles_rejected) ... ok
+test_field_inverse_and_zero (test_check.ParameterTests.test_field_inverse_and_zero) ... ok
+test_field_rejects_reducible_modulus (test_check.ParameterTests.test_field_rejects_reducible_modulus) ... ok
+test_invalid_domains (test_check.ParameterTests.test_invalid_domains) ... ok
+test_mutated_product_breaks_polynomial_associativity (test_check.ParameterTests.test_mutated_product_breaks_polynomial_associativity) ... ok
+test_one_fails_at_augmentation (test_check.ParameterTests.test_one_fails_at_augmentation) ... ok
+test_order_seven_first_failure_degree_six (test_check.ParameterTests.test_order_seven_first_failure_degree_six) ... ok
+test_primitive_cube_root_first_failure_degree_two (test_check.ParameterTests.test_primitive_cube_root_first_failure_degree_two) ... ok
+test_zero_preserves_resolution_but_not_dual_profile (test_check.ParameterTests.test_zero_preserves_resolution_but_not_dual_profile) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.462s
+
+OK
+$ python -O check.py --negative-control product
+REJECT: polynomial associativity at ('u', 't', 'y'): {'z': 4} != {'z': 2}
+$ python -O check.py --negative-control root
+REJECT: false root-of-unity exactness rejected by computed homology
+$ python -O check.py --negative-control zero-dual
+REJECT: false generic dual profile at q=0 rejected by computed cohomology
+$ python -O verification/independent_oracle.py algebra.json
+{"degree_cases": 526, "field_sizes": [2, 4, 8, 16], "method": "restriction of scalars to F2; independent XOR-only binary elimination; no field inversion", "parameter_cases": 30, "quotients_and_representative_bases_checked": 1052}
+RESULT: Family 199 parameter strata, independent oracle and rejecting controls reproduced

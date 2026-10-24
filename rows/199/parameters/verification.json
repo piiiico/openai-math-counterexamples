@@ -1,0 +1,58 @@
+{
+  "verified_at": "2026-10-23T22:28:37.668712+00:00",
+  "python": "3.13.15 (main, Sep 29 2026, 15:01:28) [Clang 22.1.3 ]",
+  "dependencies": "Python standard library; coverage 7.13.4 for development only",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "evidence_kind": [
+    "written uniform coordinate proof",
+    "exact finite polynomial identities",
+    "exact finite-field kernel/image and quotient checks",
+    "separate AI review and independent binary oracle"
+  ],
+  "formal_proof": false,
+  "human_peer_review": false,
+  "full_source_theorem_checked": false,
+  "tests_normal": 12,
+  "tests_optimized": 12,
+  "polynomial_associativity_triples": 1000,
+  "parameter_cases": 30,
+  "production_degrees_per_complex": 710,
+  "independent_oracle_degree_cases": 526,
+  "independent_oracle_quotient_checks": 1052,
+  "negative_controls": [
+    "ty=qj replacing ty=q^2j",
+    "false exactness at nontrivial roots of unity",
+    "false generic dual profile at q=0"
+  ],
+  "negative_controls_normal_and_optimized": true,
+  "output_sha256": "ee4c0b35e864ccb6785cc40507f601da95bba368d97879d14cebf4c83f18919e",
+  "evidence_sha256": "680250dfcc92a759e64b9364f9425799962ae1c9944d077fdbca6bc32928ce89",
+  "source_files_publicly_verified": 5,
+  "coverage": {
+    "covered_lines": 229,
+    "num_statements": 229,
+    "percent_covered": 100.0,
+    "percent_covered_display": "100",
+    "missing_lines": 0,
+    "excluded_lines": 0,
+    "percent_statements_covered": 100.0,
+    "percent_statements_covered_display": "100",
+    "num_branches": 84,
+    "num_partial_branches": 0,
+    "covered_branches": 84,
+    "missing_branches": 0,
+    "percent_branches_covered": 100.0,
+    "percent_branches_covered_display": "100"
+  },
+  "coverage_scope": "check.py under tests and positive/negative CLI runs; not a correctness proof",
+  "reproduction": "python reproduce.py",
+  "expected": "RESULT: Family 199 parameter strata, independent oracle and rejecting controls reproduced",
+  "review": "REVIEW.md",
+  "unresolved_obligations": [
+    "No new Lean formalization",
+    "No human peer review or global novelty assessment",
+    "No inference about alternative finite-field constructions",
+    "No Ext interpretation for root-of-unity Hom-complex cohomology"
+  ],
+  "source_readback_note": "Three files acquired through text patching had one extra trailing newline. Exact raw-source readback removed those extra newlines, refreshed manifest hashes, and full reproduction passed afterward."
+}

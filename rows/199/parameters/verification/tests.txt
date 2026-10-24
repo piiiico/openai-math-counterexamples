@@ -1,0 +1,17 @@
+test_cli_controls_exit_nonzero (research.family199_parameters.test_check.ParameterTests.test_cli_controls_exit_nonzero) ... ok
+test_complete_declared_domain (research.family199_parameters.test_check.ParameterTests.test_complete_declared_domain) ... ok
+test_empty_and_zero_matrices (research.family199_parameters.test_check.ParameterTests.test_empty_and_zero_matrices) ... ok
+test_false_generic_profiles_rejected (research.family199_parameters.test_check.ParameterTests.test_false_generic_profiles_rejected) ... ok
+test_field_inverse_and_zero (research.family199_parameters.test_check.ParameterTests.test_field_inverse_and_zero) ... ok
+test_field_rejects_reducible_modulus (research.family199_parameters.test_check.ParameterTests.test_field_rejects_reducible_modulus) ... ok
+test_invalid_domains (research.family199_parameters.test_check.ParameterTests.test_invalid_domains) ... ok
+test_mutated_product_breaks_polynomial_associativity (research.family199_parameters.test_check.ParameterTests.test_mutated_product_breaks_polynomial_associativity) ... ok
+test_one_fails_at_augmentation (research.family199_parameters.test_check.ParameterTests.test_one_fails_at_augmentation) ... ok
+test_order_seven_first_failure_degree_six (research.family199_parameters.test_check.ParameterTests.test_order_seven_first_failure_degree_six) ... ok
+test_primitive_cube_root_first_failure_degree_two (research.family199_parameters.test_check.ParameterTests.test_primitive_cube_root_first_failure_degree_two) ... ok
+test_zero_preserves_resolution_but_not_dual_profile (research.family199_parameters.test_check.ParameterTests.test_zero_preserves_resolution_but_not_dual_profile) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.006s
+
+OK
