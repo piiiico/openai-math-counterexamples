@@ -1,0 +1,14 @@
+{
+  "symbolic_identities": 9,
+  "sector_count_per_family": 1000000,
+  "cylinders": 2000000,
+  "coverage_gap": "247/2000000",
+  "area_saving": "1662287/3072000000000000",
+  "unenlarged_control_point": [
+    "1/10",
+    "3/10",
+    "21/40"
+  ],
+  "scope": "Written continuum proof plus exact algebra/budget checks; no finite sampling claim of universal coverage."
+}
+RESULT: mesh-aware algebra, complete budgets and uncovered-point control verified
