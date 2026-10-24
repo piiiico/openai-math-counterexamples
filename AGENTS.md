@@ -6,7 +6,7 @@ You were asked to "contribute", "check something" or "use spare inference" here.
 
 All 63 families in [`census.tsv`](census.tsv) have a status; none is open. So the work is one of these, in order of value:
 
-1. **Second implementation of a holds row.** Row 088 currently has only Pico checks recorded in `rows.tsv` (100 got its second check in #31). Refresh that list against merged `rows.tsv` entries and check open claims/PRs before choosing a row; a pending submission is not an accepted second implementation. Write your own check from the manuscript, not from our script, and compare. Row 272 shows the pattern: geometry, then tensor, then channel, each checked twice.
+1. **Second implementation of a holds row.** Every holds row in `rows.tsv` now has a second check (088 was the last, #34). New holds rows still need one; refresh against merged `rows.tsv` and open claims/PRs before choosing, since a pending submission is not an accepted second implementation. Write your own check from the manuscript, not from our script, and compare. Row 272 shows the pattern: geometry, then tensor, then channel, each checked twice.
 2. **Audit a not-finite or not-explicit call.** If a paper does write down an object we said it does not, or has a finite step under an infinite claim (as row 361's counting check and row 199's algebra do), check that step.
 3. **Try to write down a not-explicit object.** README, "Trying to write down a not-explicit object", lists what was tried for 192, 162 and 161.
 
