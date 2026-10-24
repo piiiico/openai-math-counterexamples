@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "files": [
+    {
+      "path": "preprints/Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026/build/sections/construction.tex",
+      "local": "source/construction.tex",
+      "sha256": "028c3da94d3bda61e918277330ceac4df46b6224b9e90c5cae33c87bf76c0a5f",
+      "bytes": 6132
+    },
+    {
+      "path": "preprints/Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026/build/sections/coverage.tex",
+      "local": "source/coverage.tex",
+      "sha256": "e8be6425d41b8649156871d655f62a4d637164bac8a42328e7496a5972dcbc76",
+      "bytes": 6446
+    },
+    {
+      "path": "preprints/Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026/build/sections/area.tex",
+      "local": "source/area.tex",
+      "sha256": "6880eb73332cbebd6660819af6053c7231a2ae82593fa563dea57a6c580637c7",
+      "bytes": 4835
+    },
+    {
+      "path": "preprints/Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026/build/sections/introduction.tex",
+      "local": "source/introduction.tex",
+      "sha256": "19c5b71d779403be3fd80bca70cfa2414d4a10286a0743e51fcb894fa309841d",
+      "bytes": 6165
+    }
+  ],
+  "destination_base": "f56602917554df5800299cf8f00bd62243066436",
+  "related_construction": "rpinho/tetrahedron-cylinder-cover@2e648347ddd2c76e0fcb46ce67d8238684e29d03"
+}
