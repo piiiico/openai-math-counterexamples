@@ -1,0 +1,24 @@
+{
+  "field": "Q(sqrt(3))(t)",
+  "method": "exact symbolic rational-function identities",
+  "scope": "moment and tensor product-rule identities; Ramsey classification inherited",
+  "square": {
+    "base_second_moment": "2",
+    "base_size": 4,
+    "jet_coefficients_checked": 36,
+    "moment_entries_checked": 27,
+    "multiplied_identity_block_contradiction": "8",
+    "points": 12,
+    "spatial_coefficient": 4
+  },
+  "triangle": {
+    "base_second_moment": "3/2",
+    "base_size": 3,
+    "jet_coefficients_checked": 36,
+    "moment_entries_checked": 27,
+    "multiplied_identity_block_contradiction": "6",
+    "points": 9,
+    "spatial_coefficient": 3
+  }
+}
+RESULT: square and triangular-base moments and all 72 jet coefficients verified
