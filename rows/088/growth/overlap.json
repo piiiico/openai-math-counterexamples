@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-24T22:16:38.315046+00:00",
+  "source_pin": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "destination_base": "39f2cff4f77c831d4c822bffbb766dbedc0f5d0e",
+  "open_destination_issues": 0,
+  "open_destination_prs": 0,
+  "panel": {
+    "url": "https://mathreferee.dimensionreducers.ai/papers/simplex-product/panel/",
+    "scope_read": "Six source claims and a quantitative fixed-ten-factor exponential certificate; not an all-block growth optimization. AI-assisted review; human grading pending."
+  },
+  "revised_page": {
+    "url": "https://mathcommunity.github.io/oai-math-revised/papers/A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026/",
+    "status": "Read HTML text; no claim of exhaustive novelty search."
+  },
+  "limitation": "Bounded overlap refresh only. Global novelty not established."
+}

@@ -1,0 +1,22 @@
+{
+  "unique_density_winner": 13,
+  "finite_density_obligations": 18,
+  "symbolic_identities": 5,
+  "rate_rational_enclosure": {
+    "rate_lower": {
+      "numerator": 6062920499941603019691393046103971875,
+      "denominator": 5865100878818459794653159632033284096
+    },
+    "rate_upper": {
+      "numerator": 1970449162481020981399703900081870625,
+      "denominator": 1906157785615999433247865361603231744
+    }
+  },
+  "rate_display_interval": [
+    "1.03",
+    "1.04"
+  ],
+  "split19_ratio": "103600112963490000000000/104127350297911241532841",
+  "all_dimensions_scope": "Written analytic splitting, equality and residue proof; not inferred from a finite sweep."
+}
+RESULT: density certificate, split identities, rate enclosure and residue controls verified

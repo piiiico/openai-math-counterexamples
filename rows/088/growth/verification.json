@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-24T22:26:12.954466+00:00",
+  "python": "Python 3.13.15",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "tests_per_mode": 28,
+  "density_obligations": 18,
+  "symbolic_identities": 5,
+  "mathematical_rejection_runs": 8,
+  "reviewer_finite_dp_domain": [
+    2,
+    120
+  ],
+  "reviewer_scope": "Written all-n proof plus checker/rate-enclosure follow-up; no blocker reported.",
+  "output_sha256": "9d6b56f1a2b59e4722b4944a5871274c42e3a55ca47f657a22cb500e99becaa2",
+  "certificate_sha256": "8ec27de43f5fb27851e86bd5bb924aa522d6a169a60e7be1c8f10ca71a58b5db",
+  "commands": [
+    {
+      "command": "python reproduce.py",
+      "exit_code": 0,
+      "log": "verification/reproduce.txt"
+    },
+    {
+      "command": "python -m pytest -q test_check.py",
+      "exit_code": 0,
+      "log": "verification/tests.txt"
+    },
+    {
+      "command": "python -O -m pytest -q test_check.py",
+      "exit_code": 0,
+      "log": "verification/tests-optimized.txt"
+    }
+  ],
+  "coverage": {
+    "statements": 98,
+    "branches": 22,
+    "combined_percent": 100,
+    "method": "Unit tests and CLI/control executions combined",
+    "log": "verification/coverage.txt"
+  },
+  "formal_proof": false,
+  "human_peer_review": false,
+  "universal_claim_basis": "Written ratio monotonicity, balanced splitting, termination, finite density comparison, and residue/factorial arguments. Finite DP is corroboration only.",
+  "log_format": "Display test log trailing whitespace normalized; owning packet retains raw optimized log separately."
+}
