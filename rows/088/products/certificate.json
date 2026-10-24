@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "max_dimension": 40,
+  "min_factor_dimension": 2,
+  "states": [
+    {
+      "dimension": 0,
+      "scaled_maximum": 1,
+      "best_partitions": [
+        []
+      ]
+    },
+    {
+      "dimension": 2,
+      "scaled_maximum": 12,
+      "best_partitions": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "dimension": 3,
+      "scaled_maximum": 108,
+      "best_partitions": [
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "dimension": 4,
+      "scaled_maximum": 1280,
+      "best_partitions": [
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "dimension": 5,
+      "scaled_maximum": 18750,
+      "best_partitions": [
+        [
+          5
+        ]
+      ]
+    },
+    {
+      "dimension": 6,
+      "scaled_maximum": 326592,
+      "best_partitions": [
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "dimension": 7,
+      "scaled_maximum": 6588344,
+      "best_partitions": [
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "dimension": 8,
+      "scaled_maximum": 150994944,
+      "best_partitions": [
+        [
+          8
+        ]
+      ]
+    },
+    {
+      "dimension": 9,
+      "scaled_maximum": 3874204890,
+      "best_partitions": [
+        [
+          9
+        ]
+      ]
+    },
+    {
+      "dimension": 10,
+      "scaled_maximum": 110000000000,
+      "best_partitions": [
+        [
+          10
+        ]
+      ]
+    },
+    {
+      "dimension": 11,
+      "scaled_maximum": 3423740047332,
+      "best_partitions": [
+        [
+          11
+        ]
+      ]
+    },
+    {
+      "dimension": 12,
+      "scaled_maximum": 115909305827328,
+      "best_partitions": [
+        [
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 13,
+      "scaled_maximum": 4240251492291542,
+      "best_partitions": [
+        [
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 14,
+      "scaled_maximum": 166680102383370240,
+      "best_partitions": [
+        [
+          14
+        ]
+      ]
+    },
+    {
+      "dimension": 15,
+      "scaled_maximum": 7006302246093750000,
+      "best_partitions": [
+        [
+          15
+        ]
+      ]
+    },
+    {
+      "dimension": 16,
+      "scaled_maximum": 313594649253062377472,
+      "best_partitions": [
+        [
+          16
+        ]
+      ]
+    },
+    {
+      "dimension": 17,
+      "scaled_maximum": 14890324713954061755186,
+      "best_partitions": [
+        [
+          17
+        ]
+      ]
+    },
+    {
+      "dimension": 18,
+      "scaled_maximum": 747581753430634213933056,
+      "best_partitions": [
+        [
+          18
+        ]
+      ]
+    },
+    {
+      "dimension": 19,
+      "scaled_maximum": 39568393113206271782479580,
+      "best_partitions": [
+        [
+          19
+        ]
+      ]
+    },
+    {
+      "dimension": 20,
+      "scaled_maximum": 2235547600000000000000000000,
+      "best_partitions": [
+        [
+          10,
+          10
+        ]
+      ]
+    },
+    {
+      "dimension": 21,
+      "scaled_maximum": 132836868398822908320000000000,
+      "best_partitions": [
+        [
+          10,
+          11
+        ]
+      ]
+    },
+    {
+      "dimension": 22,
+      "scaled_maximum": 8269071019985829076083685392768,
+      "best_partitions": [
+        [
+          11,
+          11
+        ]
+      ]
+    },
+    {
+      "dimension": 23,
+      "scaled_maximum": 536563138940643630215999036325888,
+      "best_partitions": [
+        [
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 24,
+      "scaled_maximum": 36330247102496404584938313407791104,
+      "best_partitions": [
+        [
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 25,
+      "scaled_maximum": 2555867401807083682790175536893132800,
+      "best_partitions": [
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 26,
+      "scaled_maximum": 187000008105589476585800805067588258400,
+      "best_partitions": [
+        [
+          13,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 27,
+      "scaled_maximum": 14176515489059964023609311500561137664000,
+      "best_partitions": [
+        [
+          13,
+          14
+        ]
+      ]
+    },
+    {
+      "dimension": 28,
+      "scaled_maximum": 1114529672332691312032469175033302876160000,
+      "best_partitions": [
+        [
+          14,
+          14
+        ]
+      ]
+    },
+    {
+      "dimension": 29,
+      "scaled_maximum": 90573986702034679185934401600000000000000000,
+      "best_partitions": [
+        [
+          14,
+          15
+        ]
+      ]
+    },
+    {
+      "dimension": 30,
+      "scaled_maximum": 7614450883987988984699249267578125000000000000,
+      "best_partitions": [
+        [
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "dimension": 31,
+      "scaled_maximum": 660328552073027749461517255311360000000000000000,
+      "best_partitions": [
+        [
+          15,
+          16
+        ]
+      ]
+    },
+    {
+      "dimension": 32,
+      "scaled_maximum": 59111209709679668536739562368092214995225159925760,
+      "best_partitions": [
+        [
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "dimension": 33,
+      "scaled_maximum": 5479247034050272448046955191695202578313393631518720,
+      "best_partitions": [
+        [
+          11,
+          11,
+          11
+        ]
+      ]
+    },
+    {
+      "dimension": 34,
+      "scaled_maximum": 525576664392596561349405043282408114907714473332572160,
+      "best_partitions": [
+        [
+          11,
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 35,
+      "scaled_maximum": 51896777890821506291598054389311842698171531694125875200,
+      "best_partitions": [
+        [
+          11,
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 36,
+      "scaled_maximum": 5270831970453776738593274708769016413684987973150860902400,
+      "best_partitions": [
+        [
+          12,
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 37,
+      "scaled_maximum": 548795894836740147905010138660763195322757303708089214566400,
+      "best_partitions": [
+        [
+          12,
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 38,
+      "scaled_maximum": 58684635189250714418453217536924363296513893535861020662169600,
+      "best_partitions": [
+        [
+          12,
+          13,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 39,
+      "scaled_maximum": 6440490955225870254822607323428505432256458550132769464761043200,
+      "best_partitions": [
+        [
+          13,
+          13,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 40,
+      "scaled_maximum": 723340984957926138589219602807068602632141042293199838972477440000,
+      "best_partitions": [
+        [
+          13,
+          13,
+          14
+        ]
+      ]
+    }
+  ]
+}

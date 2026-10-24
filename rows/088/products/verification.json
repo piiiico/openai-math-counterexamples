@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-10-24T18:36:13.621665+00:00",
+  "python": "Python 3.13.15",
+  "domain": {
+    "total_dimensions": [
+      2,
+      40
+    ],
+    "minimum_factor": 2,
+    "random_seed": null,
+    "stopping_rule": "Complete all declared dimensions/partitions; no extension of domain."
+  },
+  "tests_per_mode": 16,
+  "partitions_enumerated": 37337,
+  "maxima_and_complete_witness_sets_compared": 39,
+  "corrupt_certificate_runs": 8,
+  "separate_review": "review/REVIEW.md",
+  "third_algorithm": "review/independent_check.py",
+  "output_sha256": "3a06a2c457b2a71d45bdb2aae5ea0fe5c8b69bf08857cb726e4adb16dd407ae2",
+  "certificate_sha256": "33e1b1f52b6c0c9aba5f4cad4925aa1d96f0f707ec590b273daa07017a9a0732",
+  "enumeration_sha256": "c7fd8c84f685e0b5b4dcad36547bdde8de2cf1a2d0090f38d946ec8585f0936b",
+  "commands": [
+    {
+      "command": "python reproduce.py",
+      "exit_code": 0,
+      "log": "verification/reproduce.txt"
+    },
+    {
+      "command": "python -m pytest -q test_check.py",
+      "exit_code": 0,
+      "log": "verification/tests.txt"
+    },
+    {
+      "command": "python -O -m pytest -q test_check.py",
+      "exit_code": 0,
+      "log": "verification/tests-optimized.txt"
+    }
+  ],
+  "coverage": {
+    "combined_percent": 91,
+    "primary_checker_percent": 90,
+    "enumerator_percent": 91,
+    "log": "verification/coverage.txt",
+    "uncovered": "Malformed base/type paths, arithmetic defensive branches, source-hash failure and certificate-write CLI; no configured threshold."
+  },
+  "formal_proof": false,
+  "human_peer_review": false,
+  "geometry": "Written Cauchy/Fubini reduction; not machine verified."
+}

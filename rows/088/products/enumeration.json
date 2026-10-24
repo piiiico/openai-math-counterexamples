@@ -1,0 +1,465 @@
+{
+  "max_dimension": 40,
+  "minimum_factor": 2,
+  "total_partitions_examined": 37337,
+  "dimensions": [
+    {
+      "dimension": 2,
+      "partitions_examined": 1,
+      "maximum_numerator": 6,
+      "maximum_denominator": 1,
+      "best_partitions": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "dimension": 3,
+      "partitions_examined": 1,
+      "maximum_numerator": 18,
+      "maximum_denominator": 1,
+      "best_partitions": [
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "dimension": 4,
+      "partitions_examined": 2,
+      "maximum_numerator": 160,
+      "maximum_denominator": 3,
+      "best_partitions": [
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "dimension": 5,
+      "partitions_examined": 2,
+      "maximum_numerator": 625,
+      "maximum_denominator": 4,
+      "best_partitions": [
+        [
+          5
+        ]
+      ]
+    },
+    {
+      "dimension": 6,
+      "partitions_examined": 4,
+      "maximum_numerator": 2268,
+      "maximum_denominator": 5,
+      "best_partitions": [
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "dimension": 7,
+      "partitions_examined": 4,
+      "maximum_numerator": 117649,
+      "maximum_denominator": 90,
+      "best_partitions": [
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "dimension": 8,
+      "partitions_examined": 7,
+      "maximum_numerator": 131072,
+      "maximum_denominator": 35,
+      "best_partitions": [
+        [
+          8
+        ]
+      ]
+    },
+    {
+      "dimension": 9,
+      "partitions_examined": 8,
+      "maximum_numerator": 4782969,
+      "maximum_denominator": 448,
+      "best_partitions": [
+        [
+          9
+        ]
+      ]
+    },
+    {
+      "dimension": 10,
+      "partitions_examined": 12,
+      "maximum_numerator": 17187500,
+      "maximum_denominator": 567,
+      "best_partitions": [
+        [
+          10
+        ]
+      ]
+    },
+    {
+      "dimension": 11,
+      "partitions_examined": 14,
+      "maximum_numerator": 25937424601,
+      "maximum_denominator": 302400,
+      "best_partitions": [
+        [
+          11
+        ]
+      ]
+    },
+    {
+      "dimension": 12,
+      "partitions_examined": 21,
+      "maximum_numerator": 465813504,
+      "maximum_denominator": 1925,
+      "best_partitions": [
+        [
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 13,
+      "partitions_examined": 24,
+      "maximum_numerator": 23298085122481,
+      "maximum_denominator": 34214400,
+      "best_partitions": [
+        [
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 14,
+      "partitions_examined": 34,
+      "maximum_numerator": 110730297608,
+      "maximum_denominator": 57915,
+      "best_partitions": [
+        [
+          14
+        ]
+      ]
+    },
+    {
+      "dimension": 15,
+      "partitions_examined": 41,
+      "maximum_numerator": 4805419921875,
+      "maximum_denominator": 896896,
+      "best_partitions": [
+        [
+          15
+        ]
+      ]
+    },
+    {
+      "dimension": 16,
+      "partitions_examined": 55,
+      "maximum_numerator": 9570149208162304,
+      "maximum_denominator": 638512875,
+      "best_partitions": [
+        [
+          16
+        ]
+      ]
+    },
+    {
+      "dimension": 17,
+      "partitions_examined": 66,
+      "maximum_numerator": 48661191875666868481,
+      "maximum_denominator": 1162377216000,
+      "best_partitions": [
+        [
+          17
+        ]
+      ]
+    },
+    {
+      "dimension": 18,
+      "partitions_examined": 88,
+      "maximum_numerator": 1738636226577036,
+      "maximum_denominator": 14889875,
+      "best_partitions": [
+        [
+          18
+        ]
+      ]
+    },
+    {
+      "dimension": 19,
+      "partitions_examined": 105,
+      "maximum_numerator": 104127350297911241532841,
+      "maximum_denominator": 320118685286400,
+      "best_partitions": [
+        [
+          19
+        ]
+      ]
+    },
+    {
+      "dimension": 20,
+      "partitions_examined": 137,
+      "maximum_numerator": 295410156250000,
+      "maximum_denominator": 321489,
+      "best_partitions": [
+        [
+          10,
+          10
+        ]
+      ]
+    },
+    {
+      "dimension": 21,
+      "partitions_examined": 165,
+      "maximum_numerator": 4457994853296875,
+      "maximum_denominator": 1714608,
+      "best_partitions": [
+        [
+          10,
+          11
+        ]
+      ]
+    },
+    {
+      "dimension": 22,
+      "partitions_examined": 210,
+      "maximum_numerator": 672749994932560009201,
+      "maximum_denominator": 91445760000,
+      "best_partitions": [
+        [
+          11,
+          11
+        ]
+      ]
+    },
+    {
+      "dimension": 23,
+      "partitions_examined": 253,
+      "maximum_numerator": 635627243167488,
+      "maximum_denominator": 30625,
+      "best_partitions": [
+        [
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 24,
+      "partitions_examined": 320,
+      "maximum_numerator": 216982220508758016,
+      "maximum_denominator": 3705625,
+      "best_partitions": [
+        [
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 25,
+      "partitions_examined": 383,
+      "maximum_numerator": 87228030698568864,
+      "maximum_denominator": 529375,
+      "best_partitions": [
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 26,
+      "partitions_examined": 478,
+      "maximum_numerator": 542800770374370512771595361,
+      "maximum_denominator": 1170625167360000,
+      "best_partitions": [
+        [
+          13,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 27,
+      "partitions_examined": 574,
+      "maximum_numerator": 24805806724123444820437,
+      "maximum_denominator": 19053144000,
+      "best_partitions": [
+        [
+          13,
+          14
+        ]
+      ]
+    },
+    {
+      "dimension": 28,
+      "partitions_examined": 708,
+      "maximum_numerator": 12261198808356250521664,
+      "maximum_denominator": 3354147225,
+      "best_partitions": [
+        [
+          14,
+          14
+        ]
+      ]
+    },
+    {
+      "dimension": 29,
+      "partitions_examined": 847,
+      "maximum_numerator": 3351635034521484375,
+      "maximum_denominator": 327184,
+      "best_partitions": [
+        [
+          14,
+          15
+        ]
+      ]
+    },
+    {
+      "dimension": 30,
+      "partitions_examined": 1039,
+      "maximum_numerator": 23092060625553131103515625,
+      "maximum_denominator": 804422434816,
+      "best_partitions": [
+        [
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "dimension": 31,
+      "partitions_examined": 1238,
+      "maximum_numerator": 3942779977728000000000,
+      "maximum_denominator": 49098049,
+      "best_partitions": [
+        [
+          15,
+          16
+        ]
+      ]
+    },
+    {
+      "dimension": 32,
+      "partitions_examined": 1507,
+      "maximum_numerator": 91587755866489574258136806588416,
+      "maximum_denominator": 407698691540765625,
+      "best_partitions": [
+        [
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "dimension": 33,
+      "partitions_examined": 1794,
+      "maximum_numerator": 17449402268886407318558803753801,
+      "maximum_denominator": 27653197824000000,
+      "best_partitions": [
+        [
+          11,
+          11,
+          11
+        ]
+      ]
+    },
+    {
+      "dimension": 34,
+      "partitions_examined": 2167,
+      "maximum_numerator": 9540818109952669221396,
+      "maximum_denominator": 5359375,
+      "best_partitions": [
+        [
+          11,
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 35,
+      "partitions_examined": 2573,
+      "maximum_numerator": 26916704852518876741632,
+      "maximum_denominator": 5359375,
+      "best_partitions": [
+        [
+          11,
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 36,
+      "partitions_examined": 3094,
+      "maximum_numerator": 101073248440885234121048064,
+      "maximum_denominator": 7133328125,
+      "best_partitions": [
+        [
+          12,
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "dimension": 37,
+      "partitions_examined": 3660,
+      "maximum_numerator": 40631994626719930325139456,
+      "maximum_denominator": 1019046875,
+      "best_partitions": [
+        [
+          12,
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 38,
+      "partitions_examined": 4378,
+      "maximum_numerator": 7056410014866816666030739693,
+      "maximum_denominator": 62889750000,
+      "best_partitions": [
+        [
+          12,
+          13,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 39,
+      "partitions_examined": 5170,
+      "maximum_numerator": 12646218552730347184269489080961456410641,
+      "maximum_denominator": 40052237726121984000000,
+      "best_partitions": [
+        [
+          13,
+          13,
+          13
+        ]
+      ]
+    },
+    {
+      "dimension": 40,
+      "partitions_examined": 6153,
+      "maximum_numerator": 577927796590439581296714608196944197,
+      "maximum_denominator": 651891890073600000,
+      "best_partitions": [
+        [
+          13,
+          13,
+          14
+        ]
+      ]
+    }
+  ]
+}

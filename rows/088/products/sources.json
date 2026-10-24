@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "files": [
+    {
+      "upstream": "preprints/A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026/build/main.tex",
+      "local": "source/main.tex",
+      "sha256": "5302b6298402cf1665e5747766b53055ecad84a5027b1657811731389879f0e0",
+      "bytes": 18985
+    },
+    {
+      "upstream": "preprints/A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026/build/references.tex",
+      "local": "source/references.tex",
+      "sha256": "bcc6e0d9296742e2e619f64a8af92d72fb1e2ffdf76d18b00c1a3c8edf75178d",
+      "bytes": 1743
+    }
+  ],
+  "destination_base": "43da84a77f2da5008823d6ac5960a1b3ccfd6bfb",
+  "workspace_base": "ed3505745bdaa89529a26a13a1b90402241bbab6"
+}
