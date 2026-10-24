@@ -1,0 +1,6 @@
+triangle c=3/2 bad entries: 0
+square c=2 bad entries: 0
+NEG central weight -1: 60
+NEG same rotation: 40
+NEG non-isotropic base: 80
+Liouville t=0.110001 theta=0.2191 < pi/3: True; min pairwise dist over 36 pairs = 0.2187
