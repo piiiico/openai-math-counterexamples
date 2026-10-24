@@ -1,0 +1,47 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "destination_base": "f8f224effd7a738b5a2a5d5917423ea2b954fa23",
+  "files": [
+    {
+      "path": "preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/build/sections/01-introduction.tex",
+      "local": "source/01-introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/build/sections/01-introduction.tex",
+      "sha256": "55d8307a438125cdb32df616286fc2676da1abef7dda4c2532ae952935eb3e3b",
+      "bytes": 9981
+    },
+    {
+      "path": "preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/build/sections/07-consequences.tex",
+      "local": "source/07-consequences.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/build/sections/07-consequences.tex",
+      "sha256": "2245320e89bfe30bdf8fdb5aa451dad3d48e8df926a813d57f5478b7139bbe44",
+      "bytes": 12494
+    }
+  ],
+  "later_pin_comparison": [
+    {
+      "pin": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/build/sections/01-introduction.tex",
+      "sha256": "55d8307a438125cdb32df616286fc2676da1abef7dda4c2532ae952935eb3e3b",
+      "matches_pinned_source": true
+    },
+    {
+      "pin": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/build/sections/07-consequences.tex",
+      "sha256": "2245320e89bfe30bdf8fdb5aa451dad3d48e8df926a813d57f5478b7139bbe44",
+      "matches_pinned_source": true
+    },
+    {
+      "pin": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "path": "preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/build/sections/01-introduction.tex",
+      "sha256": "55d8307a438125cdb32df616286fc2676da1abef7dda4c2532ae952935eb3e3b",
+      "matches_pinned_source": true
+    },
+    {
+      "pin": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "path": "preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/build/sections/07-consequences.tex",
+      "sha256": "2245320e89bfe30bdf8fdb5aa451dad3d48e8df926a813d57f5478b7139bbe44",
+      "matches_pinned_source": true
+    }
+  ]
+}

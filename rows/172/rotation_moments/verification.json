@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-24T06:15:28.870104+00:00",
+  "python": "3.13.15",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "commands": [
+    {
+      "name": "reproduce",
+      "command": "/tmp/family172-venv/bin/python reproduce.py",
+      "exit_code": 0,
+      "elapsed_seconds": 10.302,
+      "log": "verification/reproduce.txt"
+    },
+    {
+      "name": "pytest",
+      "command": "/tmp/family172-venv/bin/python -m pytest -q test_check.py",
+      "exit_code": 0,
+      "elapsed_seconds": 7.012,
+      "log": "verification/pytest.txt"
+    },
+    {
+      "name": "pytest-optimized",
+      "command": "/tmp/family172-venv/bin/python -O -m pytest -q test_check.py",
+      "exit_code": 0,
+      "elapsed_seconds": 7.42,
+      "log": "verification/pytest-optimized.txt"
+    }
+  ],
+  "output_sha256": "8ad082fa5d7cb13a04c9b7f0cce09ba8e5b12060d998f933352c2d751d90164d",
+  "coverage_observation": {
+    "checker_statements": 83,
+    "checker_branch_count": 30,
+    "checker_coverage_percent": 96,
+    "note": "CLI exception/main entry lines covered by separate subprocess controls, not collected by parent coverage run; no global threshold."
+  },
+  "formal_proof": false,
+  "human_peer_review": false,
+  "source_classification_verified": false
+}
