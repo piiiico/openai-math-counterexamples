@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-24T08:43:56.633105+00:00",
+  "python": "Python 3.13.15",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "tests": 19,
+  "tests_optimized": 19,
+  "symbolic_identities": 9,
+  "mathematical_rejection_runs": 10,
+  "reviewer_replay_modes": [
+    "ordinary",
+    "optimized"
+  ],
+  "output_sha256": "9fbfeaec1aa4ba557f7d7b27c2015e1f947c4282f9ff79d511e3f8b5491f5013",
+  "commands": [
+    {
+      "command": "python reproduce.py",
+      "exit_code": 0,
+      "log": "verification/reproduce.txt"
+    },
+    {
+      "command": "python -m pytest -q test_check.py",
+      "exit_code": 0,
+      "log": "verification/tests.txt"
+    },
+    {
+      "command": "python -O -m pytest -q test_check.py",
+      "exit_code": 0,
+      "log": "verification/tests-optimized.txt"
+    }
+  ],
+  "coverage": {
+    "percent": 94,
+    "statements": 85,
+    "branches": 34,
+    "log": "verification/coverage.txt",
+    "uncovered": "Source-hash rejection and internal geometric-control failure paths; logically unreachable no-crossing fallback. The positive source hashes and explicit geometric control are exercised."
+  },
+  "formal_proof": false,
+  "human_peer_review": false,
+  "source_theorem_assumed": false,
+  "continuum_argument": "Written proof in PROOF.md; symbolic computations alone do not establish full coverage."
+}
