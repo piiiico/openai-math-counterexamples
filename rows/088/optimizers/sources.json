@@ -1,0 +1,64 @@
+{
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "predecessor_commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+  "predecessor_doi": "10.5281/zenodo.23633115",
+  "destination_base": "73e05ae40626c3f280a640fb25be49c946fd4b56",
+  "files": [
+    {
+      "local": "predecessor/PROOF.md",
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "upstream": "rows/088/growth/PROOF.md",
+      "sha256": "ab7021d50f3345a4ca9fe0dcc806ae4068486d9c00a2f52ad478069207e4cd81"
+    },
+    {
+      "local": "predecessor/dependency/PROOF.md",
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "upstream": "rows/088/growth/dependency/PROOF.md",
+      "sha256": "a41bc61bf6f99a00b9953763935f0394aaeceba05f6d6d16d405fbbb5f55f481"
+    },
+    {
+      "local": "predecessor/dependency/LICENSE",
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "upstream": "rows/088/growth/dependency/LICENSE",
+      "sha256": "38bb103653349b4e7ea7eda74de662e0fe38f5c5efa6d5577cfc6dd48baec2e9"
+    },
+    {
+      "local": "LICENSE",
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "upstream": "rows/088/growth/LICENSE",
+      "sha256": "38bb103653349b4e7ea7eda74de662e0fe38f5c5efa6d5577cfc6dd48baec2e9"
+    },
+    {
+      "local": "predecessor/NOTICE.md",
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "upstream": "rows/088/growth/NOTICE.md",
+      "sha256": "e63aff7a568cdbb88c4919236896b393c21a9e069f0a4d0df63b4aed0d4a3dcc"
+    },
+    {
+      "local": "predecessor/source/main.tex",
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "upstream": "rows/088/growth/source/main.tex",
+      "sha256": "5302b6298402cf1665e5747766b53055ecad84a5027b1657811731389879f0e0"
+    },
+    {
+      "local": "predecessor/source/references.tex",
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "upstream": "rows/088/growth/source/references.tex",
+      "sha256": "bcc6e0d9296742e2e619f64a8af92d72fb1e2ffdf76d18b00c1a3c8edf75178d"
+    },
+    {
+      "local": "predecessor/source/LICENSE-openai",
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "upstream": "rows/088/growth/source/LICENSE-openai",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}
