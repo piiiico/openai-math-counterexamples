@@ -1,0 +1,13 @@
+ℹ [3006/3013] Replayed WindowPeriodicity
+info: WindowPeriodicity.lean:50:0: 'Family088.window_periodicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3008/3013] Built ConcreteCertificate (18s)
+info: ConcreteCertificate.lean:180:0: 'Family088.table_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteCertificate.lean:181:0: 'Family088.table_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteCertificate.lean:182:0: 'Family088.table_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteCertificate.lean:183:0: 'Family088.capped_recurrence_periodicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3010/3013] Built CappedValue (2.9s)
+info: CappedValue.lean:52:0: 'Family088.cappedValue_periodicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CappedValue.lean:53:0: 'Family088.cappedValue_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CappedValue.lean:54:0: 'Family088.no_earlier_uniform_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3012/3013] Built Consumers (2.8s)
+Build completed successfully (3013 jobs).

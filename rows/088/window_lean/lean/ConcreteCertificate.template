@@ -1,0 +1,53 @@
+import WindowPeriodicity
+
+namespace Family088
+
+def simplexWeight (d : ℕ) : ℚ :=
+  if 2 ≤ d then ((d + 1) * d ^ d : ℕ) / (Nat.factorial d : ℚ) else 0
+
+/-- Exact finite table copied structurally from the pinned rational certificate.
+Index1 is zero for the unreachable selection size; lookup outside the array is
+zero and is never used as a mathematical extension of the optimizer. -/
+def values : Array ℚ := #[
+@@VALUES@@
+]
+
+def tableValue (n : ℕ) : ℚ := values[n]?.getD 0
+
+set_option maxRecDepth 100000 in
+set_option maxHeartbeats 20000000 in
+theorem table_recurrence (n : ℕ) (hn : 2 ≤ n) (hbound : n ≤ 131) :
+    tableValue n = boundedStep simplexWeight tableValue 19 n := by
+  interval_cases n <;> decide +kernel
+
+set_option maxRecDepth 100000 in
+set_option maxHeartbeats 4000000 in
+theorem table_window (n : ℕ) (hn : 100 ≤ n) (hbound : n < 119) :
+    tableValue (n + 13) = simplexWeight 13 * tableValue n := by
+  interval_cases n <;> decide +kernel
+
+set_option maxRecDepth 100000 in
+theorem table_boundary : tableValue 112 > simplexWeight 13 * tableValue 99 := by
+  decide +kernel
+
+theorem capped_recurrence_periodicity (M : ℕ → ℚ)
+    (hzero : M 0 = 1) (hone : M 1 = 0)
+    (hrec : ∀ n, 2 ≤ n → M n = boundedStep simplexWeight M 19 n) :
+    ∀ n, 100 ≤ n → M (n + 13) = simplexWeight 13 * M n := by
+  have hprefix : ∀ n, n ≤ 131 → M n = tableValue n :=
+    prefix_agreement simplexWeight M tableValue 19 131
+      (by simpa [tableValue, values] using hzero)
+      (by simpa [tableValue, values] using hone) hrec table_recurrence
+  apply window_periodicity simplexWeight M 100 19 13 (simplexWeight 13)
+    (by norm_num [simplexWeight])
+  · intro n hn
+    rw [hrec n (by omega), boundedStep_eq_step _ _ _ _ (by omega)]
+  · intro n hn hbound
+    rw [hprefix (n + 13) (by omega), hprefix n (by omega)]
+    exact table_window n hn hbound
+
+#print axioms table_recurrence
+#print axioms table_window
+#print axioms table_boundary
+#print axioms capped_recurrence_periodicity
+end Family088
