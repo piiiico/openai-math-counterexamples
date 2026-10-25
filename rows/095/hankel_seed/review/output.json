@@ -1,0 +1,228 @@
+{
+  "method": "exponent vectors; SymPy DomainMatrix GF(7)",
+  "seed_rank": 20,
+  "L_det": 6,
+  "seed_matrix_hashes": {
+    "T": "8c6b281212e1b0c8e92599d3dc3e7edb4a8c6eba551d34e6a389f01cb8faf4c5",
+    "T1": "08f20a826f7af1f0db500bc0a535ac3a3a920f998eae12a2c4302a3aa883df19"
+  },
+  "weights": [
+    {
+      "weight": 0,
+      "ranks": [
+        17,
+        8,
+        32,
+        65
+      ],
+      "matrix_hashes": {
+        "G1": "0ff696c9cc097d1a05522894c0b15afcf98f7767bbad20af505abe419e42b866",
+        "G2": "7216ae8b8531128a97bf3627755f06c4414c8e5964b9bb62cab49b95d7c765fa",
+        "D": "975e465371bacc19657e261e92ecaf4c219cadf0c4994927edbab49a7ec0c4b2",
+        "D1": "3b2cfef02c7065cd57d19ecfaf4340aa0b7c66e00413dc66986f7e70c6896848"
+      },
+      "corner": [
+        [
+          5
+        ]
+      ],
+      "direct_bordered_det": 5
+    },
+    {
+      "weight": 1,
+      "ranks": [
+        11,
+        8,
+        28,
+        58
+      ],
+      "matrix_hashes": {
+        "G1": "d794c358fd101af6f7b109f8369fb51be3b6aa9c46a1ca43bd6bff2136b40e39",
+        "G2": "dca4dde417630aa3b2f6f0099a4d6eb2a05970e5f1f2b00a9726e6310b76b1b9",
+        "D": "8e5b6df82e3c6b81db6b0c30b0f6a803ee75f5612105c565c6abc8986d85831e",
+        "D1": "4bc381466449445974c9c21dd4eaa0ad304aa51cead3105b513c0e5ffe1b18cd"
+      },
+      "corner": [
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "direct_bordered_det": 5
+    },
+    {
+      "weight": 2,
+      "ranks": [
+        16,
+        9,
+        32,
+        66
+      ],
+      "matrix_hashes": {
+        "G1": "54fd0b518046eee82ccbdb7883c28308d371bec248ef37b66a4d993fa7e4bae7",
+        "G2": "97a3c2a5b70d6e92000bf0e6649ff13a8fb15891f195aa389ddebc5204bf4607",
+        "D": "7c02c8ae9276acd855d31eab29c861866dddcb775eb8d22550623bdad42aef59",
+        "D1": "d59ed36ecc980cd449ba0c1d6b5bf1952e457ac0931e5529d76da6367a2b9ecf"
+      },
+      "corner": [
+        [
+          6,
+          4
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "direct_bordered_det": 6
+    },
+    {
+      "weight": 3,
+      "ranks": [
+        11,
+        8,
+        29,
+        60
+      ],
+      "matrix_hashes": {
+        "G1": "1f955f2c48fc8daaf541f96187dd37300d6fca3535c12124351d652da2c18841",
+        "G2": "aa558be1d516a7d68182ed61d9bc54d9fdf1d2ea3e715a0e4925a1bcdadf4963",
+        "D": "68bae1ae54eff0ed4e80b9a133b964138ed64d272e3f0713b357d50ff579ad61",
+        "D1": "fb1f1895afc9946b3cb6ce893ec994c3fcf82d7f599ee707e4f552963c2bef1f"
+      },
+      "corner": [
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "direct_bordered_det": 2
+    },
+    {
+      "weight": 4,
+      "ranks": [
+        16,
+        9,
+        32,
+        66
+      ],
+      "matrix_hashes": {
+        "G1": "63c348c434c10b04d1b6f2e745f030897717f6f5f658f176511df2d5d0e0d405",
+        "G2": "7176ec53192dbf5c1b0f67e4d91bfa10e1b16b5a19d2808e3f8fb7ef232c368d",
+        "D": "c3ef74cd829885370ad1ca6ff154366dce5703e5b3ead81a89d27fc0937fdf8a",
+        "D1": "db4c2957d071588a02cff9d4b72576405af3255175f685fab81d0cf4d56991dd"
+      },
+      "corner": [
+        [
+          6,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "direct_bordered_det": 4
+    },
+    {
+      "weight": 5,
+      "ranks": [
+        11,
+        8,
+        28,
+        58
+      ],
+      "matrix_hashes": {
+        "G1": "f6cca34912b1fc3dc0d33ad592b7b62f8d8787874910628de2e0777f2f08fbcf",
+        "G2": "37113036dc9f59e1adb073b9e853c232457aca38a0713197ab46f758abc3b0b2",
+        "D": "0de5923b69c2e17545e3b9100c73760f53910564a0ab4bdfe5a2dfba49ea947d",
+        "D1": "3b34f52f4af2d159e3b8305b44565030b27bb90d8ff5fcb7d25743e2ea427e1d"
+      },
+      "corner": [
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "direct_bordered_det": 4
+    },
+    {
+      "weight": 6,
+      "ranks": [
+        16,
+        9,
+        32,
+        66
+      ],
+      "matrix_hashes": {
+        "G1": "9d9baf3b1283347d71eee0bd550a45ce80f9830e60ddd1d69a86c2bcc09ad5e9",
+        "G2": "015027e9a5bf0adbfdacb1b49f086d2c844995bf4aed15f2565855868d2376ce",
+        "D": "461898854aa5068fdbce76ff17476a6ef4d15c6dc81e8cc81ef75a66fb05208c",
+        "D1": "50d0ee162c96d1a942dff0a70cc0c5770265e9f6e5f45cee2427258149eff104"
+      }
+    },
+    {
+      "weight": 7,
+      "ranks": [
+        11,
+        8,
+        29,
+        60
+      ],
+      "matrix_hashes": {
+        "G1": "e13213467492a0c619dfcde872d966e07da61e227ec664563468671a66bb29ff",
+        "G2": "958761bb47ca3365ed8b18ff3d756db91b57cb82853394a8d7044b35fb7b6307",
+        "D": "dac3288ad6d068e201a56ed173c3088768000d45fbc1ef0b25fe1928e021c895",
+        "D1": "f1e617c189bf1833407db34dee7366a23a4976274f5cc602653dc8bdc60cf2a1"
+      }
+    },
+    {
+      "weight": 8,
+      "ranks": [
+        16,
+        9,
+        32,
+        66
+      ],
+      "matrix_hashes": {
+        "G1": "bce5925893bc5150a8c5e3fa888b3de53f0d4dd91ff517d63b4696944625b9e2",
+        "G2": "f743c88fbcdca1bb713d0939dc3b37e7caf878da260d3a646740853267b972fd",
+        "D": "8d8dab4de1c1bb59331579cb451eb496171e9a76a1050f5c68789fe0533f121b",
+        "D1": "9ab4d966ddbce8617c08f71b90de96c31eb40bffef415e4a1c88032cd20870f8"
+      }
+    },
+    {
+      "weight": 9,
+      "ranks": [
+        11,
+        8,
+        28,
+        58
+      ],
+      "matrix_hashes": {
+        "G1": "861fb35aa25e69ee0cd395cc80d6ab82d7ba948108a5e3fa3e492bb9cde2a7fa",
+        "G2": "ea6e54311dd29ee0f96bc7eedfdee7f2ee5f2aba60f1dd398d6ab618d2a7b0fa",
+        "D": "3a0480dbf3d32fab2bec358efaf9f66425d659db95e1cc3a201257026eb55b49",
+        "D1": "8deb9b75439f0a97a74940453a44e33f1e7e52bfaef3e20f99287db7597db940"
+      }
+    }
+  ],
+  "rank_totals": [
+    136,
+    84,
+    302,
+    623
+  ]
+}

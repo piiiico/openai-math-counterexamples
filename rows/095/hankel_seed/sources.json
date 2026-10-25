@@ -1,0 +1,49 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "files": [
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/appendix-certificate.tex",
+      "local": "source/appendix-certificate.tex",
+      "sha256": "be959075eb6386b09dd9626e42375727685625b72628f28f75d4928ef18f9014",
+      "bytes": 22995,
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/appendix-certificate.tex"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/03-hankel.tex",
+      "local": "source/03-hankel.tex",
+      "sha256": "3a007f64b02b0c7cb56700e5f54b13c5ba060c809b038ae1018a04ea0a104bb5",
+      "bytes": 24199,
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/03-hankel.tex"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/02-cone.tex",
+      "local": "source/02-cone.tex",
+      "sha256": "931a3d0b43444f9cbe714a28d69ebe3f44801695d96ff98c2f7384d03de18d6c",
+      "bytes": 5025,
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/02-cone.tex"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/01-introduction.tex",
+      "local": "source/01-introduction.tex",
+      "sha256": "0f63ff4b428249d3e9539e2c1f43fbceff2ada0314713e2a4b01711346017199",
+      "bytes": 8519,
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/01-introduction.tex"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/references.bib",
+      "local": "source/references.bib",
+      "sha256": "d4e2d1fe72c0c77d07611eb5fbf1ba11ed4c557f97e7145ed3588b6a25b99fa8",
+      "bytes": 5686,
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/references.bib"
+    },
+    {
+      "path": "LICENSE",
+      "local": "source/LICENSE-openai",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/LICENSE"
+    }
+  ],
+  "source_license": "Apache-2.0"
+}

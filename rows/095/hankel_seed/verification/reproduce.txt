@@ -1,0 +1,13 @@
+PASS: both exact reconstructions and 42 matrix bindings; optimized=False
+REJECTED: point; optimized=False
+REJECTED: tangent; optimized=False
+REJECTED: zero_tangent; optimized=False
+REJECTED: minor; optimized=False
+REJECTED: corner; optimized=False
+PASS: both exact reconstructions and 42 matrix bindings; optimized=True
+REJECTED: point; optimized=True
+REJECTED: tangent; optimized=True
+REJECTED: zero_tangent; optimized=True
+REJECTED: minor; optimized=True
+REJECTED: corner; optimized=True
+RESULT: modular Hankel seed, all displayed minors and ten rejecting runs independently reproduced
