@@ -1,0 +1,42 @@
+{
+  "source_repository": "https://github.com/openai/math",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "predecessor_commit": "cb5d09c2a105a64bd4efe7ad307f4633cbd923cf",
+  "predecessor_version_doi": "10.5281/zenodo.23627947",
+  "destination_base": "39f2cff4f77c831d4c822bffbb766dbedc0f5d0e",
+  "workspace_base": "5d5026b3578e4ee953673e3e43e0b80df08b733d",
+  "files": [
+    {
+      "local": "source/main.tex",
+      "sha256": "5302b6298402cf1665e5747766b53055ecad84a5027b1657811731389879f0e0",
+      "bytes": 18985,
+      "repository": "https://github.com/openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "upstream": "preprints/A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026/build/main.tex"
+    },
+    {
+      "local": "source/references.tex",
+      "sha256": "bcc6e0d9296742e2e619f64a8af92d72fb1e2ffdf76d18b00c1a3c8edf75178d",
+      "bytes": 1743,
+      "repository": "https://github.com/openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "upstream": "preprints/A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026/build/references.tex"
+    },
+    {
+      "local": "dependency/PROOF.md",
+      "sha256": "a41bc61bf6f99a00b9953763935f0394aaeceba05f6d6d16d405fbbb5f55f481",
+      "bytes": 7703,
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "cb5d09c2a105a64bd4efe7ad307f4633cbd923cf",
+      "upstream": "rows/088/products/PROOF.md"
+    },
+    {
+      "local": "dependency/LICENSE",
+      "sha256": "38bb103653349b4e7ea7eda74de662e0fe38f5c5efa6d5577cfc6dd48baec2e9",
+      "bytes": 1154,
+      "repository": "https://github.com/queelius/openai-math-counterexamples",
+      "commit": "cb5d09c2a105a64bd4efe7ad307f4633cbd923cf",
+      "upstream": "rows/088/products/LICENSE"
+    }
+  ]
+}
