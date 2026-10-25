@@ -1,0 +1,10 @@
+{
+  "workspace_base": "fdd0c96cef2fa590cf27aeb0e9a67669b3f2cb57",
+  "predecessor_head": "653420103fb8856f81d7c6b1d7aeaf16a1ebd0b1",
+  "certificate_sha256": "7ec93d8b33b1108c3c96b20d4e9eeebab2066a697e65c846a95fc3b647f984b7",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "lean_commit": "819816b2e0a3bf405af45ae5c7af2491d8f5bee6",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "lake_manifest_sha256": "d01b25d53aed13811a1e9d46450fceae4c4d9e057d00aa8b47e590087fcc3dd4",
+  "destination_base": "85a80e52a451f2f0ba7eb054097740d4b9322305"
+}

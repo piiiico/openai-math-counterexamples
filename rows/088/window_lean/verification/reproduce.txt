@@ -1,0 +1,6 @@
+REJECTED: FalseEarlierCutoff.lean
+REJECTED: NegativeScale.lean
+REJECTED: OmittedWindowEndpoint.lean
+REJECTED: WrongMultiplier.lean
+{"kernel_axiom_reports": 8, "recurrence_states": 130, "rejecting_controls": 4, "source_table_entries": 132, "window_identities": 19}
+RESULT: kernel recurrence certificate, concrete period and four false controls verified
