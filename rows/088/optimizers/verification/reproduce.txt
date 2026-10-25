@@ -1,0 +1,15 @@
+PASS: checker output matches; optimized=False
+REJECTED: early_cutoff; optimized=False
+REJECTED: wrong_witness; optimized=False
+REJECTED: omit_competitor; optimized=False
+REJECTED: wrong_value; optimized=False
+PASS: checker output matches; optimized=True
+REJECTED: early_cutoff; optimized=True
+REJECTED: wrong_witness; optimized=True
+REJECTED: omit_competitor; optimized=True
+REJECTED: wrong_value; optimized=True
+{"boundary_ratio": [2432174719151429348960330841999186469101607874176329647186620512862892992109799420117939453125, 2429648337272487311302326922260841665274826212472453277031878462229889596799052278526105222144], "complete_witness_sets_match": true, "states": 131, "unrestricted_candidates": 8386, "window_checks": 19}
+RESULT: unrestricted integer recurrence corroborates every finite certificate state and the induction window
+{"boundary_ratio": [2432174719151429348960330841999186469101607874176329647186620512862892992109799420117939453125, 2429648337272487311302326922260841665274826212472453277031878462229889596799052278526105222144], "complete_witness_sets_match": true, "states": 131, "unrestricted_candidates": 8386, "window_checks": 19}
+RESULT: unrestricted integer recurrence corroborates every finite certificate state and the induction window
+RESULT: finite induction certificate and eight rejecting runs reproduced
