@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-25T18:35:14.120509+00:00",
+  "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "complete_within_family_directory": true,
+  "files": [
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/README.md",
+      "bytes": 617,
+      "git_blob": "7c317e1ca64d41ccd9eb32d9d2363a417bf21520"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/nonliftable-hyperbolicity.pdf",
+      "bytes": 493066,
+      "git_blob": "820b7cecbcff0fea25eb323da94f07593d8f5d12"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/01-introduction.tex",
+      "bytes": 8519,
+      "git_blob": "880c8acfea56b6b87fe230b1b4321ee52da64407"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/02-cone.tex",
+      "bytes": 5025,
+      "git_blob": "f93ccdd8a909fb9a1c2edc3cc591c0e7956c5665"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/03-hankel.tex",
+      "bytes": 24199,
+      "git_blob": "033569b21e51f3bfc8db99225e39c3612f396ad0"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/04-separation.tex",
+      "bytes": 10610,
+      "git_blob": "37d5cd6d1811a1048701c64a5baadb8defb2df41"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/05-obstruction.tex",
+      "bytes": 22721,
+      "git_blob": "5c537fabfd2e34cd83021ff0af12a8d6710d64b5"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/appendix-certificate.tex",
+      "bytes": 22995,
+      "git_blob": "83abe6e6cae1aba481f8353841cad99b54e7d986"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/main.tex",
+      "bytes": 1755,
+      "git_blob": "b2b9d6e72e740c1f6d4c0677f8531e73848f308c"
+    },
+    {
+      "path": "preprints/Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026/build/source/references.bib",
+      "bytes": 5686,
+      "git_blob": "353f9afd832ff666ebe14d8e3daaf947e93464bf"
+    }
+  ],
+  "advertised_script": "verify_certificate.py",
+  "present_in_family_directory": false,
+  "scope": "Family subtree only; no claim about other repositories or private companion files."
+}
