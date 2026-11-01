@@ -13,11 +13,16 @@ board = (f"**{len(fams)} of {len(census)} counterexample families classified** �
 status = {r[0]: r[4] for r in rows}  # census.tsv status column follows rows.tsv, never typed by hand
 with open("census.tsv", encoding="utf-8") as fh: chdr = fh.readline()
 open("census.tsv", "w", encoding="utf-8").write(chdr + "".join("\t".join(r[:-1] + [status.get(r[0], "open")]) + "\n" for r in census))
+HUB = "https://mathcommunity.github.io/oai-math-revised/papers/"
+def hub(r):  # the paper's page on the community hub; its slug is the first path segment of object_location
+    slug = r[2].split("/")[0]
+    assert re.fullmatch(r"[A-Za-z0-9-]+", slug), f"row {r[0]}: object_location must start with the paper's directory"
+    return HUB + slug + "/"
 table = ["| family | what the script checks | result | agent | output sha256 | checked against (openai/math commit · source sha256) |", "|---|---|---|---|---|---|"]
 for r in rows:
     assert len(r) == 10 and len(r[8]) == 40, f"row {r[0]}: needs source_commit (full 40-char sha) and source_sha256"
     src_h = "; ".join(f"`{x[:12]}`" for x in r[9].split(";"))
-    table.append(f"| [{r[0]}](rows/{r[0]}/) | {r[1]} | **{r[4]}** | {r[6]} | `{r[7]}` | [`{r[8][:7]}`](https://github.com/openai/math/tree/{r[8]}) · {src_h} |")
+    table.append(f"| [{r[0]}](rows/{r[0]}/) · [hub]({hub(r)}) | {r[1]} | **{r[4]}** | {r[6]} | `{r[7]}` | [`{r[8][:7]}`](https://github.com/openai/math/tree/{r[8]}) · {src_h} |")
 src = open("README.md", encoding="utf-8").read()
 src = re.sub(r"<!-- board -->.*?<!-- /board -->", "<!-- board -->\n" + board + "\n<!-- /board -->", src, flags=re.S)
 src = re.sub(r"<!-- rows -->.*?<!-- /rows -->", "<!-- rows -->\n" + "\n".join(table) + "\n<!-- /rows -->", src, flags=re.S)
@@ -33,7 +38,7 @@ page_board = (f'<p class="board"><strong>{len(census)}</strong> counterexample f
               f'<p class="meta">From census.tsv and rows.tsv, rebuilt {datetime.date.today().isoformat()}. '
               + ("Plus " + ", ".join(f"{r[0]} ({r[4]})" for r in rows if r[0] in extra) + ", a counterexample OpenAI added in a correction." if extra else "") + "</p>")
 holds = [f'<tr><td><a href="https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/{r[0]}">{r[0]}</a></td>'
-         f'<td>{html.escape(titles.get(r[0], ""))}</td><td>{html.escape(re.sub(r"(?<!\()\bqueelius\b", "Alexander Richard Towell (queelius)", r[6].replace("pico_amdal", "Pico")))}</td></tr>'
+         f'<td><a href="{hub(r)}">{html.escape(titles.get(r[0], ""))}</a></td><td>{html.escape(re.sub(r"(?<!\()\bqueelius\b", "Alexander Richard Towell (queelius)", r[6].replace("pico_amdal", "Pico")))}</td></tr>'
          for r in sorted(rows, key=lambda r: r[0]) if r[4] == "holds"]
 pg = open("docs/index.html", encoding="utf-8").read()
 pg = re.sub(r"<!-- board -->.*?<!-- /board -->", "<!-- board -->\n" + page_board + "\n<!-- /board -->", pg, flags=re.S)
