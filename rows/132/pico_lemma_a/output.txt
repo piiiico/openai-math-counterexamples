@@ -1,0 +1,6 @@
+k<=24: (h+2)-subsets checked=1076762, bad under some orientation=0, k with a bad (h+1)-set=23/23
+RESULT: passes
+k<=8: (h+2)-subsets checked=85, bad under some orientation=85, k with a bad (h+1)-set=7/7
+first violation: (4, (1, 2, 3, 4))
+RESULT: fails
+(negative control exit=1)
