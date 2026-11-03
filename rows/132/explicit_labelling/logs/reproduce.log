@@ -1,0 +1,57 @@
+00-introduction.tex: OK
+01-construction.tex: OK
+02-recurrences.tex: OK
+03-separation.tex: OK
+..................
+----------------------------------------------------------------------
+Ran 18 tests in 26.096s
+
+OK
+..................
+----------------------------------------------------------------------
+Ran 18 tests in 19.715s
+
+OK
+[ok] labels in [h], k=2: h=1, values=[1]
+[ok] labels in [h], k=3: h=2, values=[1, 2]
+[ok] labels in [h], k=9: h=4, values=[1, 2, 3, 4]
+[ok] labels in [h], k=19: h=5, values=[1, 2, 3, 4, 5]
+[ok] labels in [h], k=33: h=6, values=[1, 2, 3, 4, 5, 6]
+[ok] labels in [h], k=51: h=6, values=[1, 2, 3, 4, 5, 6]
+[ok] labels in [h], k=64: h=6, values=[1, 2, 3, 4, 5, 6]
+[ok] labels in [h], k=65: h=7, values=[1, 2, 3, 4, 5, 6, 7]
+[ok] cyclic tournament M=2: k=9, outdegree 4
+[ok] cyclic tournament M=3: k=19, outdegree 9
+[ok] cyclic tournament M=4: k=33, outdegree 16
+[ok] cyclic tournament M=5: k=51, outdegree 25
+[ok] max bad set, cyclic M=2: k=9, h=4, bound=5, largest found=4
+[ok] max bad set, cyclic M=3: k=19, h=5, bound=6, largest found=5
+[ok] max bad set, cyclic M=4: k=33, h=6, bound=7, largest found=6
+[ok] max bad set, cyclic M=5: k=51, h=6, bound=7, largest found=7
+[ok] max bad set, transitive k=8: k=8, h=3, bound=4, largest found=4
+[ok] max bad set, reverse-transitive k=8: k=8, h=3, bound=4, largest found=4
+[ok] max bad set, transitive k=16: k=16, h=4, bound=5, largest found=5
+[ok] max bad set, reverse-transitive k=16: k=16, h=4, bound=5, largest found=5
+[ok] max bad set, transitive k=17: k=17, h=5, bound=6, largest found=6
+[ok] max bad set, reverse-transitive k=17: k=17, h=5, bound=6, largest found=5
+[ok] max bad set, transitive k=32: k=32, h=5, bound=6, largest found=6
+[ok] max bad set, reverse-transitive k=32: k=32, h=5, bound=6, largest found=6
+[ok] max bad set, transitive k=33: k=33, h=6, bound=7, largest found=7
+[ok] max bad set, reverse-transitive k=33: k=33, h=6, bound=7, largest found=6
+[ok] max bad set, pseudorandom k=16 seed=1: k=16, h=4, bound=5, largest found=5
+[ok] max bad set, pseudorandom k=17 seed=2: k=17, h=5, bound=6, largest found=5
+[ok] max bad set, pseudorandom k=24 seed=3: k=24, h=5, bound=6, largest found=6
+[ok] max bad set, pseudorandom k=32 seed=4: k=32, h=5, bound=6, largest found=6
+[ok] max bad set, pseudorandom k=33 seed=5: k=33, h=6, bound=7, largest found=6
+[ok] max bad set, pseudorandom k=40 seed=6: k=40, h=6, bound=7, largest found=6
+[ok] tight example k=8: bad set of size h+1=4: [1, 2, 4, 8]...
+[ok] tight example k=16: bad set of size h+1=5: [1, 2, 4, 8, 16]...
+[ok] tight example k=32: bad set of size h+1=6: [1, 2, 4, 8, 16, 32]...
+[ok] tight example k=64: bad set of size h+1=7: [1, 2, 4, 8, 16, 32]...
+[ok] tight example k=1024: bad set of size h+1=11: [1, 2, 4, 8, 16, 32]...
+[ok] max(ceil(sqrt M), h+2) <= 2 sqrt M: M in [81, 20000], failures=[]
+[ok] h <= ceil(sqrt M) for M >= 290: failures=[]
+[ok] smallest theorem case d=1, M=9^2=81: {'M': 81, 'k': 13123, 'h': 14, 't': 16, 'r_manuscript': 9}; h > r here, so use r = max(ceil(sqrt M), h) or M >= 290
+[ok] d=2, M=9^3=729: labels fit in [ceil(sqrt M)]: {'M': 729, 'k': 1062883, 'h': 21, 't': 23, 'r_manuscript': 27}
+RESULT: passes
+RESULT: family 132 explicit-labelling checks and rejection controls reproduced
