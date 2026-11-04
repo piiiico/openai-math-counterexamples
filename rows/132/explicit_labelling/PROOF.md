@@ -26,7 +26,9 @@ Uses of the lemma and of `t`:
 
 - `02-recurrences.tex:70-80`. The clauses in `T` (exactly one failed target,
   no failed gate) form a bad set, so `|T| < t`, and their repairs contribute
-  at most `t S'_0` flips. This is the only use of the lemma.
+  at most `t S'_0` flips. This is the only place the lemma is invoked;
+  `02-recurrences.tex:127-128` reuses the same bound `t S'_0` for witnesses
+  in `T` in the joint-transition case.
 - `02-recurrences.tex:13-16`. Hence `t` appears as a coefficient in
   `S_{l,0} <= t S'_0 + S'_1 + 3 J'_1` and `J_{l,0} <= t S'_0 + 3 J'_1`.
 - `03-separation.tex:27`. After normalisation `t` survives only in
@@ -101,7 +103,7 @@ labels lie in `[r]`, i.e. `h <= r`. Two ways to arrange that:
    (finite check for `290 <= M <= 20000` in `check.py`; for larger `M`,
    `h <= 2 log2 M + 2 <= sqrt M` since `x - 4 log2 x - 2` is increasing for
    `x >= 6` and positive at `x = sqrt 20000`). It fails at `M = 289`
-   (`h = 20 > 17`). Every `M >= 9^(d+1)` with `d >= 2` qualifies; for `d = 1`
+   (`h = 18 > 17`). Every `M >= 9^(d+1)` with `d >= 2` qualifies; for `d = 1`
    choose `M >= 290`, which the theorem allows (it only needs `M >= 9^(d+1)`).
 2. For all `M >= 81`, set `r = max(ceil(sqrt M), h)` instead. This changes
    only the row width, hence the dimension `n = LM^2(kr)^d` and the
