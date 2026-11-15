@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-11-15",
+  "compiler": "Lean4.33.1",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "commands": [
+    "python3 check.py",
+    "python3 -O check.py --environment /path/to/pinned/environment.json",
+    "python3 -m unittest -v test_check",
+    "python3 -O -m unittest -v test_check"
+  ],
+  "result": "All passed; normal, optimized and staged-upstream Lean outputs byte-identical.",
+  "owned_declarations_audited": 34,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "negative_controls": 3,
+  "python_unit_tests_per_mode": 4,
+  "wrapper_branch_coverage_percent": 81,
+  "coverage_limit": "Coverage measured default entry plus parser unit tests; some environment/error exits and the optional environment branch are not instrumented. Optional environment was separately exercised in optimized replay. Lean proof correctness is not measured by Python coverage.",
+  "reproduction_limit": "Pinned pre-existing dependency caches reused; every authored module recompiled freshly. Dependency downloads from an empty cache were not repeated.",
+  "sha256": {
+    "Proof.lean": "d8b1abde69bb489f934433c29c3979cc398a84be8b6e5579aa77993feaf16df0",
+    "Controls.lean": "939c3471c87f8e2ff92a92a03271e293602cfcf5a79aafa13cd3bab9c256b12f",
+    "Audit.lean": "51597f69d37b233a44de69da8633baea5fd08186fb464ef7badd362ebec4aa34",
+    "check.py": "9a9250da0aae670282ae987f7f84c0ce607302680adb4610774b8f222a5fbf13",
+    "test_check.py": "0d0ee2f6885daaa5e144ea06ec2075b45b6031d7c089ae2b7ca6ece7efbfd91f",
+    "controls.json": "c5fae34586ebc9db96165f575b917a567a7694b16b5470143e11c4c08d381558",
+    "lake-manifest.json": "efad69cf4ac7753f07a451f1b1e42dba94e1745b57c75614df6ea36de35e2bed",
+    "output.txt": "357dfeb85d480879c4e09511c6e364deb9575ef61399c05e9ef79a048f02b4cc"
+  },
+  "review": "Separate read-only AI statement review, no independent Lean build by reviewer, no human review. See REVIEW.md.",
+  "acceptance": "Not yet submitted at this verification snapshot."
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "negative/FalseBound.lean",
+    "expected_diagnostic_fragment": "decide",
+    "meaning": "The sharp h=3 witness refutes bound h."
+  },
+  {
+    "path": "negative/FalseOrientation.lean",
+    "expected_diagnostic_fragment": "decide",
+    "meaning": "The empty relation is not a complete tournament."
+  },
+  {
+    "path": "negative/OwnedAxiom.lean",
+    "expected_diagnostic_fragment": "Owned axiom",
+    "meaning": "The declaration auditor rejects an added axiom."
+  }
+]
