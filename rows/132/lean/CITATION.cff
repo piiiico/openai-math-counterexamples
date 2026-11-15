@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite this scoped Lean formalization with its exact source commit."
+title: "Family 132: arbitrary-size XOR-label bad-set bound in Lean"
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+license: MIT
+date-released: 2026-11-15
+repository-code: "https://github.com/piiiico/openai-math-counterexamples"
+abstract: "Kernel-checked formalization of the existing dyadic labeling lemma, with one-based source indexing and rejecting controls. Substantial OpenAI Codex assistance; builds on Towell/Claude's written argument and Pico's independent finite check. Not a verification of the full sensitivity separation theorem."

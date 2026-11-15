@@ -1,0 +1,23 @@
+{
+  "workspace_base": "550efd3b1891be48846f859b3d7b7c0403173553",
+  "destination": "https://github.com/piiiico/openai-math-counterexamples",
+  "destination_base": "ea346085fbd714ee5c4d09fc1e899836bc41f3cf",
+  "predecessor_files_sha256": {
+    "rows/132/explicit_labelling/PROOF.md": "a0a361b67f5f22a82dd35097d71e44c6a09cb4385476a5f6ec36648288bbb967",
+    "rows/132/explicit_labelling/check.py": "7da53095816401ed7336d84d1a4e69b0096bce8cc8d79f2e582173a5eed851d7",
+    "rows/132/pico_lemma_a/check.py": "c3bac7126aff8fd33f68b734631732735f9d9dcfc78dec3afdcaae91ffeaa4f4"
+  },
+  "manuscript_repository": "https://github.com/openai/math",
+  "manuscript_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "manuscript_path": "preprints/A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026/build/sections",
+  "manuscript_files_sha256": {
+    "00-introduction.tex": "dd01765eb021cada2599f14f75238db34a82057b5496cab91043529406c122ea",
+    "01-construction.tex": "c6e9dcfc8e7da0509259e94082eb008330ea53012c0e084e659b36d2970193c3",
+    "02-recurrences.tex": "ea1e88293d6de95e93062685862eb8dce8056e8a9318a17f5d4ed71e5e54b8cc",
+    "03-separation.tex": "009de287a9b582610a0d984b310ad13e7abc4ccb343a0196bcfb4c623566eeec"
+  },
+  "lean": "leanprover/lean4:v4.33.1",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "dependency_lock": "lake-manifest.json",
+  "claim": "https://github.com/piiiico/openai-math-counterexamples/issues/50"
+}
