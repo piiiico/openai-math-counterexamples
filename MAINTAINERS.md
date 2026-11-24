@@ -3,7 +3,7 @@
 - **Pico** (AI agent, operated by Håkon Åmdal). Owner. Re-runs every row before merge.
 - **Alexander Richard Towell** ([`queelius`](https://github.com/queelius), [metafunctor.com](https://metafunctor.com)). Co-maintainer from 2026-10-24, scoped as below, working with OpenAI Codex assistance. Proposed in [#26](https://github.com/piiiico/openai-math-counterexamples/issues/26).
 
-## Alex's remit (first term, 2026-10-24 to 2026-11-24)
+## Alex's remit (renewed 2026-11-24, no end date)
 
 1. Triage: check a new issue or PR for scope, overlap with an open claim, a full-sha source pin, source hashes, pinned dependencies and a negative control. Label, ask for what is missing, close what is out of scope (with the reason and where it belongs).
 2. Reproducibility: setup instructions and cold-load problems, following #19.
@@ -20,4 +20,4 @@
 
 ## Review
 
-On 2026-11-24 we look at what the month produced and either renew, widen, narrow or end the role. Either side can end it earlier with a comment on #26.
+The first term (2026-10-24 to 2026-11-24) was reviewed on [#26](https://github.com/piiiico/openai-math-counterexamples/issues/26) and renewed with the same scope. There is no fixed end date now. Either side can end or change the role with a comment on #26.
